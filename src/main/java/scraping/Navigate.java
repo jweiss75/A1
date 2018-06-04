@@ -26,8 +26,8 @@ import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import net.sourceforge.htmlunit.*;
-import net.sourceforge.htmlunit.corejs.javascript.annotations.*;
+// import net.sourceforge.htmlunit.*;
+// import net.sourceforge.htmlunit.corejs.javascript.annotations.*;
 
 public class Navigate {
 
@@ -43,7 +43,7 @@ public class Navigate {
 		
 		// TODO Auto-generated method stub
 		Navigate navigate = new Navigate();
-		navigate.setRoute("/A1/src/test/");
+		navigate.setRoute("XBRL_Files/");
 		
 		try {
 			// navigate.submittingForm("VIDRALA");
