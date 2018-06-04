@@ -12,20 +12,24 @@ public class XMLBeast {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		System.out.println("Comienza la BESTIA a leer!!!!!");
+		
 		SAXBuilder builder = new SAXBuilder();
-		  File xmlFile = new File("XBRL_Files");
-
+		  File xmlFile = new File("XBRL_Files/2018027459.xbrl");
+          
 		  try {
 
 			Document document = (Document) builder.build(xmlFile);
 			Element rootNode = document.getRootElement();
-			List list = rootNode.getChildren("xbrli_2:context");
-
+			System.out.println(rootNode.getName()+"!!!!!");
+			List list = rootNode.getChildren("xbrli:schemaRef");
+            System.out.println(list.size()+"!!!!!");
 			for (int i = 0; i < list.size(); i++) {
-
+                
 			   Element node = (Element) list.get(i);
 			   System.out.println("First Name : " + node.getValue());
-			   /*System.out.println("First Name : " + node.getChildText("firstname"));
+			   /*System.out.println("First Name : " +             node.getChildText("firstname"));
 			   System.out.println("Last Name : " + node.getChildText("lastname"));
 			   System.out.println("Nick Name : " + node.getChildText("nickname"));
 			   System.out.println("Salary : " + node.getChildText("salary"));*/
