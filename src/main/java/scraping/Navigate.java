@@ -43,7 +43,7 @@ public class Navigate {
 		
 		// TODO Auto-generated method stub
 		Navigate navigate = new Navigate();
-		navigate.setRoute("C:/Users/jmbaez/eclipse-workspace/A1/Download");
+		navigate.setRoute("/A1/src/test/");
 		
 		try {
 			// navigate.submittingForm("VIDRALA");
