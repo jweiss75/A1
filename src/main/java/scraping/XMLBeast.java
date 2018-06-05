@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.List;
 import org.jdom2.Document;
 import org.jdom2.Element;
+import org.jdom2.Attribute;
+
 import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
 
@@ -23,6 +25,8 @@ public class XMLBeast {
 			Document document = (Document) builder.build(xmlFile);
 			Element rootNode = document.getRootElement();
 			System.out.println(rootNode.getName()+"!!!!!");
+			System.out.println(showMeAttributes(rootNode));
+			System.out.println(rootNode.getAttributes()+"!!!!!");
 			List list = rootNode.getChildren("xbrli:schemaRef");
             System.out.println(list.size()+"!!!!!");
 			for (int i = 0; i < list.size(); i++) {
@@ -42,5 +46,18 @@ public class XMLBeast {
 			System.out.println(jdomex.getMessage());
 		  }
 		}
+		
+	public static String showMeAttributes(Element nodo){
+	    String a ="ddddddddd";
+	    List<Attribute> atributos = nodo.getAttributes();
+	    for (int i=0;i<atributos.size();i++) {
+	        
+	         System.out.println(atributos.item(i).getName());
+	        
+	    }
+	    
+	    
+	    return a;
+	}	
 
 }
