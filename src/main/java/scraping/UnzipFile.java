@@ -18,7 +18,10 @@ public class UnzipFile {
 	   UnzipFile unzipfile = new UnzipFile();
 	   unzipfile.setRoute("XBRL_Files/");
 	   unzipfile.setFileZip("");
-	   unzipfile.serialUnzip();
+	   // unzipfile.serialUnzip();
+	   unzipfile.setFileZip("PHARMA MAR.zip");
+	   unzipfile.unzip();
+	   System.out.println("--------------------------------------------------");
    }
      
 	public void unzip() throws IOException {
