@@ -1,5 +1,5 @@
-package scraping;
 
+import scraping.Navigate;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -7,7 +7,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.net.MalformedURLException;
 
-import javax.swing.text.html.HTML;
+// import javax.swing.text.html.HTML;
 
 import org.apache.commons.logging.LogFactory;
 import org.junit.*;
@@ -26,10 +26,10 @@ import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import net.sourceforge.htmlunit.*;
+// import net.sourceforge.htmlunit.*;
 import net.sourceforge.htmlunit.corejs.javascript.annotations.*;
 
-public class Navigate {
+public class Main {
 
 	String route;
 

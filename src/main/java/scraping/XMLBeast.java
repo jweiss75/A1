@@ -37,8 +37,8 @@ public class XMLBeast {
 			   Element node = (Element) list.get(i);
 			   
 			   // System.out.println("First Name : |" + node.getName()+"|");
-			   System.out.println("Nodo : | " + node.getname());
-			   listaAtributos(node)
+			   System.out.println("Nodo : | " + node.getName());
+			   listaAtributos(node);
 			   // Sacamos los atteributos 
 			   
 			   
