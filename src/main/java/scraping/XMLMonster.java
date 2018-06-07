@@ -20,12 +20,12 @@ public class XMLMonster {
 		File file = new File("XBRL_Files/2016025878.xbrl");
 		FileInputStream fis = new FileInputStream(file);
 		Document doc = db.parse(fis);
-		
+		 
 		NodeList entries = doc.getElementsByTagName("*");
 		
 		for (int i=0; i<entries.getLength(); i++) {
 		    Element element = (Element) entries.item(i);
-		    System.out.println("Found element " + element.getNodeName());
+		    System.out.println("Found element: " + element.getNodeName());
 		}
 		
 	}
