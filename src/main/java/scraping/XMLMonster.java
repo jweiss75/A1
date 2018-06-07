@@ -1,34 +1,33 @@
 package scraping;
 
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.DocumentBuilder;
-import org.w3c.dom.Document;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.Node;
-import org.w3c.dom.Element;
 import java.io.File;
+import java.io.FileInputStream;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
 
 public class XMLMonster {
+	
+	public static void main(String[] args) throws Exception {
+		
+		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+		dbf.setValidating(false);
+		DocumentBuilder db = dbf.newDocumentBuilder();
+		File file = new File("XBRL_Files/2016025878.xbrl");
+		FileInputStream fis = new FileInputStream(file);
+		Document doc = db.parse(fis);
+		
+		NodeList entries = doc.getElementsByTagName("*");
+		
+		for (int i=0; i<entries.getLength(); i++) {
+		    Element element = (Element) entries.item(i);
+		    System.out.println("Found element " + element.getNodeName());
+		}
+		
+	}
 
-   public static void main(String argv[]) {
-
-    try {
-        
-         File inputFile = new File("XBRL_Files/2016025878.xbrl");
-         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-         DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-         Document doc = dBuilder.parse(inputFile);
-         doc.getDocumentElement().normalize();
-         System.out.print("Root element: ");
-         System.out.println(doc.getDocumentElement().getNodeName());
-         NodeList nList = doc.getElementsByTagName("xbrl");
-         System.out.println("----------------------------");
-
-  
-   }  
-   
-   catch(Exception e){
-       
-   }
- }
 }
