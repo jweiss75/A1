@@ -51,13 +51,13 @@ public class XMLMonster {
 
     private String detectaAnualidad(String referencia) throws Exception {
         String valor = "";
-        List lista = new ArrayList(); // Aqu guardaremos el array.
+        List lista = new ArrayList(); // Aqui guardaremos el array.
         XMLMonster monstruito = new XMLMonster();
         monstruito.setTagName("xbrli:context");
         List<Element> listaElementosContexto = monstruito.searchTags();
 
        for (Element contexto : listaElementosContexto) {
-
+//
             String id = monstruito.getId(contexto);
             if (id == referencia) {
 
