@@ -1,6 +1,8 @@
 package scraping;
 
 import java.util.List;
+import java.util.Map;
+import java.util.Vector;
 import java.util.ArrayList;
 
 import java.io.File;
@@ -43,34 +45,73 @@ public class XMLMonster {
         monster.searchTags();
         monster.setTagName("ipp-gen:CuentaPerdidasGananciasConsolidado");
         monster.searchTags();
+        
+        monster.detectaAnualidad();
 
 
     }
 
 //
 
-    private String detectaAnualidad(String referencia) throws Exception {
-        String valor = "";
-        List lista = new ArrayList(); // Aqui guardaremos el array.
+    private List detectaAnualidad() throws Exception {
+        
+        
+       
+        // IN THIS LIST WE STORE THE REFERENCES AND YEAR 
+        List<Vector> lista = new ArrayList<Vector>(); // Aqui guardaremos el array.
         XMLMonster monstruito = new XMLMonster();
+        
+        // Search the contexts and find their references.
         monstruito.setTagName("xbrli:context");
         List<Element> listaElementosContexto = monstruito.searchTags();
 
        for (Element contexto : listaElementosContexto) {
-//
+            // find the context regerence.
+            
+            
             String id = monstruito.getId(contexto);
-            if (id == referencia) {
-
+            System.out.println("******************************");
+            System.out.println("Contexto con referencia: "+ id );
+            
+            
+            
+            
+            // We look for the dates
+            
                 NodeList contextincludedtags = monstruito.getAllChildren(contexto);
                 for (int i = 0; i < contextincludedtags.getLength(); i++) {
-                    System.out.println("----------------------------> AÑO_>>>>> " + contextincludedtags.item(i).getNodeName());
+                   
+                    // We look for the <xrbl:period tag> but the prefic coul be different
+                    String str2="period";
+                    System.out.println(contextincludedtags.item(i).getNodeName().toLowerCase().contains(str2.toLowerCase()));
+                    
+                     if (contextincludedtags.item(i).getNodeName().toLowerCase().contains(str2.toLowerCase())==true) {
+                        NodeList nodoPerido=contextincludedtags.item(i).getChildNodes();
+                        System.out.println("Period found: "+ contextincludedtags.item(i).getNodeName());
+                          for (int j = 0; j < nodoPerido.getLength(); j++) {
+                           String valorperiodo = nodoPerido.item(j).getNodeName()+":"+nodoPerido.item(j).getTextContent();
+                           System.out.println(nodoPerido.item(j).getNodeName()+":"+nodoPerido.item(j).getTextContent());
+                           
+            
+                           Vector vec = new Vector();
+                           vec.add(id);
+                           vec.add(contextincludedtags.item(i).getNodeName());
+                           vec.add(valorperiodo);
+                           
+                           lista.add(vec);
+                    }       
+                           
+                           }
+
+                    
+                              
 
                 }
-            }
+            System.out.println("******************************");
         } 
 
-
-        return valor;
+        System.out.println(lista);
+        return lista;
     }
 
 
