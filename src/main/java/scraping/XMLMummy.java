@@ -22,7 +22,7 @@ import org.w3c.dom.NamedNodeMap;
 public class XMLMummy {
 
     List<Element> listaelemento;
-    List<Vector>  refyear;
+    public List<Vector>  refyear;
 
     public String matchYearRef(String ref) {
         String year = "2018";
@@ -121,7 +121,7 @@ public class XMLMummy {
 
     }
 
-    public List<Vector> geRefYear() {
+    public List<Vector> getRefYear() {
         return refyear;
     }
 

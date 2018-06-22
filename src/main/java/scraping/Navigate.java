@@ -185,6 +185,58 @@ public class Navigate {
 	}
 	
 	
+	public void printCompanies() throws Exception {
+
+		System.out.println("STARTING READING FULL LIST");
+		// Get the first page
+
+		WebClient wc = new WebClient(BrowserVersion.CHROME);
+
+		WebClient webClient = new WebClient();
+		wc.getOptions().setJavaScriptEnabled(false);
+		wc.getOptions().setUseInsecureSSL(true);
+		wc.setAjaxController(new NicelyResynchronizingAjaxController());
+		// Boton de entidades emisoras on, agrega un boton de envío y envía
+		final HtmlPage page1 = wc.getPage("https://www.cnmv.es/ipps/default.aspx?vista=2");
+		HtmlRadioButtonInput radiobutton = (HtmlRadioButtonInput) page1.getElementById("wDescargas_rbTipoBusqueda_3");
+		radiobutton.setDefaultChecked(true);
+		// create a submit button - it doesn't work with 'input'
+		HtmlElement button = (HtmlElement) page1.createElement("button");
+		button.setAttribute("type", "submit");
+		// append the button to the form
+		HtmlElement form = (HtmlElement) page1.getFormByName("form1");
+		form.appendChild(button);
+		// submit the form
+		HtmlPage page2 = button.click();
+		wc.waitForBackgroundJavaScript(1000000);
+		// System.out.println(page2.getWebResponse().getContentAsString());
+		HtmlSelect selectOfCompanies = (HtmlSelect) page2.getElementById("wDescargas_drpEntidades");
+
+		// System.out.println(selectOfCompanies.getTextContent());
+		Iterator<DomElement> optionIter = null;
+		int counter=0;
+		for (optionIter = selectOfCompanies.getChildElements().iterator(); optionIter.hasNext();) {
+            counter=counter+1;
+            String company = optionIter.next().getTextContent();
+            // System.out.println("_");
+            System.out.println("#"+counter+"."+company);
+			
+			try {
+				// this.submittingForm(company, this.route);
+			} catch (Exception e) {
+
+				System.out.println("ERROR EN CIF:" + optionIter.next().getNodeValue() + " / NOMBRE:"
+						+ optionIter.next().getTextContent());
+				
+				System.out.println(e.getMessage()+e.getLocalizedMessage());;
+			}
+		}
+
+
+	}
+	
+	
+	
 	public String getRoute() {
 		return route;
 	}

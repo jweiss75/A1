@@ -40,12 +40,9 @@ public class XMLMonster {
         
         System.out.println("Murcielagos para:" + monster.sourcefile);
         
-         monster.setTagName("LegalNameValue");
-        monster.searchTags();
-        
-        
+        monster.setTagName("LegalNameValue");
+        monster.searchTags();     
         monster.setTagName("xbrli:context");
-        
         System.out.println("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||1");
         XMLMummy mummy = new XMLMummy();
         mummy.setListaElemento(monster.searchTags());
@@ -79,7 +76,7 @@ public class XMLMonster {
 
 
     public NodeList getAllChildren(Element e) {
-        NodeList allElements = e.getChildNodes();
+         NodeList allElements = e.getChildNodes();
          DBManage inserciondb = new  DBManage();
          inserciondb.setCon (inserciondb.conection());
         for (int i = 0; i < allElements.getLength(); i++) {
