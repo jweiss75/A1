@@ -9,17 +9,18 @@ import java.util.zip.ZipInputStream;
 
 public class UnzipFile {
 	
-	String route ="";
+	String route ="/XBRL_Files/";
 	String fileZip ="";
 	
 	public static void UnzipFile() {}
 	
    public static void main(String[] args) throws IOException {
+       System.out.println("--------------------------------------------------");
 	   UnzipFile unzipfile = new UnzipFile();
 	   unzipfile.setRoute("XBRL_Files/");
 	   unzipfile.setFileZip("");
 	   // unzipfile.serialUnzip();
-	   unzipfile.setFileZip("ACCIONA.zip");
+	   unzipfile.setFileZip("ABERTIS.zip");
 	   unzipfile.unzip();
 	   System.out.println("--------------------------------------------------");
    }

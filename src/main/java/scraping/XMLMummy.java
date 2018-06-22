@@ -26,19 +26,20 @@ public class XMLMummy {
 
     public String matchYearRef(String ref) {
         String year = "2018";
+        
 
-
-        System.out.println("//" + this.refyear.size());
+        // System.out.println("//" + this.refyear.size());
 
         for (Vector referencia : this.refyear) {
             if (ref.equals(referencia.get(0).toString())) {
-                System.out.println("&&&&&&&&&&&&&&&&&&&&&&" + referencia.get(0) + "&&&&&&&" + ref);
-                year = referencia.get(2).toString();
+                year = referencia.get(0).toString().substring(2,6);
+                // System.out.println("&&&&&&&&&&&&&&&&&&&&&&" + referencia.get(0) + "&&&&&&&" + year);
+                
             }
 
         }
 
-
+        // System.out.println("&&&&&&&&&& AÑO:" +  year);
         return year;
 
     }

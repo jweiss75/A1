@@ -18,52 +18,159 @@ package Bd;
 
 
 import java.sql.*;
+import java.sql.PreparedStatement;
 
 /**
  * Clase de prueba de conexión con una base de datos MySQL
  */
 public class DBManage {
     
+    Connection con = null;
+    
     /** 
      * Crea una instancia de la clase MySQL y realiza todo el código 
      * de conexión, consulta y muestra de resultados.
      */
+    
+    public void cierra(){
+         try
+    {
+        this.con.close();
+     }
+    catch (Exception e)
+    {
+      System.err.println("Got an exception!");
+      System.err.println(e.getMessage());
+      e.printStackTrace();
+    }
+
+    }
+    
+    public void insercion(String empresa, String estado, String parametro, String valor, String fecha){
+        System.out.println("::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
+      try
+    {
+      Connection con1 =conection();
+      /*con1.setAutoCommit(false);
+      Statement st = con1.createStatement();
+      String query = "Insert into monster(empresa, parametro, valor, fecha) values('u','3','1','2');"; 
+      // note that i'm leaving "date_created" out of this insert statement
+      st.executeUpdate(query);
+      con1.commit();
+        // con1.close();*/
+      
+      String query = "Insert into monster(empresa, estado, parametro, valor, fecha) values (?,?,?,?,?);";
+      
+      PreparedStatement preparedStmt = con1.prepareStatement(query);
+      preparedStmt.setString (1, empresa);
+       preparedStmt.setString  (2,estado);
+      preparedStmt.setString (3, parametro);
+      preparedStmt.setString  (4,valor); 
+      preparedStmt.setString  (5,fecha);
+      preparedStmt.executeUpdate();
+      System.out.println(query);
+      System.out.println( preparedStmt);
+      con1.close();
+      
+    }
+    catch (SQLException e)
+    {
+      System.err.println("Got an exception!");
+      System.err.println(e.getMessage());
+      e.printStackTrace();
+      e.getLocalizedMessage();
+    }
+
+      
+      // execute the preparedstatement
+      
+        
+    }    
+    
+    
+    public Connection conection() {
+        Connection conection=null;
+        try
+        {
+        DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
+        System.out.println("Experando por la conexión...");
+        
+        //conection = DriverManager.getConnection ("jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7243941?characterEncoding=utf-8","sql7243941", "npbF5u7qUJ");
+        
+        conection = DriverManager.getConnection ("jdbc:mysql://db4free.net:3306/monster?useSSL=false&characterEncoding=Latin1","monster", "electroforesis");
+        
+        System.out.println("Haciendo la consulta...");   
+   
+         }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+             System.err.println("Got an exception!");
+              System.err.println(e.getMessage());
+             
+        }
+        
+        return conection;
+    }
+    
+    
+    
     public void PruebaMySQL() 
     {
         // Se mete todo en un try por los posibles errores de MySQL
         try
         {
             // Se registra el Driver de MySQL
-            DriverManager.registerDriver(new org.gjt.mm.mysql.Driver());
+            DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
             
             // Se obtiene una conexión con la base de datos. Hay que
             // cambiar el usuario "root" y la clave "la_clave" por las
             // adecuadas a la base de datos que estemos usando.
+             System.out.println("Experando por la conexión...");
             Connection conexion = DriverManager.getConnection (
-                "jdbc:mysql://localhost/prueba","root", "la_clave");
-            
+                // "jdbc:mysql://localhost/prueba","root", "la_clave");
+           // "jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7243941?characterEncoding=utf-8","sql7243941", "npbF5u7qUJ");
+            "jdbc:mysql://db4free.net:3306/monster?useSSL=false&characterEncoding=Latin1","monster", "electroforesis");
             // Se crea un Statement, para realizar la consulta
+            System.out.println("Haciendo la consulta...");
             Statement s = conexion.createStatement();
             
             // Se realiza la consulta. Los resultados se guardan en el 
             // ResultSet rs
-            ResultSet rs = s.executeQuery ("select * from persona");
-            
+            System.out.println("Haciendo la consulta...");
+            ResultSet rs = s.executeQuery ("select * from monster");
+            System.out.println("Buscamos el result set");
             // Se recorre el ResultSet, mostrando por pantalla los resultados.
+            
+            System.out.println ("------------------------------------------");
             while (rs.next())
             {
-                System.out.println (rs.getInt ("Id") + " " + rs.getString (2)+ 
-                    " " + rs.getDate(3));
+                System.out.println("|" + rs.getInt ("Id") + "|" + rs.getString (2)+ 
+                    "|" + rs.getString(2) + "|");
             }
             
             // Se cierra la conexión con la base de datos.
+            System.out.println("Cerrando conexión...");
             conexion.close();
         }
         catch (Exception e)
         {
+            System.out.println(e.getMessage());
             e.printStackTrace();
         }
     }
+    
+    
+      public Connection getCon()
+        {
+                return con;
+        }
+        public void setCon(Connection con)
+        {
+                this.con = con;
+        }
+    
     
     /**
      * Método principal, instancia una clase PruebaMySQL
@@ -72,7 +179,13 @@ public class DBManage {
      */
     public static void main(String[] args) 
     {
-        new DBManage();
+        DBManage db = new DBManage();
+        System.out.println("Conectando...");
+        
+        db.conection();
+        db.insercion("E","e","r","y","Z");
+        // db.cierra();
+        db.PruebaMySQL();
     }
     
 }
