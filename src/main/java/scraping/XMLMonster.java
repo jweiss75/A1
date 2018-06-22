@@ -1,9 +1,11 @@
-;package scraping;
+package scraping;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Vector;
 import java.util.ArrayList;
+
+import Bd.DBManage;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -24,142 +26,128 @@ public class XMLMonster {
     String anualidad;
     String tagname    = "*";
     String sourcefile = "XBRL_Files/2016025878.xbrl";
-
+    List<Vector> matrizrefyear = null;
+    
     // Acciona 2010026427
     // PHM 2016025878
     public static void main(String[] args) throws Exception {
         System.out.println("-------------------El sueño de la razón produce monstruos-----------------------");
-
+        
+        
 
         XMLMonster monster = new XMLMonster();
+        
+        
         System.out.println("Murcielagos para:" + monster.sourcefile);
-        monster.setTagName("xbrli:context ");
-        monster.searchTags();
-        monster.setTagName("xbrli:entity");
-        monster.searchTags();
-        monster.setTagName("ipp-gen:BalanceIndividual");
-        monster.searchTags();
-        monster.setTagName("ipp-gen:CuentaPerdidasGananciasIndividual");
-        monster.searchTags();
-        monster.setTagName("ipp-gen:BalanceConsolidado");
-        monster.searchTags();
-        monster.setTagName("ipp-gen:CuentaPerdidasGananciasConsolidado");
+        
+         monster.setTagName("LegalNameValue");
         monster.searchTags();
         
-        monster.detectaAnualidad();
+        
+        monster.setTagName("xbrli:context");
+        
+        System.out.println("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||1");
+        XMLMummy mummy = new XMLMummy();
+        mummy.setListaElemento(monster.searchTags());
+        monster.setMatrizRefYear(mummy.anualidadList());
+        System.out.println(mummy.anualidadList());
+        System.out.println("############################################################################################################################"+mummy.refyear.size());
+        monster.setMatrizRefYear(mummy.refyear);
+        
+        System.out.println("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||");
+        // monster.setMatrizRefYear(monster.detectaAnualidad());
+       
+        // monster.setTagName("ipp-gen:BalanceIndividual");
+        // monster.searchTags();
+        // monster.setTagName("ipp-gen:CuentaPerdidasGananciasIndividual");
+        // monster.searchTags();
+        monster.setTagName("BalanceConsolidado");
+        monster.searchTags();
+        // monster.setTagName("ipp-gen:CuentaPerdidasGananciasConsolidado");
+        // monster.searchTags();
+        
+        
+        
 
 
     }
 
 //
 
-    private List detectaAnualidad() throws Exception {
-        
-        
-       
-        // IN THIS LIST WE STORE THE REFERENCES AND YEAR 
-        List<Vector> lista = new ArrayList<Vector>(); // Aqui guardaremos el array.
-        XMLMonster monstruito = new XMLMonster();
-        
-        // Search the contexts and find their references.
-        monstruito.setTagName("xbrli:context");
-        List<Element> listaElementosContexto = monstruito.searchTags();
-
-       for (Element contexto : listaElementosContexto) {
-            // find the context regerence.
-            
-            
-            String id = monstruito.getId(contexto);
-            System.out.println("******************************");
-            System.out.println("Contexto con referencia: "+ id );
-            
-            
-            
-            
-            // We look for the dates
-            
-                NodeList contextincludedtags = monstruito.getAllChildren(contexto);
-                for (int i = 0; i < contextincludedtags.getLength(); i++) {
-                   
-                    // We look for the <xrbl:period tag> but the prefic coul be different
-                    String str2="period";
-                    System.out.println(contextincludedtags.item(i).getNodeName().toLowerCase().contains(str2.toLowerCase()));
-                    
-                     if (contextincludedtags.item(i).getNodeName().toLowerCase().contains(str2.toLowerCase())==true) {
-                        NodeList nodoPerido=contextincludedtags.item(i).getChildNodes();
-                        System.out.println("Period found: "+ contextincludedtags.item(i).getNodeName());
-                          for (int j = 0; j < nodoPerido.getLength(); j++) {
-                           String valorperiodo = nodoPerido.item(j).getNodeName()+":"+nodoPerido.item(j).getTextContent();
-                           System.out.println(nodoPerido.item(j).getNodeName()+":"+nodoPerido.item(j).getTextContent());
-                           
-            
-                           Vector vec = new Vector();
-                           vec.add(id);
-                           vec.add(contextincludedtags.item(i).getNodeName());
-                           vec.add(valorperiodo);
-                           
-                           lista.add(vec);
-                    }       
-                           
-                           }
-
-                    
-                              
-
-                }
-            System.out.println("******************************");
-        } 
-
-        System.out.println(lista);
-        return lista;
-    }
-
-private void matchYearRef(String ref) {
-        // String year="2018";
-        
-         System.out.println("//");
-        
-         /* for (int i=1; i <this.matrizrefyear.size();i++) {
-             
-             System.out.println("&&&&&&&&&&&&&&&&&&&&&&");//+ vector.get(1));
-           Iterator<String> itr = vector.iterator();
-             while(itr.hasNext()){
-            System.out.println(itr.next());
-        }
-        } */
-        
-        
     
-        
-           
-    }
+
+
 
     public NodeList getAllChildren(Element e) {
         NodeList allElements = e.getChildNodes();
-
-
+         DBManage inserciondb = new  DBManage();
+         inserciondb.setCon (inserciondb.conection());
         for (int i = 0; i < allElements.getLength(); i++) {
             try {
 
-                if (allElements.item(i).getTextContent().trim().length() != 0) {
-                    System.out.print(" --->Nodo: " + allElements.item(i).getNodeName());
-                    System.out.print(" --->ref: " + allElements.item(i).getAttributes().getNamedItem("contextRef").getNodeValue());
-                    System.out.println(" ------->Valor: " + allElements.item(i).getTextContent().trim());
+
+                    String node="";
+                    String ref="";
+                    String value="";
+                    String date= "";
                     
-                    if (allElements.item(i).getAttributes().getNamedItem("contextRef").getNodeValue()!=null){
+                    
+                    
+                if (allElements.item(i).getTextContent().trim().length() != 0) {
+                    
+                     Node attref = allElements.item(i).getAttributes().getNamedItem("contextRef");
+                    
+                    node    = allElements.item(i).getNodeName();
+                    ref     = attref.getTextContent();
+                    value   = allElements.item(i).getTextContent().trim();
+                    if (attref!=null){
                         
-                        System.out.println("Podemos buscar el año ---");
-                         System.out.println(allElements.item(i).getAttributes().getNamedItem("contextRef").getNodeValue());
-                        this.matchYearRef(allElements.item(i).getAttributes().getNamedItem("contextRef").getNodeValue());
+                        // System.out.println("Podemos buscar el año ---------------------"+allElements.item(i).getAttributes().getNamedItem("contextRef").getNodeValue());
                         
+                        XMLMummy mummy= new XMLMummy();
+                        // System.out.println("#################################"+this.matrizrefyear.size());
+                        mummy.setRefYear(this.matrizrefyear);
+                       
+                       date = mummy.matchYearRef(attref.getTextContent());
+                        // System.out.println("#################################"+fecha);
+                   
+                      
+                        
+                        // matchYearRef(allElements.item(i).getAttributes().getNamedItem("contextRef").getNodeValue());
+                         // System.out.println(allElements.item(i).getAttributes().getNamedItem("contextRef").getNodeValue());
+                         // this.matchYearRef(allElements.item(i).getAttributes().getNamedItem("contextRef").getNodeValue());
+                         // this.detectaAnualidad(allElements.item(i).getAttributes().getNamedItem("contextRef").getNodeValue());
                     }
+                    
+                    
+                    
+                        System.out.println  (  " |");
+                        System.out.println  (  " |");
+                        System.out.println  (  " |------->Empresa : " + this.entidad );
+                        System.out.println  (  " |------->Nodo    : " + node );
+                    if (attref!=null){
+                        System.out.println  (  " |------->ref     : " + ref );
+                    }
+                    else 
+                    {
+                        System.out.println  (  " |------->ref     :null");
+                    }
+                        System.out.println  (  " |------->Valor   : " + value );
+                        System.out.println  (  " |------->Año     : " + date);   
+                        
+                   
+                    
+                    System.out.println  (  " Intentando inserdatr dtos.... " + date);
+                    inserciondb.insercion(this.entidad,this.tagname,node,value,date);
+                    
                     
                 }
 
             } catch (Exception ex) {
 
                 System.out.println(">>>> MONSTER genero error:" + ex.getMessage());
-                System.out.println(" ------->Valor: " + allElements.item(i).getTextContent().trim());
+                System.out.println("Linea: de error :"+ex.getStackTrace()[0].getLineNumber());
+                System.out.println(" ------->Valor: " + allElements.item(i).getNodeName().trim());
                 if (allElements.item(i).getNodeName() == "xbrli:identifier") {
                     this.entidad = allElements.item(i).getTextContent().trim();
                     System.out.println("Se detecto la entidad: " + entidad);
@@ -167,7 +155,8 @@ private void matchYearRef(String ref) {
             }
 
         }
-
+    
+    inserciondb.cierra();
 
         return allElements;
     }
@@ -189,6 +178,8 @@ private void matchYearRef(String ref) {
 
 
     public List<Element> searchTags() throws Exception {
+        
+        
         List<Element> listadetags = new ArrayList<Element>();
 
         try {
@@ -200,7 +191,7 @@ private void matchYearRef(String ref) {
             Document doc = db.parse(fis);
 
             NodeList entries = doc.getElementsByTagName("*");
-
+            
             for (int i = 0; i < entries.getLength(); i++) {
                 Element element = (Element)entries.item(i);
 
@@ -209,12 +200,17 @@ private void matchYearRef(String ref) {
 
 
                 if (nombre.toLowerCase().indexOf(this.tagname.toLowerCase()) > -1 || this.tagname == "*") {
-                    System.out.println("ELEMENTO: " + element.getTagName());
+                    System.out.println("ELEMENTO    : " + element.getTagName());
                     System.out.println("TIPO ESQUEMA: " + element.getSchemaTypeInfo());
-                    System.out.println("ATTRIBUTES: " + schema);
-                    System.out.println("URI: " + element.getNodeName());
-                    System.out.println("ElementRef: " + getContextRef(element));
-                    // Nodes 
+                    System.out.println("ATTRIBUTES  : " + schema);
+                    System.out.println("URI         : " + element.getNodeName());
+                    System.out.println("ElementRef  : " + getContextRef(element));
+                    System.out.println("Valor  : " + element.getTextContent().trim());
+                    
+                    if (nombre.toLowerCase().indexOf("legalnamevalue")>-1){
+                        this.entidad=element.getTextContent().trim();
+                        
+                    }
 
                     NodeList nodos = getAllChildren(element);
 
@@ -229,7 +225,7 @@ private void matchYearRef(String ref) {
 
             System.out.println("MONSTER genero error:" + e.getMessage());
         }
-
+        System.out.println("@@@@@@@@@@@@@@@@@@@@@"+listadetags.size());
         return listadetags;
 
     }
@@ -248,6 +244,14 @@ private void matchYearRef(String ref) {
 
     public void setSourceFile(String sourcefile) {
         this.sourcefile = sourcefile;
+    }
+    
+    public List<Vector> getMatrizRefYear() {
+        return matrizrefyear;
+    }
+
+    public void setMatrizRefYear(List<Vector> matrizrefyear) {
+        this.matrizrefyear = matrizrefyear;
     }
 
 
