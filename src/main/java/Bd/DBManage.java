@@ -46,11 +46,32 @@ public class DBManage {
 
     }
     
-    public void insercion(String empresa, String estado, String parametro, String valor, String fecha){
+    public void closeConnection(Connection con){
+        
+         try
+    {
+        con.close();
+     }
+    catch (Exception e)
+    {
+      System.err.println("Got an exception!");
+      System.err.println(e.getMessage());
+      e.printStackTrace();
+    }     
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    public void insercion(Connection con1, String empresa, String estado, String parametro, String valor, String fecha){
         System.out.println("::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
       try
     {
-      Connection con1 =conection();
+      
       /*con1.setAutoCommit(false);
       Statement st = con1.createStatement();
       String query = "Insert into monster(empresa, parametro, valor, fecha) values('u','3','1','2');"; 
@@ -70,7 +91,7 @@ public class DBManage {
       preparedStmt.executeUpdate();
       System.out.println(query);
       System.out.println( preparedStmt);
-      con1.close();
+      
       
     }
     catch (SQLException e)
@@ -182,9 +203,9 @@ public class DBManage {
         DBManage db = new DBManage();
         System.out.println("Conectando...");
         
-        db.conection();
-        db.insercion("E","e","r","y","Z");
-        // db.cierra();
+        Connection con1= db.conection();
+        db.insercion(con1,"E","e","r","y","Z");
+        db.closeConnection(con1);
         db.PruebaMySQL();
     }
     

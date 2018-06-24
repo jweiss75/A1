@@ -25,6 +25,8 @@ public class XMLMummy {
     public List<Vector>  refyear;
 
     public String matchYearRef(String ref) {
+        
+        System.out.println("* this is matchYearRef");
         String year = "2018";
         
 
@@ -46,7 +48,7 @@ public class XMLMummy {
 
     public List<Vector> anualidadList() throws Exception {
 
-
+        System.out.println("* This is anualidadList");
         // IN THIS LIST WE STORE THE REFERENCES AND YEAR 
         List<Vector> lista1 = new ArrayList<Vector>(); // Aqui guardaremos el array.
         XMLMonster monstruito = new XMLMonster();

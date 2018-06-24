@@ -1,4 +1,5 @@
 import scraping.*;
+import Bd.*;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -8,6 +9,7 @@ import java.io.FileOutputStream;
 import java.net.MalformedURLException;
 import java.io.FilenameFilter;
 
+import java.sql.Connection;
 
 // test de capacidad.
 
@@ -24,13 +26,13 @@ public class PHM {
             // navigate.submittingForm("VIDRALA");
             navigate.printCompanies();
             System.out.println("------------------------------->");
-            navigate.submittingForm("PHARMA MAR", navigate.getRoute());
+            navigate.submittingForm("BANCO SANTANDER", navigate.getRoute());
 
             // unzipfile
 
             UnzipFile unzip = new UnzipFile();
             unzip.setRoute("XBRL_Files/");
-            unzip.setFileZip("PHARMA MAR.zip");
+            unzip.setFileZip("BANCO SANTANDER.zip");
             unzip.unzip();
 
             // go acreoos de directory of files a use xml for database 
@@ -52,7 +54,7 @@ public class PHM {
 
         File dir = new File("XBRL_Files/");
         String[] ficheros = dir.list();
-
+        DBManage inserciondb = new DBManage();
         for (String fichero : ficheros) {
             
             
@@ -67,6 +69,8 @@ public class PHM {
                     System.out.println("Se procede a incluir datos en la base de datos");
                     System.out.print("Procesando " + fichero);
                     XMLMonster monster = new XMLMonster();
+                    
+                    monster.setCon(inserciondb.conection());
                     monster.setSourceFile("XBRL_Files/" + fichero);
                     monster.setTagName("LegalNameValue");
 
@@ -82,8 +86,10 @@ public class PHM {
                         monster.setMatrizRefYear(mummy.getRefYear());
                         monster.setTagName("BalanceConsolidado");
                         monster.searchTags();
+                        monster.closeCon();
 
                     } catch (Exception e) {
+                        
                         e.printStackTrace();
                     }
 
