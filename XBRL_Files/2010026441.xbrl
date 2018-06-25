@@ -1,0 +1,1462 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrll="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ipp-gen="http://www.cnmv.es/ipp/gen/1-2008/2008-01-01" xmlns:es-be-fs="http://www.bde.es/es/fr/ifrs/basi/bde/4-2004/2006-01-01" xmlns:ipp-com="http://www.cnmv.es/ipp/com/1-2008/2008-01-01" xmlns:dgi-lc-es="http://www.xbrl.org.es/es/2007/dgi/gp/lc-es/2007-05-30" xmlns:dgi-lc-int="http://www.xbrl.org.es/es/2007/dgi/gp/lc-int/2007-05-30" xmlns:ifrs-gp="http://xbrl.iasb.org/int/fr/ifrs/gp/2005-05-15" xmlns:dgi-est-gen="http://www.xbrl.org.es/es/2007/dgi/gp/est-gen/2007-05-30" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ipp="http://www.cnmv.es/ipp/2008">
+	<xbrll:schemaRef xlink:type="simple" xlink:href="ipp-gen-2008-01-01.xsd" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+	<xbrli:context id="S22009_A-58869389_dci">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A-58869389">ALMIRALL, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2009-01-01</xbrli:startDate>
+			<xbrli:endDate>2009-12-31</xbrli:endDate>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado>Individual</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22009_A-58869389_dcc">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A-58869389">ALMIRALL, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2009-01-01</xbrli:startDate>
+			<xbrli:endDate>2009-12-31</xbrli:endDate>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado>Consolidado</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22008_A-58869389_dpai">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A-58869389">ALMIRALL, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2008-01-01</xbrli:startDate>
+			<xbrli:endDate>2008-12-31</xbrli:endDate>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado>Individual</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22008_A-58869389_dpac">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A-58869389">ALMIRALL, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2008-01-01</xbrli:startDate>
+			<xbrli:endDate>2008-12-31</xbrli:endDate>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado>Consolidado</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22009_A-58869389_dcoi">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A-58869389">ALMIRALL, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2009-07-01</xbrli:startDate>
+			<xbrli:endDate>2009-12-31</xbrli:endDate>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado>Individual</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22009_A-58869389_dcoc">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A-58869389">ALMIRALL, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2009-07-01</xbrli:startDate>
+			<xbrli:endDate>2009-12-31</xbrli:endDate>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado>Consolidado</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22008_A-58869389_dpoi">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A-58869389">ALMIRALL, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2008-07-01</xbrli:startDate>
+			<xbrli:endDate>2008-12-31</xbrli:endDate>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado>Individual</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22008_A-58869389_dpoc">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A-58869389">ALMIRALL, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:startDate>2008-07-01</xbrli:startDate>
+			<xbrli:endDate>2008-12-31</xbrli:endDate>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado>Consolidado</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22009_A-58869389_ici">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A-58869389">ALMIRALL, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:instant>2009-12-31</xbrli:instant>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado>Individual</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22009_A-58869389_icc">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A-58869389">ALMIRALL, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:instant>2009-12-31</xbrli:instant>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado>Consolidado</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22008_A-58869389_ipai">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A-58869389">ALMIRALL, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:instant>2008-12-31</xbrli:instant>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado>Individual</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:context id="S22008_A-58869389_ipac">
+		<xbrli:entity>
+			<xbrli:identifier scheme="http://www.cnmv.es/xbrl/ipp/A-58869389">ALMIRALL, S.A.</xbrli:identifier>
+			<xbrli:segment>
+				<ipp:version>6.0.1</ipp:version>
+			</xbrli:segment>
+		</xbrli:entity>
+		<xbrli:period>
+			<xbrli:instant>2008-12-31</xbrli:instant>
+		</xbrli:period>
+		<xbrli:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado>Consolidado</ipp:Apartado>
+		</xbrli:scenario>
+	</xbrli:context>
+	<xbrli:unit id="euro">
+		<xbrli:measure>iso4217:EUR</xbrli:measure>
+	</xbrli:unit>
+	<xbrli:unit id="pure">
+		<xbrli:measure>xbrli:pure</xbrli:measure>
+	</xbrli:unit>
+	<ipp-gen:InformeFinancieroGeneral>
+		<ipp-com:IdentificacionInforme>
+			<ipp-com:CierreEjercicioInforme contextRef="S22009_A-58869389_ici">2009-12-31</ipp-com:CierreEjercicioInforme>
+			<ipp-com:AnoInforme contextRef="S22009_A-58869389_ici">2009</ipp-com:AnoInforme>
+			<ipp-com:PeriodoInforme>
+				<ipp-com:Xcode_Periodo_E2 contextRef="S22009_A-58869389_ici">E2</ipp-com:Xcode_Periodo_E2>
+			</ipp-com:PeriodoInforme>
+			<ipp-com:ModeloInforme>
+				<ipp-com:Xcode_Modelo_GE contextRef="S22009_A-58869389_ici">GE</ipp-com:Xcode_Modelo_GE>
+			</ipp-com:ModeloInforme>
+			<ipp-com:Version contextRef="S22009_A-58869389_ici">6.1.0</ipp-com:Version>
+		</ipp-com:IdentificacionInforme>
+		<ipp-com:DatosIdentificativos>
+			<dgi-est-gen:EntityName>
+				<dgi-est-gen:LegalName>
+					<dgi-est-gen:LegalNameType>
+						<dgi-lc-es:Xcode_NMT.DS contextRef="S22009_A-58869389_ici">DS</dgi-lc-es:Xcode_NMT.DS>
+					</dgi-est-gen:LegalNameType>
+					<dgi-est-gen:LegalNameValue contextRef="S22009_A-58869389_ici">ALMIRALL, S.A.</dgi-est-gen:LegalNameValue>
+				</dgi-est-gen:LegalName>
+			</dgi-est-gen:EntityName>
+			<dgi-est-gen:EntityAddress>
+				<dgi-est-gen:AddressTypeList>
+					<dgi-lc-es:Xcode_ADL.01 contextRef="S22009_A-58869389_ici">01</dgi-lc-es:Xcode_ADL.01>
+				</dgi-est-gen:AddressTypeList>
+				<dgi-est-gen:Address>
+					<dgi-est-gen:AddressFormat>
+						<dgi-lc-int:Xcode_UN3477.05 contextRef="S22009_A-58869389_ici">05</dgi-lc-int:Xcode_UN3477.05>
+					</dgi-est-gen:AddressFormat>
+					<dgi-est-gen:AddressLine contextRef="S22009_A-58869389_ici">Ronda General Mitre 151 (08022 Barcelona)</dgi-est-gen:AddressLine>
+				</dgi-est-gen:Address>
+			</dgi-est-gen:EntityAddress>
+			<dgi-est-gen:Identifier>
+				<dgi-est-gen:IdentifierCode>
+					<dgi-lc-es:Xcode_IDC.CIF contextRef="S22009_A-58869389_ici">CIF</dgi-lc-es:Xcode_IDC.CIF>
+					<dgi-est-gen:IdentifierValue contextRef="S22009_A-58869389_ici">A-58869389</dgi-est-gen:IdentifierValue>
+				</dgi-est-gen:IdentifierCode>
+			</dgi-est-gen:Identifier>
+			<ipp-com:PersonasContacto>
+				<dgi-est-gen:ContactPerson>
+					<dgi-est-gen:PersonName>
+						<dgi-est-gen:FormattedName contextRef="S22009_A-58869389_ici">Daniel Martínez Carretero</dgi-est-gen:FormattedName>
+					</dgi-est-gen:PersonName>
+					<dgi-est-gen:Position>
+						<dgi-est-gen:PositionType contextRef="S22009_A-58869389_ici">Director Financiero Corporativo</dgi-est-gen:PositionType>
+					</dgi-est-gen:Position>
+					<dgi-est-gen:CommunicationWays>
+						<dgi-est-gen:CommunicationType>
+							<dgi-lc-int:Xcode_UN3155.TE contextRef="S22009_A-58869389_ici">TE</dgi-lc-int:Xcode_UN3155.TE>
+						</dgi-est-gen:CommunicationType>
+						<dgi-est-gen:CommunicationValue contextRef="S22009_A-58869389_ici">933128751</dgi-est-gen:CommunicationValue>
+					</dgi-est-gen:CommunicationWays>
+					<dgi-est-gen:CommunicationWays>
+						<dgi-est-gen:CommunicationType>
+							<dgi-lc-int:Xcode_UN3155.EM contextRef="S22009_A-58869389_ici">EM</dgi-lc-int:Xcode_UN3155.EM>
+						</dgi-est-gen:CommunicationType>
+						<dgi-est-gen:CommunicationValue contextRef="S22009_A-58869389_ici">daniel.martinez.carretero@almirall.com</dgi-est-gen:CommunicationValue>
+					</dgi-est-gen:CommunicationWays>
+				</dgi-est-gen:ContactPerson>
+				<dgi-est-gen:ContactPerson>
+					<dgi-est-gen:PersonName>
+						<dgi-est-gen:FormattedName contextRef="S22009_A-58869389_ici">Jordi Molina Alsina</dgi-est-gen:FormattedName>
+					</dgi-est-gen:PersonName>
+					<dgi-est-gen:Position>
+						<dgi-est-gen:PositionType contextRef="S22009_A-58869389_ici">Jefe de Relaciones con Inversores</dgi-est-gen:PositionType>
+					</dgi-est-gen:Position>
+					<dgi-est-gen:CommunicationWays>
+						<dgi-est-gen:CommunicationType>
+							<dgi-lc-int:Xcode_UN3155.TE contextRef="S22009_A-58869389_ici">TE</dgi-lc-int:Xcode_UN3155.TE>
+						</dgi-est-gen:CommunicationType>
+						<dgi-est-gen:CommunicationValue contextRef="S22009_A-58869389_ici">932913087</dgi-est-gen:CommunicationValue>
+					</dgi-est-gen:CommunicationWays>
+					<dgi-est-gen:CommunicationWays>
+						<dgi-est-gen:CommunicationType>
+							<dgi-lc-int:Xcode_UN3155.EM contextRef="S22009_A-58869389_ici">EM</dgi-lc-int:Xcode_UN3155.EM>
+						</dgi-est-gen:CommunicationType>
+						<dgi-est-gen:CommunicationValue contextRef="S22009_A-58869389_ici">jordi.molina@almirall.com</dgi-est-gen:CommunicationValue>
+					</dgi-est-gen:CommunicationWays>
+				</dgi-est-gen:ContactPerson>
+			</ipp-com:PersonasContacto>
+		</ipp-com:DatosIdentificativos>
+		<ipp-com:InformacionComplementariaInformacionReguladaPreviamentePublicada>
+			<ipp-com:InformacionComplementariaValor contextRef="S22009_A-58869389_ici">Se informa que se ha eliminado el documento anexado en el Capítulo V como Notas Explicativas, ya que ha sido publicado como Hecho Relevante nº121223, previo a la presentación via webcast con analistas realizada el 25 de febrero de 2010.
+
+La información contenida en esta memoria referida al ejercicio 2009 se presenta, a efectos comparativos con la información del ejercicio 2008.             
+La Sociedad, atendiendo a lo recogido en la Consulta del B.O.I.C.A.C. 79, relacionada con el registro de determinados ingresos (dividendos, ingresos de préstamos a sociedades vinculadas, etc.) para las sociedades cuyo objeto social es la tenencia de participaciones financieras, ha procedido a modificar la información comparativa del ejercicio 2008, reflejando los ingresos por la participaciones mantenidas en las sociedad del Grupo, como mayor importe del epígrafe “Importe neto de la cifra de negocios” de la cuenta de pérdidas y ganancias del ejercicio 2008, de forma que los estados financieros referidos a dicho ejercicio reflejen dicha interpretación contable.
+Como consecuencia de lo anterior, la Sociedad ha procedido a reexpresar la cuenta de pérdidas y ganancias del ejercicio 2008, presentando la misma un incremento en el epígrafe “Importe neto de la cifra de negocios”, y una disminución de los ingresos financieros por importe de 102.735 miles de euros.
+Adicionalmente, a efectos de facilitar la comparación de los estados financieros, el balance de situación adjunto se presenta con un mayor nivel de detalle al que figuraba en las Cuentas Anuales del ejercicio 2008.</ipp-com:InformacionComplementariaValor>
+		</ipp-com:InformacionComplementariaInformacionReguladaPreviamentePublicada>
+		<ipp-gen:InformacionFinancieraSeleccionada>
+			<ipp-gen:BalanceIndividual>
+				<ipp-gen:ActivoNoCorrienteNacional decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">959162000</ipp-gen:ActivoNoCorrienteNacional>
+				<ifrs-gp:IntangibleAssetsNet decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">188700000</ifrs-gp:IntangibleAssetsNet>
+				<ifrs-gp:GoodwillNet decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">0</ifrs-gp:GoodwillNet>
+				<ifrs-gp:IdentifiableIntangibleAssetsNet decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">188700000</ifrs-gp:IdentifiableIntangibleAssetsNet>
+				<ifrs-gp:PropertyPlantAndEquipmentNet decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">68676000</ifrs-gp:PropertyPlantAndEquipmentNet>
+				<ifrs-gp:InvestmentProperty decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">0</ifrs-gp:InvestmentProperty>
+				<ipp-gen:InversionesEmpresasGrupoAsociadasLargoPlazo decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">529308000</ipp-gen:InversionesEmpresasGrupoAsociadasLargoPlazo>
+				<ifrs-gp:OtherFinancialAssetsNonCurrent decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">9705000</ifrs-gp:OtherFinancialAssetsNonCurrent>
+				<ifrs-gp:DeferredTaxAssets decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">162773000</ifrs-gp:DeferredTaxAssets>
+				<ifrs-gp:OtherAssetsNonCurrent decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">0</ifrs-gp:OtherAssetsNonCurrent>
+				<ipp-gen:ActivoCorrienteNacional decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">433303000</ipp-gen:ActivoCorrienteNacional>
+				<ifrs-gp:NonCurrentAssetsAndDisposalGroupsHeldForSale decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">0</ifrs-gp:NonCurrentAssetsAndDisposalGroupsHeldForSale>
+				<ifrs-gp:Inventories decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">76717000</ifrs-gp:Inventories>
+				<ifrs-gp:TradeAndOtherReceivablesNetCurrent decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">113695000</ifrs-gp:TradeAndOtherReceivablesNetCurrent>
+				<ipp-gen:ClientesVentasPrestacionesServicios decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">50477000</ipp-gen:ClientesVentasPrestacionesServicios>
+				<ipp-gen:OtrosDeudores decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">51127000</ipp-gen:OtrosDeudores>
+				<ifrs-gp:CurrentTaxReceivables decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">12091000</ifrs-gp:CurrentTaxReceivables>
+				<ipp-gen:InversionesEmpresasGrupoAsociadasCortoPlazo decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">1894000</ipp-gen:InversionesEmpresasGrupoAsociadasCortoPlazo>
+				<ifrs-gp:OtherFinancialAssetsCurrent decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">212451000</ifrs-gp:OtherFinancialAssetsCurrent>
+				<ifrs-gp:PrepaymentsCurrent decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">3709000</ifrs-gp:PrepaymentsCurrent>
+				<ifrs-gp:CashAndCashEquivalents decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">24837000</ifrs-gp:CashAndCashEquivalents>
+				<ipp-gen:TotalActivoNacional decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">1392465000</ipp-gen:TotalActivoNacional>
+				<ipp-gen:PatrimonioNetoNacional decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">715812000</ipp-gen:PatrimonioNetoNacional>
+				<ipp-gen:FondosPropiosNacional decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">721969000</ipp-gen:FondosPropiosNacional>
+				<es-be-fs:CapitalFondoDotacion decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">19932000</es-be-fs:CapitalFondoDotacion>
+				<ifrs-gp:IssuedCapital decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">19932000</ifrs-gp:IssuedCapital>
+				<ifrs-gp:IssuedCapital decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">19932000</ifrs-gp:IssuedCapital>
+				<ifrs-gp:SharePremiumTotal decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">172069000</ifrs-gp:SharePremiumTotal>
+				<ifrs-gp:OtherReserves decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">349733000</ifrs-gp:OtherReserves>
+				<ifrs-gp:TreasuryShares decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">0</ifrs-gp:TreasuryShares>
+				<ipp-gen:ResultadosEjerciciosAnteriores decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">0</ipp-gen:ResultadosEjerciciosAnteriores>
+				<ipp-gen:OtrasAportacionesSocios decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">0</ipp-gen:OtrasAportacionesSocios>
+				<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">180235000</es-be-fs:ResultadoEjercicioBalance>
+				<es-be-fs:OtrosInstrumentosCapitalFondosPropios decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">0</es-be-fs:OtrosInstrumentosCapitalFondosPropios>
+				<ipp-gen:AjustesValoracionNacional decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">-6157000</ipp-gen:AjustesValoracionNacional>
+				<ifrs-gp:AvailableForSaleReserves decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">0</ifrs-gp:AvailableForSaleReserves>
+				<ipp-com:OperacionesCobertura decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">-6157000</ipp-com:OperacionesCobertura>
+				<ipp-com:OtrosAjustesValoracion decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">0</ipp-com:OtrosAjustesValoracion>
+				<ipp-com:SubvencionesDonacionesLegadosRecibidos decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">0</ipp-com:SubvencionesDonacionesLegadosRecibidos>
+				<ipp-gen:PasivoNoCorrienteNacional decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">314771000</ipp-gen:PasivoNoCorrienteNacional>
+				<ifrs-gp:ProvisionsNonCurrent decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">10126000</ifrs-gp:ProvisionsNonCurrent>
+				<ipp-gen:DeudasLargoPlazo decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">195765000</ipp-gen:DeudasLargoPlazo>
+				<ipp-gen:DeudasEntidadesFinancierasLargoPlazo decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">195765000</ipp-gen:DeudasEntidadesFinancierasLargoPlazo>
+				<ifrs-gp:OtherFinancialLiabilitiesNonCurrent decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">0</ifrs-gp:OtherFinancialLiabilitiesNonCurrent>
+				<ipp-gen:DeudasEmpresasGrupoAsociadasLargoPlazo decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">0</ipp-gen:DeudasEmpresasGrupoAsociadasLargoPlazo>
+				<ifrs-gp:DeferredTaxLiabilities decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">17271000</ifrs-gp:DeferredTaxLiabilities>
+				<ifrs-gp:OtherLiabilitiesNonCurrent decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">24339000</ifrs-gp:OtherLiabilitiesNonCurrent>
+				<ifrs-gp:OtherLiabilitiesNonCurrent decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">28082000</ifrs-gp:OtherLiabilitiesNonCurrent>
+				<ipp-gen:PeriodificacionesLargoPlazo decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">67270000</ipp-gen:PeriodificacionesLargoPlazo>
+				<ipp-gen:PasivoCorrienteNacional decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">361882000</ipp-gen:PasivoCorrienteNacional>
+				<ifrs-gp:LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">0</ifrs-gp:LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale>
+				<ifrs-gp:ProvisionsCurrent decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">0</ifrs-gp:ProvisionsCurrent>
+				<ipp-gen:DeudasCortoPlazo decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">69921000</ipp-gen:DeudasCortoPlazo>
+				<ipp-gen:DeudasEntidadesFinancierasCortoPlazo decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">60000000</ipp-gen:DeudasEntidadesFinancierasCortoPlazo>
+				<ifrs-gp:OtherFinancialLiabilitiesCurrent decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">9921000</ifrs-gp:OtherFinancialLiabilitiesCurrent>
+				<ipp-gen:DeudasEmpresasGrupoAsociadasCortoPlazo decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">124375000</ipp-gen:DeudasEmpresasGrupoAsociadasCortoPlazo>
+				<ipp-gen:AcreedoresComercialesOtrasCuentasPagar decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">166373000</ipp-gen:AcreedoresComercialesOtrasCuentasPagar>
+				<ifrs-gp:TradeAndOtherPayablesCurrent decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">107516000</ifrs-gp:TradeAndOtherPayablesCurrent>
+				<ipp-gen:OtrosAcreedores decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">21583000</ipp-gen:OtrosAcreedores>
+				<ipp-gen:OtrosAcreedores decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">18565000</ipp-gen:OtrosAcreedores>
+				<ifrs-gp:CurrentTaxPayables decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">37274000</ifrs-gp:CurrentTaxPayables>
+				<ifrs-gp:OtherLiabilitiesCurrent decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">1213000</ifrs-gp:OtherLiabilitiesCurrent>
+				<ifrs-gp:OtherLiabilitiesCurrent decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">1597000</ifrs-gp:OtherLiabilitiesCurrent>
+				<ifrs-gp:AccruedLiabilitiesTotal decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">0</ifrs-gp:AccruedLiabilitiesTotal>
+				<ipp-gen:TotalPatrimonioNetoPasivoNacional decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">1392465000</ipp-gen:TotalPatrimonioNetoPasivoNacional>
+				<ipp-gen:ActivoNoCorrienteNacional decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">912592000</ipp-gen:ActivoNoCorrienteNacional>
+				<ifrs-gp:IntangibleAssetsNet decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">160112000</ifrs-gp:IntangibleAssetsNet>
+				<ifrs-gp:GoodwillNet decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">0</ifrs-gp:GoodwillNet>
+				<ifrs-gp:IdentifiableIntangibleAssetsNet decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">160112000</ifrs-gp:IdentifiableIntangibleAssetsNet>
+				<ifrs-gp:PropertyPlantAndEquipmentNet decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">71835000</ifrs-gp:PropertyPlantAndEquipmentNet>
+				<ifrs-gp:InvestmentProperty decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">0</ifrs-gp:InvestmentProperty>
+				<ipp-gen:InversionesEmpresasGrupoAsociadasLargoPlazo decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">523252000</ipp-gen:InversionesEmpresasGrupoAsociadasLargoPlazo>
+				<ifrs-gp:OtherFinancialAssetsNonCurrent decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">2931000</ifrs-gp:OtherFinancialAssetsNonCurrent>
+				<ifrs-gp:DeferredTaxAssets decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">154462000</ifrs-gp:DeferredTaxAssets>
+				<ifrs-gp:OtherAssetsNonCurrent decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">0</ifrs-gp:OtherAssetsNonCurrent>
+				<ipp-gen:ActivoCorrienteNacional decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">406725000</ipp-gen:ActivoCorrienteNacional>
+				<ifrs-gp:NonCurrentAssetsAndDisposalGroupsHeldForSale decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">0</ifrs-gp:NonCurrentAssetsAndDisposalGroupsHeldForSale>
+				<ifrs-gp:Inventories decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">124971000</ifrs-gp:Inventories>
+				<ifrs-gp:TradeAndOtherReceivablesNetCurrent decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">93304000</ifrs-gp:TradeAndOtherReceivablesNetCurrent>
+				<ipp-gen:ClientesVentasPrestacionesServicios decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">34655000</ipp-gen:ClientesVentasPrestacionesServicios>
+				<ipp-gen:OtrosDeudores decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">39974000</ipp-gen:OtrosDeudores>
+				<ifrs-gp:CurrentTaxReceivables decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">18675000</ifrs-gp:CurrentTaxReceivables>
+				<ipp-gen:InversionesEmpresasGrupoAsociadasCortoPlazo decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">27081000</ipp-gen:InversionesEmpresasGrupoAsociadasCortoPlazo>
+				<ifrs-gp:OtherFinancialAssetsCurrent decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">131539000</ifrs-gp:OtherFinancialAssetsCurrent>
+				<ifrs-gp:PrepaymentsCurrent decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">2141000</ifrs-gp:PrepaymentsCurrent>
+				<ifrs-gp:CashAndCashEquivalents decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">27689000</ifrs-gp:CashAndCashEquivalents>
+				<ipp-gen:TotalActivoNacional decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">1319317000</ipp-gen:TotalActivoNacional>
+				<ipp-gen:PatrimonioNetoNacional decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">589320000</ipp-gen:PatrimonioNetoNacional>
+				<ipp-gen:FondosPropiosNacional decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">594216000</ipp-gen:FondosPropiosNacional>
+				<es-be-fs:CapitalFondoDotacion decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">19932000</es-be-fs:CapitalFondoDotacion>
+				<ifrs-gp:SharePremiumTotal decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">172069000</ifrs-gp:SharePremiumTotal>
+				<ifrs-gp:OtherReserves decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">244200000</ifrs-gp:OtherReserves>
+				<ifrs-gp:TreasuryShares decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">0</ifrs-gp:TreasuryShares>
+				<ipp-gen:ResultadosEjerciciosAnteriores decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">0</ipp-gen:ResultadosEjerciciosAnteriores>
+				<ipp-gen:OtrasAportacionesSocios decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">0</ipp-gen:OtrasAportacionesSocios>
+				<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">158015000</es-be-fs:ResultadoEjercicioBalance>
+				<es-be-fs:OtrosInstrumentosCapitalFondosPropios decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">0</es-be-fs:OtrosInstrumentosCapitalFondosPropios>
+				<ipp-gen:AjustesValoracionNacional decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">-4896000</ipp-gen:AjustesValoracionNacional>
+				<ifrs-gp:AvailableForSaleReserves decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">0</ifrs-gp:AvailableForSaleReserves>
+				<ipp-com:OperacionesCobertura decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">-4896000</ipp-com:OperacionesCobertura>
+				<ipp-com:OtrosAjustesValoracion decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">0</ipp-com:OtrosAjustesValoracion>
+				<ipp-com:SubvencionesDonacionesLegadosRecibidos decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">0</ipp-com:SubvencionesDonacionesLegadosRecibidos>
+				<ipp-gen:PasivoNoCorrienteNacional decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">330975000</ipp-gen:PasivoNoCorrienteNacional>
+				<ifrs-gp:ProvisionsNonCurrent decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">8642000</ifrs-gp:ProvisionsNonCurrent>
+				<ipp-gen:DeudasLargoPlazo decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">252215000</ipp-gen:DeudasLargoPlazo>
+				<ipp-gen:DeudasEntidadesFinancierasLargoPlazo decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">252215000</ipp-gen:DeudasEntidadesFinancierasLargoPlazo>
+				<ifrs-gp:OtherFinancialLiabilitiesNonCurrent decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">0</ifrs-gp:OtherFinancialLiabilitiesNonCurrent>
+				<ipp-gen:DeudasEmpresasGrupoAsociadasLargoPlazo decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">0</ipp-gen:DeudasEmpresasGrupoAsociadasLargoPlazo>
+				<ifrs-gp:DeferredTaxLiabilities decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">14888000</ifrs-gp:DeferredTaxLiabilities>
+				<ipp-gen:PeriodificacionesLargoPlazo decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">27148000</ipp-gen:PeriodificacionesLargoPlazo>
+				<ipp-gen:PasivoCorrienteNacional decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">399022000</ipp-gen:PasivoCorrienteNacional>
+				<ifrs-gp:LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">0</ifrs-gp:LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale>
+				<ifrs-gp:ProvisionsCurrent decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">0</ifrs-gp:ProvisionsCurrent>
+				<ipp-gen:DeudasCortoPlazo decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">68756000</ipp-gen:DeudasCortoPlazo>
+				<ipp-gen:DeudasEntidadesFinancierasCortoPlazo decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">60000000</ipp-gen:DeudasEntidadesFinancierasCortoPlazo>
+				<ifrs-gp:OtherFinancialLiabilitiesCurrent decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">8756000</ifrs-gp:OtherFinancialLiabilitiesCurrent>
+				<ipp-gen:DeudasEmpresasGrupoAsociadasCortoPlazo decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">172708000</ipp-gen:DeudasEmpresasGrupoAsociadasCortoPlazo>
+				<ipp-gen:AcreedoresComercialesOtrasCuentasPagar decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">153096000</ipp-gen:AcreedoresComercialesOtrasCuentasPagar>
+				<ifrs-gp:TradeAndOtherPayablesCurrent decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">115487000</ifrs-gp:TradeAndOtherPayablesCurrent>
+				<ifrs-gp:CurrentTaxPayables decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">19044000</ifrs-gp:CurrentTaxPayables>
+				<ifrs-gp:AccruedLiabilitiesTotal decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">2865000</ifrs-gp:AccruedLiabilitiesTotal>
+				<ipp-gen:TotalPatrimonioNetoPasivoNacional decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">1319317000</ipp-gen:TotalPatrimonioNetoPasivoNacional>
+			</ipp-gen:BalanceIndividual>
+			<ipp-gen:CuentaPerdidasGananciasIndividual>
+				<ifrs-gp:RevenueTotalByNature decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">448654000</ifrs-gp:RevenueTotalByNature>
+				<ifrs-gp:RevenueTotalByNature decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">802539000</ifrs-gp:RevenueTotalByNature>
+				<ifrs-gp:RevenueTotalByNature decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">357895000</ifrs-gp:RevenueTotalByNature>
+				<ifrs-gp:RevenueTotalByNature decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">836226000</ifrs-gp:RevenueTotalByNature>
+				<ifrs-gp:ChangesInInventoriesOfFinishedGoodsAndWorkInProgressByNature decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">-54474000</ifrs-gp:ChangesInInventoriesOfFinishedGoodsAndWorkInProgressByNature>
+				<ifrs-gp:ChangesInInventoriesOfFinishedGoodsAndWorkInProgressByNature decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">-13617000</ifrs-gp:ChangesInInventoriesOfFinishedGoodsAndWorkInProgressByNature>
+				<ifrs-gp:ChangesInInventoriesOfFinishedGoodsAndWorkInProgressByNature decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-26334000</ifrs-gp:ChangesInInventoriesOfFinishedGoodsAndWorkInProgressByNature>
+				<ifrs-gp:ChangesInInventoriesOfFinishedGoodsAndWorkInProgressByNature decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-985000</ifrs-gp:ChangesInInventoriesOfFinishedGoodsAndWorkInProgressByNature>
+				<ifrs-gp:WorkPerformedByEntityAndCapitalised decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">2378000</ifrs-gp:WorkPerformedByEntityAndCapitalised>
+				<ifrs-gp:WorkPerformedByEntityAndCapitalised decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">0</ifrs-gp:WorkPerformedByEntityAndCapitalised>
+				<ifrs-gp:WorkPerformedByEntityAndCapitalised decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">3669000</ifrs-gp:WorkPerformedByEntityAndCapitalised>
+				<ifrs-gp:WorkPerformedByEntityAndCapitalised decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ifrs-gp:WorkPerformedByEntityAndCapitalised>
+				<ifrs-gp:RawMaterialsAndConsumablesUsedByNature decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">-87788000</ifrs-gp:RawMaterialsAndConsumablesUsedByNature>
+				<ifrs-gp:RawMaterialsAndConsumablesUsedByNature decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">-150143000</ifrs-gp:RawMaterialsAndConsumablesUsedByNature>
+				<ifrs-gp:RawMaterialsAndConsumablesUsedByNature decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-313780000</ifrs-gp:RawMaterialsAndConsumablesUsedByNature>
+				<ifrs-gp:RawMaterialsAndConsumablesUsedByNature decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-344327000</ifrs-gp:RawMaterialsAndConsumablesUsedByNature>
+				<ifrs-gp:OtherOperatingIncomeTotalByNature decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">50967000</ifrs-gp:OtherOperatingIncomeTotalByNature>
+				<ifrs-gp:OtherOperatingIncomeTotalByNature decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">66972000</ifrs-gp:OtherOperatingIncomeTotalByNature>
+				<ifrs-gp:OtherOperatingIncomeTotalByNature decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">98466000</ifrs-gp:OtherOperatingIncomeTotalByNature>
+				<ifrs-gp:OtherOperatingIncomeTotalByNature decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">136208000</ifrs-gp:OtherOperatingIncomeTotalByNature>
+				<ifrs-gp:EmployeeExpensesByNature decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">-36444000</ifrs-gp:EmployeeExpensesByNature>
+				<ifrs-gp:EmployeeExpensesByNature decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">-36173000</ifrs-gp:EmployeeExpensesByNature>
+				<ifrs-gp:EmployeeExpensesByNature decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-72813000</ifrs-gp:EmployeeExpensesByNature>
+				<ifrs-gp:EmployeeExpensesByNature decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-72891000</ifrs-gp:EmployeeExpensesByNature>
+				<ifrs-gp:MiscellaneousOtherOperatingExpensesByNature decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">-169698000</ifrs-gp:MiscellaneousOtherOperatingExpensesByNature>
+				<ifrs-gp:MiscellaneousOtherOperatingExpensesByNature decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">-179615000</ifrs-gp:MiscellaneousOtherOperatingExpensesByNature>
+				<ifrs-gp:MiscellaneousOtherOperatingExpensesByNature decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-329914000</ifrs-gp:MiscellaneousOtherOperatingExpensesByNature>
+				<ifrs-gp:MiscellaneousOtherOperatingExpensesByNature decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-345327000</ifrs-gp:MiscellaneousOtherOperatingExpensesByNature>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">-14555000</ifrs-gp:DepreciationAndAmortisation>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">-14451000</ifrs-gp:DepreciationAndAmortisation>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-29052000</ifrs-gp:DepreciationAndAmortisation>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-28923000</ifrs-gp:DepreciationAndAmortisation>
+				<ipp-gen:ImputacionSubvencionesInmovilizadoNoFinancieroOtras decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">0</ipp-gen:ImputacionSubvencionesInmovilizadoNoFinancieroOtras>
+				<ipp-gen:ImputacionSubvencionesInmovilizadoNoFinancieroOtras decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">0</ipp-gen:ImputacionSubvencionesInmovilizadoNoFinancieroOtras>
+				<ipp-gen:ImputacionSubvencionesInmovilizadoNoFinancieroOtras decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ipp-gen:ImputacionSubvencionesInmovilizadoNoFinancieroOtras>
+				<ipp-gen:ImputacionSubvencionesInmovilizadoNoFinancieroOtras decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ipp-gen:ImputacionSubvencionesInmovilizadoNoFinancieroOtras>
+				<ipp-gen:ExcesosProvisiones decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">0</ipp-gen:ExcesosProvisiones>
+				<ipp-gen:ExcesosProvisiones decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">0</ipp-gen:ExcesosProvisiones>
+				<ipp-gen:ExcesosProvisiones decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ipp-gen:ExcesosProvisiones>
+				<ipp-gen:ExcesosProvisiones decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ipp-gen:ExcesosProvisiones>
+				<ipp-gen:DeterioroResultadoEnajenacionesInmovilizado decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">-4995000</ipp-gen:DeterioroResultadoEnajenacionesInmovilizado>
+				<ipp-gen:DeterioroResultadoEnajenacionesInmovilizado decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">-3980000</ipp-gen:DeterioroResultadoEnajenacionesInmovilizado>
+				<ipp-gen:DeterioroResultadoEnajenacionesInmovilizado decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">13608000</ipp-gen:DeterioroResultadoEnajenacionesInmovilizado>
+				<ipp-gen:DeterioroResultadoEnajenacionesInmovilizado decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-4010000</ipp-gen:DeterioroResultadoEnajenacionesInmovilizado>
+				<ipp-gen:OtrosResultados decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">-1197000</ipp-gen:OtrosResultados>
+				<ipp-gen:OtrosResultados decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">-1208000</ipp-gen:OtrosResultados>
+				<ipp-gen:OtrosResultados decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-1197000</ipp-gen:OtrosResultados>
+				<ipp-gen:OtrosResultados decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-1208000</ipp-gen:OtrosResultados>
+				<ipp-gen:ResultadoExplotacionNacional decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">132848000</ipp-gen:ResultadoExplotacionNacional>
+				<ipp-gen:ResultadoExplotacionNacional decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">25680000</ipp-gen:ResultadoExplotacionNacional>
+				<ipp-gen:ResultadoExplotacionNacional decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">178879000</ipp-gen:ResultadoExplotacionNacional>
+				<ipp-gen:ResultadoExplotacionNacional decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">141076000</ipp-gen:ResultadoExplotacionNacional>
+				<ipp-gen:IngresosFinancieros decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">-90593000</ipp-gen:IngresosFinancieros>
+				<ipp-gen:IngresosFinancieros decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">2214000</ipp-gen:IngresosFinancieros>
+				<ipp-gen:IngresosFinancieros decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">1834000</ipp-gen:IngresosFinancieros>
+				<ipp-gen:IngresosFinancieros decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">4379000</ipp-gen:IngresosFinancieros>
+				<ifrs-gp:FinanceCostsForNonFinancialActivities decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">-8448000</ifrs-gp:FinanceCostsForNonFinancialActivities>
+				<ifrs-gp:FinanceCostsForNonFinancialActivities decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">-9023000</ifrs-gp:FinanceCostsForNonFinancialActivities>
+				<ifrs-gp:FinanceCostsForNonFinancialActivities decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-15182000</ifrs-gp:FinanceCostsForNonFinancialActivities>
+				<ifrs-gp:FinanceCostsForNonFinancialActivities decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-23588000</ifrs-gp:FinanceCostsForNonFinancialActivities>
+				<ipp-gen:VariacionValorRazonableInstrumentosFinancieros decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">1650000</ipp-gen:VariacionValorRazonableInstrumentosFinancieros>
+				<ipp-gen:VariacionValorRazonableInstrumentosFinancieros decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">1102000</ipp-gen:VariacionValorRazonableInstrumentosFinancieros>
+				<ipp-gen:VariacionValorRazonableInstrumentosFinancieros decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-195000</ipp-gen:VariacionValorRazonableInstrumentosFinancieros>
+				<ipp-gen:VariacionValorRazonableInstrumentosFinancieros decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">1597000</ipp-gen:VariacionValorRazonableInstrumentosFinancieros>
+				<ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">-550000</ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations>
+				<ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">-267000</ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations>
+				<ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-149000</ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations>
+				<ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-367000</ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations>
+				<ipp-gen:DeterioroResultadoEnajenacionesInstrumentosFinancieros decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">7040000</ipp-gen:DeterioroResultadoEnajenacionesInstrumentosFinancieros>
+				<ipp-gen:DeterioroResultadoEnajenacionesInstrumentosFinancieros decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">4444000</ipp-gen:DeterioroResultadoEnajenacionesInstrumentosFinancieros>
+				<ipp-gen:DeterioroResultadoEnajenacionesInstrumentosFinancieros decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">12987000</ipp-gen:DeterioroResultadoEnajenacionesInstrumentosFinancieros>
+				<ipp-gen:DeterioroResultadoEnajenacionesInstrumentosFinancieros decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">13526000</ipp-gen:DeterioroResultadoEnajenacionesInstrumentosFinancieros>
+				<ipp-gen:ResultadoFinanciero decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">-90901000</ipp-gen:ResultadoFinanciero>
+				<ipp-gen:ResultadoFinanciero decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">-1530000</ipp-gen:ResultadoFinanciero>
+				<ipp-gen:ResultadoFinanciero decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-705000</ipp-gen:ResultadoFinanciero>
+				<ipp-gen:ResultadoFinanciero decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-4453000</ipp-gen:ResultadoFinanciero>
+				<ipp-gen:ResultadoAntesImpuestosNacional decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">41947000</ipp-gen:ResultadoAntesImpuestosNacional>
+				<ipp-gen:ResultadoAntesImpuestosNacional decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">24150000</ipp-gen:ResultadoAntesImpuestosNacional>
+				<ipp-gen:ResultadoAntesImpuestosNacional decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">178174000</ipp-gen:ResultadoAntesImpuestosNacional>
+				<ipp-gen:ResultadoAntesImpuestosNacional decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">136623000</ipp-gen:ResultadoAntesImpuestosNacional>
+				<ifrs-gp:IncomeTaxExpenseIncome decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">10610000</ifrs-gp:IncomeTaxExpenseIncome>
+				<ifrs-gp:IncomeTaxExpenseIncome decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">15059000</ifrs-gp:IncomeTaxExpenseIncome>
+				<ifrs-gp:IncomeTaxExpenseIncome decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">2061000</ifrs-gp:IncomeTaxExpenseIncome>
+				<ifrs-gp:IncomeTaxExpenseIncome decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">21392000</ifrs-gp:IncomeTaxExpenseIncome>
+				<ipp-gen:ResultadoEjercicioProcedenteOperacionesContinuadasNacional decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">52557000</ipp-gen:ResultadoEjercicioProcedenteOperacionesContinuadasNacional>
+				<ipp-gen:ResultadoEjercicioProcedenteOperacionesContinuadasNacional decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">39209000</ipp-gen:ResultadoEjercicioProcedenteOperacionesContinuadasNacional>
+				<ipp-gen:ResultadoEjercicioProcedenteOperacionesContinuadasNacional decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">180235000</ipp-gen:ResultadoEjercicioProcedenteOperacionesContinuadasNacional>
+				<ipp-gen:ResultadoEjercicioProcedenteOperacionesContinuadasNacional decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">158015000</ipp-gen:ResultadoEjercicioProcedenteOperacionesContinuadasNacional>
+				<ifrs-gp:ProfitLossFromDiscontinuedOperationsNetOfTax decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">0</ifrs-gp:ProfitLossFromDiscontinuedOperationsNetOfTax>
+				<ifrs-gp:ProfitLossFromDiscontinuedOperationsNetOfTax decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">0</ifrs-gp:ProfitLossFromDiscontinuedOperationsNetOfTax>
+				<ifrs-gp:ProfitLossFromDiscontinuedOperationsNetOfTax decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ifrs-gp:ProfitLossFromDiscontinuedOperationsNetOfTax>
+				<ifrs-gp:ProfitLossFromDiscontinuedOperationsNetOfTax decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ifrs-gp:ProfitLossFromDiscontinuedOperationsNetOfTax>
+				<ipp-gen:ResultadoEjercicioNacional decimals="0" contextRef="S22009_A-58869389_dcoi" unitRef="euro">52557000</ipp-gen:ResultadoEjercicioNacional>
+				<ipp-gen:ResultadoEjercicioNacional decimals="0" contextRef="S22008_A-58869389_dpoi" unitRef="euro">39209000</ipp-gen:ResultadoEjercicioNacional>
+				<ipp-gen:ResultadoEjercicioNacional decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">180235000</ipp-gen:ResultadoEjercicioNacional>
+				<ipp-gen:ResultadoEjercicioNacional decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">158015000</ipp-gen:ResultadoEjercicioNacional>
+				<ifrs-gp:BasicEarningsLossPerShare decimals="2" contextRef="S22009_A-58869389_dcoi" unitRef="pure">0.31</ifrs-gp:BasicEarningsLossPerShare>
+				<ifrs-gp:BasicEarningsLossPerShare decimals="2" contextRef="S22008_A-58869389_dpoi" unitRef="pure">0.23</ifrs-gp:BasicEarningsLossPerShare>
+				<ifrs-gp:BasicEarningsLossPerShare decimals="2" contextRef="S22009_A-58869389_dci" unitRef="pure">1.09</ifrs-gp:BasicEarningsLossPerShare>
+				<ifrs-gp:BasicEarningsLossPerShare decimals="2" contextRef="S22008_A-58869389_dpai" unitRef="pure">0.95</ifrs-gp:BasicEarningsLossPerShare>
+				<ifrs-gp:DilutedEarningsLossPerShare decimals="2" contextRef="S22009_A-58869389_dcoi" unitRef="pure">0.31</ifrs-gp:DilutedEarningsLossPerShare>
+				<ifrs-gp:DilutedEarningsLossPerShare decimals="2" contextRef="S22008_A-58869389_dpoi" unitRef="pure">0.23</ifrs-gp:DilutedEarningsLossPerShare>
+				<ifrs-gp:DilutedEarningsLossPerShare decimals="2" contextRef="S22009_A-58869389_dci" unitRef="pure">1.09</ifrs-gp:DilutedEarningsLossPerShare>
+				<ifrs-gp:DilutedEarningsLossPerShare decimals="2" contextRef="S22008_A-58869389_dpai" unitRef="pure">0.95</ifrs-gp:DilutedEarningsLossPerShare>
+			</ipp-gen:CuentaPerdidasGananciasIndividual>
+			<ipp-gen:EstadoIngresosGastosReconocidosIndividual>
+				<ifrs-gp:ProfitLoss decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">180235000</ifrs-gp:ProfitLoss>
+				<ifrs-gp:ProfitLoss decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">158015000</ifrs-gp:ProfitLoss>
+				<ipp-gen:IngresosGastosImputadosDirectamentePatrimonioNetoNacional decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-96000</ipp-gen:IngresosGastosImputadosDirectamentePatrimonioNetoNacional>
+				<ipp-gen:IngresosGastosImputadosDirectamentePatrimonioNetoNacional decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-2600000</ipp-gen:IngresosGastosImputadosDirectamentePatrimonioNetoNacional>
+				<ipp-gen:ValoracionInstrumentosFinancierosPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ipp-gen:ValoracionInstrumentosFinancierosPatrimonioNeto>
+				<ipp-gen:ValoracionInstrumentosFinancierosPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ipp-gen:ValoracionInstrumentosFinancierosPatrimonioNeto>
+				<ipp-gen:ActivosFinancierosDisponiblesVentaPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ipp-gen:ActivosFinancierosDisponiblesVentaPatrimonioNeto>
+				<ipp-gen:ActivosFinancierosDisponiblesVentaPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ipp-gen:ActivosFinancierosDisponiblesVentaPatrimonioNeto>
+				<ipp-gen:OtrosIngresosGastosPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ipp-gen:OtrosIngresosGastosPatrimonioNeto>
+				<ipp-gen:OtrosIngresosGastosPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ipp-gen:OtrosIngresosGastosPatrimonioNeto>
+				<ipp-gen:CoberturasFlujosEfectivoPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-1801000</ipp-gen:CoberturasFlujosEfectivoPatrimonioNeto>
+				<ipp-gen:CoberturasFlujosEfectivoPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-7089000</ipp-gen:CoberturasFlujosEfectivoPatrimonioNeto>
+				<ipp-gen:SubvencionesDonacionesLegadosPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">1665000</ipp-gen:SubvencionesDonacionesLegadosPatrimonioNeto>
+				<ipp-gen:SubvencionesDonacionesLegadosPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">3375000</ipp-gen:SubvencionesDonacionesLegadosPatrimonioNeto>
+				<ipp-gen:GananciasPerdidasActuarialesOtrosAjustesPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ipp-gen:GananciasPerdidasActuarialesOtrosAjustesPatrimonioNeto>
+				<ipp-gen:GananciasPerdidasActuarialesOtrosAjustesPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ipp-gen:GananciasPerdidasActuarialesOtrosAjustesPatrimonioNeto>
+				<ipp-gen:RestoIngresosGastosImputadosDirectamentePatrimonioNeto decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ipp-gen:RestoIngresosGastosImputadosDirectamentePatrimonioNeto>
+				<ipp-gen:RestoIngresosGastosImputadosDirectamentePatrimonioNeto decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ipp-gen:RestoIngresosGastosImputadosDirectamentePatrimonioNeto>
+				<ipp-gen:EfectoImpositivoPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">40000</ipp-gen:EfectoImpositivoPatrimonioNeto>
+				<ipp-gen:EfectoImpositivoPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">1114000</ipp-gen:EfectoImpositivoPatrimonioNeto>
+				<ipp-gen:TransferenciasCuentaPerdidasGananciasNacional decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-1165000</ipp-gen:TransferenciasCuentaPerdidasGananciasNacional>
+				<ipp-gen:TransferenciasCuentaPerdidasGananciasNacional decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-2362000</ipp-gen:TransferenciasCuentaPerdidasGananciasNacional>
+				<ipp-gen:ValoracionInstrumentosFinancierosPerdidasGanancias decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ipp-gen:ValoracionInstrumentosFinancierosPerdidasGanancias>
+				<ipp-gen:ValoracionInstrumentosFinancierosPerdidasGanancias decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ipp-gen:ValoracionInstrumentosFinancierosPerdidasGanancias>
+				<ipp-gen:ActivosFinancierosDisponiblesVentaPerdidasGanancias decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ipp-gen:ActivosFinancierosDisponiblesVentaPerdidasGanancias>
+				<ipp-gen:ActivosFinancierosDisponiblesVentaPerdidasGanancias decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ipp-gen:ActivosFinancierosDisponiblesVentaPerdidasGanancias>
+				<ipp-gen:OtrosIngresosGastosPerdidasGanancias decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ipp-gen:OtrosIngresosGastosPerdidasGanancias>
+				<ipp-gen:OtrosIngresosGastosPerdidasGanancias decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ipp-gen:OtrosIngresosGastosPerdidasGanancias>
+				<ipp-gen:CoberturasFlujosEfectivoPerdidasGanancias decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ipp-gen:CoberturasFlujosEfectivoPerdidasGanancias>
+				<ipp-gen:CoberturasFlujosEfectivoPerdidasGanancias decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ipp-gen:CoberturasFlujosEfectivoPerdidasGanancias>
+				<ipp-gen:SubvencionesDonacionesLegadosPerdidasGanancias decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-1665000</ipp-gen:SubvencionesDonacionesLegadosPerdidasGanancias>
+				<ipp-gen:SubvencionesDonacionesLegadosPerdidasGanancias decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-3375000</ipp-gen:SubvencionesDonacionesLegadosPerdidasGanancias>
+				<ipp-gen:RestoIngresosGastosImputadosDirectamentePatrimonioNetoPerdidasGanancias decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ipp-gen:RestoIngresosGastosImputadosDirectamentePatrimonioNetoPerdidasGanancias>
+				<ipp-gen:RestoIngresosGastosImputadosDirectamentePatrimonioNetoPerdidasGanancias decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ipp-gen:RestoIngresosGastosImputadosDirectamentePatrimonioNetoPerdidasGanancias>
+				<ipp-gen:EfectoImpositivoPerdidasGanancias decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">500000</ipp-gen:EfectoImpositivoPerdidasGanancias>
+				<ipp-gen:EfectoImpositivoPerdidasGanancias decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">1013000</ipp-gen:EfectoImpositivoPerdidasGanancias>
+				<ipp-gen:TotalIngresosGastosReconocidosNacional decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">178974000</ipp-gen:TotalIngresosGastosReconocidosNacional>
+				<ipp-gen:TotalIngresosGastosReconocidosNacional decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">153053000</ipp-gen:TotalIngresosGastosReconocidosNacional>
+			</ipp-gen:EstadoIngresosGastosReconocidosIndividual>
+			<ipp-gen:EstadoTotalCambiosPatrimonioNetoIndividual>
+				<ipp-com:SaldoInicial>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">19932000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">416269000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">158015000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:OtrosInstrumentosCapitalFondosPropios decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">-4896000</es-be-fs:OtrosInstrumentosCapitalFondosPropios>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">589320000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:SaldoInicial>
+				<ipp-com:SaldoInicialAjustado>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">19932000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">416269000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">158015000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:OtrosInstrumentosCapitalFondosPropios decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">-4896000</es-be-fs:OtrosInstrumentosCapitalFondosPropios>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">589320000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:SaldoInicialAjustado>
+				<ipp-com:IngresosGastosReconocidos>
+					<ipp-com:PatrimonioNeto>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">180235000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:OtrosInstrumentosCapitalFondosPropios decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">-1261000</es-be-fs:OtrosInstrumentosCapitalFondosPropios>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">178974000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:IngresosGastosReconocidos>
+				<ipp-com:OperacionesSociosPropietarios>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">-52482000</ipp-com:PrimaEmisionReservas>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">-52482000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:OperacionesSociosPropietarios>
+				<ipp-com:DistribucionDividendos>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">-52482000</ipp-com:PrimaEmisionReservas>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">-52482000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:DistribucionDividendos>
+				<ipp-com:OtrasVariacionesPatrimonioNeto>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">158015000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">-158015000</es-be-fs:ResultadoEjercicioBalance>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">0</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:OtrasVariacionesPatrimonioNeto>
+				<ipp-com:TraspasosPartidasPatrimonioNeto>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">158015000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">-158015000</es-be-fs:ResultadoEjercicioBalance>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">0</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:TraspasosPartidasPatrimonioNeto>
+				<ipp-com:SaldoFinal>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">19932000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">521802000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">180235000</es-be-fs:ResultadoEjercicioBalance>
+						<es-be-fs:OtrosInstrumentosCapitalFondosPropios decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">-6157000</es-be-fs:OtrosInstrumentosCapitalFondosPropios>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">715812000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:SaldoFinal>
+				<ipp-com:SaldoInicial>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">19932000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">267521000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">201230000</es-be-fs:ResultadoEjercicioBalance>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">488683000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:SaldoInicial>
+				<ipp-com:AjusteCambiosCriteriosContrables>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:AjustesCambiosValorPasivoPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">66000</ipp-com:AjustesCambiosValorPasivoPatrimonioNeto>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">66000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:AjusteCambiosCriteriosContrables>
+				<ipp-com:SaldoInicialAjustado>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">19932000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">267521000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">201230000</es-be-fs:ResultadoEjercicioBalance>
+						<ipp-com:AjustesCambiosValorPasivoPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">66000</ipp-com:AjustesCambiosValorPasivoPatrimonioNeto>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">488749000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:SaldoInicialAjustado>
+				<ipp-com:IngresosGastosReconocidos>
+					<ipp-com:PatrimonioNeto>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">158015000</es-be-fs:ResultadoEjercicioBalance>
+						<ipp-com:AjustesCambiosValorPasivoPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">-4962000</ipp-com:AjustesCambiosValorPasivoPatrimonioNeto>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">153053000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:IngresosGastosReconocidos>
+				<ipp-com:OperacionesSociosPropietarios>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">-52482000</ipp-com:PrimaEmisionReservas>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">-52482000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:OperacionesSociosPropietarios>
+				<ipp-com:DistribucionDividendos>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">-52482000</ipp-com:PrimaEmisionReservas>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">-52482000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:DistribucionDividendos>
+				<ipp-com:OtrasVariacionesPatrimonioNeto>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">201230000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">-201230000</es-be-fs:ResultadoEjercicioBalance>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">0</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:OtrasVariacionesPatrimonioNeto>
+				<ipp-com:TraspasosPartidasPatrimonioNeto>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">201230000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">-201230000</es-be-fs:ResultadoEjercicioBalance>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">0</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:TraspasosPartidasPatrimonioNeto>
+				<ipp-com:SaldoFinal>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">19932000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">416269000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">158015000</es-be-fs:ResultadoEjercicioBalance>
+						<ipp-com:AjustesCambiosValorPasivoPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">-4896000</ipp-com:AjustesCambiosValorPasivoPatrimonioNeto>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">589320000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:SaldoFinal>
+			</ipp-gen:EstadoTotalCambiosPatrimonioNetoIndividual>
+			<ipp-gen:EstadoFlujosEfectivoIndividual>
+				<ipp-gen:FlujosEfectivoActividadesExplotacionNacional decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">259800000</ipp-gen:FlujosEfectivoActividadesExplotacionNacional>
+				<ipp-gen:FlujosEfectivoActividadesExplotacionNacional decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">254189000</ipp-gen:FlujosEfectivoActividadesExplotacionNacional>
+				<ifrs-gp:ProfitLossBeforeTax decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">178174000</ifrs-gp:ProfitLossBeforeTax>
+				<ifrs-gp:ProfitLossBeforeTax decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">136623000</ifrs-gp:ProfitLossBeforeTax>
+				<ipp-gen:AjustesResultadoFlujosEfectivoActividadesExplotacion decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">7518000</ipp-gen:AjustesResultadoFlujosEfectivoActividadesExplotacion>
+				<ipp-gen:AjustesResultadoFlujosEfectivoActividadesExplotacion decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">29812000</ipp-gen:AjustesResultadoFlujosEfectivoActividadesExplotacion>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">29052000</ifrs-gp:DepreciationAndAmortisation>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">28923000</ifrs-gp:DepreciationAndAmortisation>
+				<ipp-com:OtrosAjustes decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-21534000</ipp-com:OtrosAjustes>
+				<ipp-com:OtrosAjustes decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">889000</ipp-com:OtrosAjustes>
+				<ifrs-gp:IncreaseDecreaseInWorkingCapitalNet decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">38801000</ifrs-gp:IncreaseDecreaseInWorkingCapitalNet>
+				<ifrs-gp:IncreaseDecreaseInWorkingCapitalNet decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">79698000</ifrs-gp:IncreaseDecreaseInWorkingCapitalNet>
+				<ipp-gen:OtrosFlujosEfectivoActividadesExplotacionNacional decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">35307000</ipp-gen:OtrosFlujosEfectivoActividadesExplotacionNacional>
+				<ipp-gen:OtrosFlujosEfectivoActividadesExplotacionNacional decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">8056000</ipp-gen:OtrosFlujosEfectivoActividadesExplotacionNacional>
+				<ifrs-gp:PaymentsOfInterestClassifiedAsOperating decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-15182000</ifrs-gp:PaymentsOfInterestClassifiedAsOperating>
+				<ifrs-gp:PaymentsOfInterestClassifiedAsOperating decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-23588000</ifrs-gp:PaymentsOfInterestClassifiedAsOperating>
+				<ifrs-gp:ProceedsFromInterestReceivedClassifiedAsOperating decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">1834000</ifrs-gp:ProceedsFromInterestReceivedClassifiedAsOperating>
+				<ifrs-gp:ProceedsFromInterestReceivedClassifiedAsOperating decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">4379000</ifrs-gp:ProceedsFromInterestReceivedClassifiedAsOperating>
+				<ipp-com:CobrosPagosImpuestoSobreBeneficios decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-3084000</ipp-com:CobrosPagosImpuestoSobreBeneficios>
+				<ipp-com:CobrosPagosImpuestoSobreBeneficios decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">27265000</ipp-com:CobrosPagosImpuestoSobreBeneficios>
+				<ifrs-gp:OtherInflowsOutflowsFromOtherOperatingActivities decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">51739000</ifrs-gp:OtherInflowsOutflowsFromOtherOperatingActivities>
+				<ifrs-gp:OtherInflowsOutflowsFromOtherOperatingActivities decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ifrs-gp:OtherInflowsOutflowsFromOtherOperatingActivities>
+				<ipp-gen:FlujosEfectivoActividadesInversionNacional decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-40715000</ipp-gen:FlujosEfectivoActividadesInversionNacional>
+				<ipp-gen:FlujosEfectivoActividadesInversionNacional decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-9942000</ipp-gen:FlujosEfectivoActividadesInversionNacional>
+				<es-be-fs:InversionesFlujosEfectivoActividadesInversion decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-66811000</es-be-fs:InversionesFlujosEfectivoActividadesInversion>
+				<es-be-fs:InversionesFlujosEfectivoActividadesInversion decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-9975000</es-be-fs:InversionesFlujosEfectivoActividadesInversion>
+				<ipp-gen:EmpresasGrupoAsociadasPagos decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-44000</ipp-gen:EmpresasGrupoAsociadasPagos>
+				<ipp-gen:EmpresasGrupoAsociadasPagos decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ipp-gen:EmpresasGrupoAsociadasPagos>
+				<ipp-gen:InmovilizadoMaterialIntangibleInversionesInmobiliariasPagos decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-59990000</ipp-gen:InmovilizadoMaterialIntangibleInversionesInmobiliariasPagos>
+				<ipp-gen:InmovilizadoMaterialIntangibleInversionesInmobiliariasPagos decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-9967000</ipp-gen:InmovilizadoMaterialIntangibleInversionesInmobiliariasPagos>
+				<ipp-gen:ActivosFinancierosPagos decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-6777000</ipp-gen:ActivosFinancierosPagos>
+				<ipp-gen:ActivosFinancierosPagos decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-8000</ipp-gen:ActivosFinancierosPagos>
+				<ipp-gen:OtrosActivosPagos decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ipp-gen:OtrosActivosPagos>
+				<ipp-gen:OtrosActivosPagos decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ipp-gen:OtrosActivosPagos>
+				<es-be-fs:DesinversionesFlujosEfectivoActividadesInversion decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">26096000</es-be-fs:DesinversionesFlujosEfectivoActividadesInversion>
+				<es-be-fs:DesinversionesFlujosEfectivoActividadesInversion decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">33000</es-be-fs:DesinversionesFlujosEfectivoActividadesInversion>
+				<es-be-fs:EntidadesGrupoMultigrupoAsociadasDesinversiones decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">6976000</es-be-fs:EntidadesGrupoMultigrupoAsociadasDesinversiones>
+				<es-be-fs:EntidadesGrupoMultigrupoAsociadasDesinversiones decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</es-be-fs:EntidadesGrupoMultigrupoAsociadasDesinversiones>
+				<ipp-gen:InmovilizadoMaterialIntangibleInversionesInmobiliariasCobros decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">19117000</ipp-gen:InmovilizadoMaterialIntangibleInversionesInmobiliariasCobros>
+				<ipp-gen:InmovilizadoMaterialIntangibleInversionesInmobiliariasCobros decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">33000</ipp-gen:InmovilizadoMaterialIntangibleInversionesInmobiliariasCobros>
+				<ipp-gen:ActivosFinancierosCobros decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">3000</ipp-gen:ActivosFinancierosCobros>
+				<ipp-gen:ActivosFinancierosCobros decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ipp-gen:ActivosFinancierosCobros>
+				<ipp-gen:OtrosActivosCobros decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ipp-gen:OtrosActivosCobros>
+				<ipp-gen:OtrosActivosCobros decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ipp-gen:OtrosActivosCobros>
+				<ipp-gen:FlujosEfectivoActividadesFinanciacionNacional decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-140875000</ipp-gen:FlujosEfectivoActividadesFinanciacionNacional>
+				<ipp-gen:FlujosEfectivoActividadesFinanciacionNacional decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-202369000</ipp-gen:FlujosEfectivoActividadesFinanciacionNacional>
+				<ipp-gen:CobrosPagosInstrumentosPatrimonioNacional decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ipp-gen:CobrosPagosInstrumentosPatrimonioNacional>
+				<ipp-gen:CobrosPagosInstrumentosPatrimonioNacional decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ipp-gen:CobrosPagosInstrumentosPatrimonioNacional>
+				<ifrs-gp:ProceedsFromIssuanceOfEquityInstruments decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ifrs-gp:ProceedsFromIssuanceOfEquityInstruments>
+				<ifrs-gp:ProceedsFromIssuanceOfEquityInstruments decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ifrs-gp:ProceedsFromIssuanceOfEquityInstruments>
+				<ifrs-gp:RepurchaseOfEquityInstrumentsSubsequentlyCancelled decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ifrs-gp:RepurchaseOfEquityInstrumentsSubsequentlyCancelled>
+				<ifrs-gp:RepurchaseOfEquityInstrumentsSubsequentlyCancelled decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ifrs-gp:RepurchaseOfEquityInstrumentsSubsequentlyCancelled>
+				<ifrs-gp:PurchaseOfTreasuryShares decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ifrs-gp:PurchaseOfTreasuryShares>
+				<ifrs-gp:PurchaseOfTreasuryShares decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ifrs-gp:PurchaseOfTreasuryShares>
+				<ifrs-gp:ProceedsFromIssuanceOfTreasuryShares decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ifrs-gp:ProceedsFromIssuanceOfTreasuryShares>
+				<ifrs-gp:ProceedsFromIssuanceOfTreasuryShares decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ifrs-gp:ProceedsFromIssuanceOfTreasuryShares>
+				<ipp-gen:SubvencionesDonacionesLegadosRecibidosPatrimonio decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ipp-gen:SubvencionesDonacionesLegadosRecibidosPatrimonio>
+				<ipp-gen:SubvencionesDonacionesLegadosRecibidosPatrimonio decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ipp-gen:SubvencionesDonacionesLegadosRecibidosPatrimonio>
+				<ipp-gen:CobrosPagosInstrumentosPasivoFinanciero decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-88393000</ipp-gen:CobrosPagosInstrumentosPasivoFinanciero>
+				<ipp-gen:CobrosPagosInstrumentosPasivoFinanciero decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-149887000</ipp-gen:CobrosPagosInstrumentosPasivoFinanciero>
+				<ipp-gen:EmisionPasivoFinanciero decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ipp-gen:EmisionPasivoFinanciero>
+				<ipp-gen:EmisionPasivoFinanciero decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">2882000</ipp-gen:EmisionPasivoFinanciero>
+				<ipp-gen:DevolucionAmortizacion decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-88393000</ipp-gen:DevolucionAmortizacion>
+				<ipp-gen:DevolucionAmortizacion decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-152769000</ipp-gen:DevolucionAmortizacion>
+				<ifrs-gp:PaymentsOfDividendsClassifiedAsFinancing decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-52482000</ifrs-gp:PaymentsOfDividendsClassifiedAsFinancing>
+				<ifrs-gp:PaymentsOfDividendsClassifiedAsFinancing decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-52482000</ifrs-gp:PaymentsOfDividendsClassifiedAsFinancing>
+				<ifrs-gp:EffectOfExchangeRateChangesOnCashAndCashEquivalents decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">-149000</ifrs-gp:EffectOfExchangeRateChangesOnCashAndCashEquivalents>
+				<ifrs-gp:EffectOfExchangeRateChangesOnCashAndCashEquivalents decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">-367000</ifrs-gp:EffectOfExchangeRateChangesOnCashAndCashEquivalents>
+				<ipp-gen:AumentoDisminucionNetoEfectivoEquivalentesNacional decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">78061000</ipp-gen:AumentoDisminucionNetoEfectivoEquivalentesNacional>
+				<ipp-gen:AumentoDisminucionNetoEfectivoEquivalentesNacional decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">41511000</ipp-gen:AumentoDisminucionNetoEfectivoEquivalentesNacional>
+				<ipp-com:EfectivoEquivalentesEfectivoComienzoEjercicio decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">159227000</ipp-com:EfectivoEquivalentesEfectivoComienzoEjercicio>
+				<ipp-com:EfectivoEquivalentesEfectivoComienzoEjercicio decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">117717000</ipp-com:EfectivoEquivalentesEfectivoComienzoEjercicio>
+				<ipp-gen:EfectivoEquivalentesEfectivoFinalEjercicioNacional decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">237288000</ipp-gen:EfectivoEquivalentesEfectivoFinalEjercicioNacional>
+				<ipp-gen:EfectivoEquivalentesEfectivoFinalEjercicioNacional decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">159228000</ipp-gen:EfectivoEquivalentesEfectivoFinalEjercicioNacional>
+				<ipp-com:CajaBancos decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">24837000</ipp-com:CajaBancos>
+				<ipp-com:CajaBancos decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">27689000</ipp-com:CajaBancos>
+				<ipp-com:OtrosActivosFinancieros decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">212451000</ipp-com:OtrosActivosFinancieros>
+				<ipp-com:OtrosActivosFinancieros decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">131539000</ipp-com:OtrosActivosFinancieros>
+				<ipp-com:MenosDescubiertosBancariosReintegrablesVista decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">0</ipp-com:MenosDescubiertosBancariosReintegrablesVista>
+				<ipp-com:MenosDescubiertosBancariosReintegrablesVista decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">0</ipp-com:MenosDescubiertosBancariosReintegrablesVista>
+				<ipp-com:TotalEfectivosEquivalentesFinalPeriodo decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">237288000</ipp-com:TotalEfectivosEquivalentesFinalPeriodo>
+				<ipp-com:TotalEfectivosEquivalentesFinalPeriodo decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">159228000</ipp-com:TotalEfectivosEquivalentesFinalPeriodo>
+			</ipp-gen:EstadoFlujosEfectivoIndividual>
+			<ipp-gen:BalanceConsolidado>
+				<ipp-gen:ActivoNoCorrienteNiif decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">978983000</ipp-gen:ActivoNoCorrienteNiif>
+				<ipp-gen:ActivoNoCorrienteNiif decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">961090000</ipp-gen:ActivoNoCorrienteNiif>
+				<ifrs-gp:IntangibleAssetsNet decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">625476000</ifrs-gp:IntangibleAssetsNet>
+				<ifrs-gp:IntangibleAssetsNet decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">616179000</ifrs-gp:IntangibleAssetsNet>
+				<ifrs-gp:GoodwillNet decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">272672000</ifrs-gp:GoodwillNet>
+				<ifrs-gp:GoodwillNet decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">273465000</ifrs-gp:GoodwillNet>
+				<ifrs-gp:IdentifiableIntangibleAssetsNet decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">352804000</ifrs-gp:IdentifiableIntangibleAssetsNet>
+				<ifrs-gp:IdentifiableIntangibleAssetsNet decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">342714000</ifrs-gp:IdentifiableIntangibleAssetsNet>
+				<ifrs-gp:PropertyPlantAndEquipmentNet decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">169060000</ifrs-gp:PropertyPlantAndEquipmentNet>
+				<ifrs-gp:PropertyPlantAndEquipmentNet decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">175745000</ifrs-gp:PropertyPlantAndEquipmentNet>
+				<ifrs-gp:InvestmentProperty decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">0</ifrs-gp:InvestmentProperty>
+				<ifrs-gp:InvestmentProperty decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">0</ifrs-gp:InvestmentProperty>
+				<ifrs-gp:EquityMethodAccountedInvestmentsTotal decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">0</ifrs-gp:EquityMethodAccountedInvestmentsTotal>
+				<ifrs-gp:EquityMethodAccountedInvestmentsTotal decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">0</ifrs-gp:EquityMethodAccountedInvestmentsTotal>
+				<ifrs-gp:OtherFinancialAssetsNonCurrent decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">10811000</ifrs-gp:OtherFinancialAssetsNonCurrent>
+				<ifrs-gp:OtherFinancialAssetsNonCurrent decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">3899000</ifrs-gp:OtherFinancialAssetsNonCurrent>
+				<ifrs-gp:DeferredTaxAssets decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">173636000</ifrs-gp:DeferredTaxAssets>
+				<ifrs-gp:DeferredTaxAssets decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">165267000</ifrs-gp:DeferredTaxAssets>
+				<ifrs-gp:OtherAssetsNonCurrent decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">0</ifrs-gp:OtherAssetsNonCurrent>
+				<ifrs-gp:OtherAssetsNonCurrent decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">0</ifrs-gp:OtherAssetsNonCurrent>
+				<ipp-gen:ActivoCorrienteNiif decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">503989000</ipp-gen:ActivoCorrienteNiif>
+				<ipp-gen:ActivoCorrienteNiif decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">435326000</ipp-gen:ActivoCorrienteNiif>
+				<ifrs-gp:NonCurrentAssetsAndDisposalGroupsHeldForSale decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">0</ifrs-gp:NonCurrentAssetsAndDisposalGroupsHeldForSale>
+				<ifrs-gp:NonCurrentAssetsAndDisposalGroupsHeldForSale decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">0</ifrs-gp:NonCurrentAssetsAndDisposalGroupsHeldForSale>
+				<ifrs-gp:Inventories decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">97704000</ifrs-gp:Inventories>
+				<ifrs-gp:Inventories decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">112529000</ifrs-gp:Inventories>
+				<ifrs-gp:TradeAndOtherReceivablesNetCurrent decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">140900000</ifrs-gp:TradeAndOtherReceivablesNetCurrent>
+				<ifrs-gp:TradeAndOtherReceivablesNetCurrent decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">132333000</ifrs-gp:TradeAndOtherReceivablesNetCurrent>
+				<ipp-gen:ClientesVentasPrestacionesServicios decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">97660000</ipp-gen:ClientesVentasPrestacionesServicios>
+				<ipp-gen:ClientesVentasPrestacionesServicios decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">83420000</ipp-gen:ClientesVentasPrestacionesServicios>
+				<ipp-gen:OtrosDeudores decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">22738000</ipp-gen:OtrosDeudores>
+				<ipp-gen:OtrosDeudores decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">24468000</ipp-gen:OtrosDeudores>
+				<ifrs-gp:CurrentTaxReceivables decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">20502000</ifrs-gp:CurrentTaxReceivables>
+				<ifrs-gp:CurrentTaxReceivables decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">24445000</ifrs-gp:CurrentTaxReceivables>
+				<ifrs-gp:OtherFinancialAssetsCurrent decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">220281000</ifrs-gp:OtherFinancialAssetsCurrent>
+				<ifrs-gp:OtherFinancialAssetsCurrent decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">143796000</ifrs-gp:OtherFinancialAssetsCurrent>
+				<ipp-gen:OtrosActivosCorrientes decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">5719000</ipp-gen:OtrosActivosCorrientes>
+				<ipp-gen:OtrosActivosCorrientes decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">4382000</ipp-gen:OtrosActivosCorrientes>
+				<ifrs-gp:CashAndCashEquivalents decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">39385000</ifrs-gp:CashAndCashEquivalents>
+				<ifrs-gp:CashAndCashEquivalents decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">42286000</ifrs-gp:CashAndCashEquivalents>
+				<ipp-gen:TotalActivoNiif decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">1482972000</ipp-gen:TotalActivoNiif>
+				<ipp-gen:TotalActivoNiif decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">1396416000</ipp-gen:TotalActivoNiif>
+				<ipp-gen:PatrimonioNetoNiif decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">750957000</ipp-gen:PatrimonioNetoNiif>
+				<ipp-gen:PatrimonioNetoNiif decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">652994000</ipp-gen:PatrimonioNetoNiif>
+				<ifrs-gp:EquityAttributableToEquityHoldersOfParent decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">750957000</ifrs-gp:EquityAttributableToEquityHoldersOfParent>
+				<ifrs-gp:EquityAttributableToEquityHoldersOfParent decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">652994000</ifrs-gp:EquityAttributableToEquityHoldersOfParent>
+				<ipp-gen:FondosPropiosNiif decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">758977000</ipp-gen:FondosPropiosNiif>
+				<ipp-gen:FondosPropiosNiif decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">659965000</ipp-gen:FondosPropiosNiif>
+				<es-be-fs:CapitalFondoDotacion decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">19932000</es-be-fs:CapitalFondoDotacion>
+				<es-be-fs:CapitalFondoDotacion decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">19932000</es-be-fs:CapitalFondoDotacion>
+				<ifrs-gp:IssuedCapital decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">19932000</ifrs-gp:IssuedCapital>
+				<ifrs-gp:SharePremiumTotal decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">166796000</ifrs-gp:SharePremiumTotal>
+				<ifrs-gp:SharePremiumTotal decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">166796000</ifrs-gp:SharePremiumTotal>
+				<ifrs-gp:OtherReserves decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">420755000</ifrs-gp:OtherReserves>
+				<ifrs-gp:OtherReserves decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">337100000</ifrs-gp:OtherReserves>
+				<ifrs-gp:TreasuryShares decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">0</ifrs-gp:TreasuryShares>
+				<ifrs-gp:TreasuryShares decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">0</ifrs-gp:TreasuryShares>
+				<ipp-gen:ResultadosEjerciciosAnteriores decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">0</ipp-gen:ResultadosEjerciciosAnteriores>
+				<ipp-gen:ResultadosEjerciciosAnteriores decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">0</ipp-gen:ResultadosEjerciciosAnteriores>
+				<ipp-gen:OtrasAportacionesSocios decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">0</ipp-gen:OtrasAportacionesSocios>
+				<ipp-gen:OtrasAportacionesSocios decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">0</ipp-gen:OtrasAportacionesSocios>
+				<es-be-fs:ResultadoAtribuidoGrupoBalance decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">151494000</es-be-fs:ResultadoAtribuidoGrupoBalance>
+				<es-be-fs:ResultadoAtribuidoGrupoBalance decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">136137000</es-be-fs:ResultadoAtribuidoGrupoBalance>
+				<es-be-fs:OtrosInstrumentosCapitalFondosPropios decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">0</es-be-fs:OtrosInstrumentosCapitalFondosPropios>
+				<es-be-fs:OtrosInstrumentosCapitalFondosPropios decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">0</es-be-fs:OtrosInstrumentosCapitalFondosPropios>
+				<ipp-gen:AjustesValoracionNiif decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">-8020000</ipp-gen:AjustesValoracionNiif>
+				<ifrs-gp:AvailableForSaleReserves decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">0</ifrs-gp:AvailableForSaleReserves>
+				<ifrs-gp:AvailableForSaleReserves decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">0</ifrs-gp:AvailableForSaleReserves>
+				<ipp-com:OperacionesCobertura decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">-6157000</ipp-com:OperacionesCobertura>
+				<ipp-com:OperacionesCobertura decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">-4896000</ipp-com:OperacionesCobertura>
+				<ipp-gen:DiferenciasConversion decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">-4674000</ipp-gen:DiferenciasConversion>
+				<ipp-gen:DiferenciasConversion decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">-5071000</ipp-gen:DiferenciasConversion>
+				<ipp-com:OtrosAjustesValoracion decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">2811000</ipp-com:OtrosAjustesValoracion>
+				<ipp-com:OtrosAjustesValoracion decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">2996000</ipp-com:OtrosAjustesValoracion>
+				<ifrs-gp:MinorityInterest decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">0</ifrs-gp:MinorityInterest>
+				<ifrs-gp:MinorityInterest decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">0</ifrs-gp:MinorityInterest>
+				<ipp-gen:PasivoNoCorrienteNiif decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">424191000</ipp-gen:PasivoNoCorrienteNiif>
+				<ipp-gen:PasivoNoCorrienteNiif decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">435506000</ipp-gen:PasivoNoCorrienteNiif>
+				<ifrs-gp:GovernmentGrantsNonCurrent decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">0</ifrs-gp:GovernmentGrantsNonCurrent>
+				<ifrs-gp:GovernmentGrantsNonCurrent decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">0</ifrs-gp:GovernmentGrantsNonCurrent>
+				<ifrs-gp:ProvisionsNonCurrent decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">13196000</ifrs-gp:ProvisionsNonCurrent>
+				<ifrs-gp:ProvisionsNonCurrent decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">11844000</ifrs-gp:ProvisionsNonCurrent>
+				<ipp-gen:DeudasLargoPlazo decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">195765000</ipp-gen:DeudasLargoPlazo>
+				<ipp-gen:DeudasLargoPlazo decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">252215000</ipp-gen:DeudasLargoPlazo>
+				<ipp-gen:DeudasEntidadesFinancierasLargoPlazo decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">184000000</ipp-gen:DeudasEntidadesFinancierasLargoPlazo>
+				<ipp-gen:DeudasEntidadesFinancierasLargoPlazo decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">252215000</ipp-gen:DeudasEntidadesFinancierasLargoPlazo>
+				<ifrs-gp:OtherFinancialLiabilitiesNonCurrent decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">11765000</ifrs-gp:OtherFinancialLiabilitiesNonCurrent>
+				<ifrs-gp:OtherFinancialLiabilitiesNonCurrent decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">0</ifrs-gp:OtherFinancialLiabilitiesNonCurrent>
+				<ifrs-gp:DeferredTaxLiabilities decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">89089000</ifrs-gp:DeferredTaxLiabilities>
+				<ifrs-gp:DeferredTaxLiabilities decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">82644000</ifrs-gp:DeferredTaxLiabilities>
+				<ifrs-gp:OtherLiabilitiesNonCurrent decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">126141000</ifrs-gp:OtherLiabilitiesNonCurrent>
+				<ifrs-gp:OtherLiabilitiesNonCurrent decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">88803000</ifrs-gp:OtherLiabilitiesNonCurrent>
+				<ipp-gen:PasivoCorrienteNiif decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">307824000</ipp-gen:PasivoCorrienteNiif>
+				<ipp-gen:PasivoCorrienteNiif decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">307916000</ipp-gen:PasivoCorrienteNiif>
+				<ifrs-gp:LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">0</ifrs-gp:LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale>
+				<ifrs-gp:ProvisionsCurrent decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">0</ifrs-gp:ProvisionsCurrent>
+				<ifrs-gp:ProvisionsCurrent decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">0</ifrs-gp:ProvisionsCurrent>
+				<ipp-gen:DeudasCortoPlazo decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">69922000</ipp-gen:DeudasCortoPlazo>
+				<ipp-gen:DeudasCortoPlazo decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">68756000</ipp-gen:DeudasCortoPlazo>
+				<ipp-gen:DeudasEntidadesFinancierasCortoPlazo decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">60000000</ipp-gen:DeudasEntidadesFinancierasCortoPlazo>
+				<ipp-gen:DeudasEntidadesFinancierasCortoPlazo decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">60000000</ipp-gen:DeudasEntidadesFinancierasCortoPlazo>
+				<ifrs-gp:OtherFinancialLiabilitiesCurrent decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">9922000</ifrs-gp:OtherFinancialLiabilitiesCurrent>
+				<ifrs-gp:OtherFinancialLiabilitiesCurrent decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">8756000</ifrs-gp:OtherFinancialLiabilitiesCurrent>
+				<ipp-gen:AcreedoresComercialesOtrasCuentasPagar decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">198898000</ipp-gen:AcreedoresComercialesOtrasCuentasPagar>
+				<ipp-gen:AcreedoresComercialesOtrasCuentasPagar decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">192129000</ipp-gen:AcreedoresComercialesOtrasCuentasPagar>
+				<ifrs-gp:TradeAndOtherPayablesCurrent decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">103409000</ifrs-gp:TradeAndOtherPayablesCurrent>
+				<ifrs-gp:TradeAndOtherPayablesCurrent decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">117291000</ifrs-gp:TradeAndOtherPayablesCurrent>
+				<ipp-gen:OtrosAcreedores decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">39278000</ipp-gen:OtrosAcreedores>
+				<ipp-gen:OtrosAcreedores decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">37120000</ipp-gen:OtrosAcreedores>
+				<ifrs-gp:CurrentTaxPayables decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">56211000</ifrs-gp:CurrentTaxPayables>
+				<ifrs-gp:CurrentTaxPayables decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">37718000</ifrs-gp:CurrentTaxPayables>
+				<ifrs-gp:OtherLiabilitiesCurrent decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">39004000</ifrs-gp:OtherLiabilitiesCurrent>
+				<ifrs-gp:OtherLiabilitiesCurrent decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">47031000</ifrs-gp:OtherLiabilitiesCurrent>
+				<ipp-gen:TotalPasivoPatrimonioNetoNiif decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">1482972000</ipp-gen:TotalPasivoPatrimonioNetoNiif>
+				<ipp-gen:TotalPasivoPatrimonioNetoNiif decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">1396416000</ipp-gen:TotalPasivoPatrimonioNetoNiif>
+				<ifrs-gp:IssuedCapital decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">19932000</ifrs-gp:IssuedCapital>
+				<ipp-gen:AjustesValoracionNiif decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">-6971000</ipp-gen:AjustesValoracionNiif>
+				<ifrs-gp:LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">0</ifrs-gp:LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale>
+			</ipp-gen:BalanceConsolidado>
+			<ipp-gen:CuentaPerdidasGananciasConsolidada>
+				<ifrs-gp:RevenueTotalByNature decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">436700000</ifrs-gp:RevenueTotalByNature>
+				<ifrs-gp:RevenueTotalByNature decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">434890000</ifrs-gp:RevenueTotalByNature>
+				<ifrs-gp:RevenueTotalByNature decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">925486000</ifrs-gp:RevenueTotalByNature>
+				<ifrs-gp:RevenueTotalByNature decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">902827000</ifrs-gp:RevenueTotalByNature>
+				<ifrs-gp:ChangesInInventoriesOfFinishedGoodsAndWorkInProgressByNature decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">-22113000</ifrs-gp:ChangesInInventoriesOfFinishedGoodsAndWorkInProgressByNature>
+				<ifrs-gp:ChangesInInventoriesOfFinishedGoodsAndWorkInProgressByNature decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">3329000</ifrs-gp:ChangesInInventoriesOfFinishedGoodsAndWorkInProgressByNature>
+				<ifrs-gp:ChangesInInventoriesOfFinishedGoodsAndWorkInProgressByNature decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-14961000</ifrs-gp:ChangesInInventoriesOfFinishedGoodsAndWorkInProgressByNature>
+				<ifrs-gp:ChangesInInventoriesOfFinishedGoodsAndWorkInProgressByNature decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-3296000</ifrs-gp:ChangesInInventoriesOfFinishedGoodsAndWorkInProgressByNature>
+				<ifrs-gp:RawMaterialsAndConsumablesUsedByNature decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">-120935000</ifrs-gp:RawMaterialsAndConsumablesUsedByNature>
+				<ifrs-gp:RawMaterialsAndConsumablesUsedByNature decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">-134371000</ifrs-gp:RawMaterialsAndConsumablesUsedByNature>
+				<ifrs-gp:RawMaterialsAndConsumablesUsedByNature decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-274045000</ifrs-gp:RawMaterialsAndConsumablesUsedByNature>
+				<ifrs-gp:RawMaterialsAndConsumablesUsedByNature decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-276783000</ifrs-gp:RawMaterialsAndConsumablesUsedByNature>
+				<ifrs-gp:OtherOperatingIncomeTotalByNature decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">53481000</ifrs-gp:OtherOperatingIncomeTotalByNature>
+				<ifrs-gp:OtherOperatingIncomeTotalByNature decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">74269000</ifrs-gp:OtherOperatingIncomeTotalByNature>
+				<ifrs-gp:OtherOperatingIncomeTotalByNature decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">107827000</ifrs-gp:OtherOperatingIncomeTotalByNature>
+				<ifrs-gp:OtherOperatingIncomeTotalByNature decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">153143000</ifrs-gp:OtherOperatingIncomeTotalByNature>
+				<ifrs-gp:EmployeeExpensesByNature decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">-110180000</ifrs-gp:EmployeeExpensesByNature>
+				<ifrs-gp:EmployeeExpensesByNature decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">-125620000</ifrs-gp:EmployeeExpensesByNature>
+				<ifrs-gp:EmployeeExpensesByNature decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-230433000</ifrs-gp:EmployeeExpensesByNature>
+				<ifrs-gp:EmployeeExpensesByNature decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-243596000</ifrs-gp:EmployeeExpensesByNature>
+				<ifrs-gp:MiscellaneousOtherOperatingExpensesByNature decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">-135924000</ifrs-gp:MiscellaneousOtherOperatingExpensesByNature>
+				<ifrs-gp:MiscellaneousOtherOperatingExpensesByNature decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">-162344000</ifrs-gp:MiscellaneousOtherOperatingExpensesByNature>
+				<ifrs-gp:MiscellaneousOtherOperatingExpensesByNature decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-268099000</ifrs-gp:MiscellaneousOtherOperatingExpensesByNature>
+				<ifrs-gp:MiscellaneousOtherOperatingExpensesByNature decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-307917000</ifrs-gp:MiscellaneousOtherOperatingExpensesByNature>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">-32984000</ifrs-gp:DepreciationAndAmortisation>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">-31565000</ifrs-gp:DepreciationAndAmortisation>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-64824000</ifrs-gp:DepreciationAndAmortisation>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-63318000</ifrs-gp:DepreciationAndAmortisation>
+				<ipp-gen:ResultadoExplotacionNiif decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">52787000</ipp-gen:ResultadoExplotacionNiif>
+				<ipp-gen:ResultadoExplotacionNiif decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">55127000</ipp-gen:ResultadoExplotacionNiif>
+				<ipp-gen:ResultadoExplotacionNiif decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">188635000</ipp-gen:ResultadoExplotacionNiif>
+				<ipp-gen:ResultadoExplotacionNiif decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">162446000</ipp-gen:ResultadoExplotacionNiif>
+				<ipp-gen:DeterioroResultadoEnajenacionesInmovilizado decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">-6481000</ipp-gen:DeterioroResultadoEnajenacionesInmovilizado>
+				<ipp-gen:DeterioroResultadoEnajenacionesInmovilizado decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">-5208000</ipp-gen:DeterioroResultadoEnajenacionesInmovilizado>
+				<ipp-gen:DeterioroResultadoEnajenacionesInmovilizado decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">16096000</ipp-gen:DeterioroResultadoEnajenacionesInmovilizado>
+				<ipp-gen:DeterioroResultadoEnajenacionesInmovilizado decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-4260000</ipp-gen:DeterioroResultadoEnajenacionesInmovilizado>
+				<ipp-gen:OtrosResultados decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">-8777000</ipp-gen:OtrosResultados>
+				<ipp-gen:OtrosResultados decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">1747000</ipp-gen:OtrosResultados>
+				<ipp-gen:OtrosResultados decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-8412000</ipp-gen:OtrosResultados>
+				<ipp-gen:OtrosResultados decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">5646000</ipp-gen:OtrosResultados>
+				<ipp-gen:IngresosFinancieros decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">1484000</ipp-gen:IngresosFinancieros>
+				<ipp-gen:IngresosFinancieros decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">2835000</ipp-gen:IngresosFinancieros>
+				<ipp-gen:IngresosFinancieros decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">2943000</ipp-gen:IngresosFinancieros>
+				<ipp-gen:IngresosFinancieros decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">6752000</ipp-gen:IngresosFinancieros>
+				<ifrs-gp:FinanceCostsForNonFinancialActivities decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">-11073000</ifrs-gp:FinanceCostsForNonFinancialActivities>
+				<ifrs-gp:FinanceCostsForNonFinancialActivities decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">-11745000</ifrs-gp:FinanceCostsForNonFinancialActivities>
+				<ifrs-gp:FinanceCostsForNonFinancialActivities decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-19764000</ifrs-gp:FinanceCostsForNonFinancialActivities>
+				<ifrs-gp:FinanceCostsForNonFinancialActivities decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-25105000</ifrs-gp:FinanceCostsForNonFinancialActivities>
+				<ipp-gen:VariacionValorRazonableInstrumentosFinancieros decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">1844000</ipp-gen:VariacionValorRazonableInstrumentosFinancieros>
+				<ipp-gen:VariacionValorRazonableInstrumentosFinancieros decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">-496000</ipp-gen:VariacionValorRazonableInstrumentosFinancieros>
+				<ipp-gen:VariacionValorRazonableInstrumentosFinancieros decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">0</ipp-gen:VariacionValorRazonableInstrumentosFinancieros>
+				<ipp-gen:VariacionValorRazonableInstrumentosFinancieros decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">0</ipp-gen:VariacionValorRazonableInstrumentosFinancieros>
+				<ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">-248000</ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations>
+				<ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">-578000</ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations>
+				<ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">67000</ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations>
+				<ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-968000</ifrs-gp:GainsLossesOnFinancialInstrumentsExchangeDifferenceRevaluations>
+				<ipp-gen:DeterioroResultadoEnajenacionesInstrumentosFinancieros decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">-391000</ipp-gen:DeterioroResultadoEnajenacionesInstrumentosFinancieros>
+				<ipp-gen:DeterioroResultadoEnajenacionesInstrumentosFinancieros decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">1597000</ipp-gen:DeterioroResultadoEnajenacionesInstrumentosFinancieros>
+				<ipp-gen:DeterioroResultadoEnajenacionesInstrumentosFinancieros decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-391000</ipp-gen:DeterioroResultadoEnajenacionesInstrumentosFinancieros>
+				<ipp-gen:DeterioroResultadoEnajenacionesInstrumentosFinancieros decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">1597000</ipp-gen:DeterioroResultadoEnajenacionesInstrumentosFinancieros>
+				<ipp-gen:ResultadoFinanciero decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">-8384000</ipp-gen:ResultadoFinanciero>
+				<ipp-gen:ResultadoFinanciero decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">-8387000</ipp-gen:ResultadoFinanciero>
+				<ipp-gen:ResultadoFinanciero decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-17145000</ipp-gen:ResultadoFinanciero>
+				<ipp-gen:ResultadoFinanciero decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-17724000</ipp-gen:ResultadoFinanciero>
+				<ipp-gen:ResultadoAntesImpuestosNiif decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">44403000</ipp-gen:ResultadoAntesImpuestosNiif>
+				<ipp-gen:ResultadoAntesImpuestosNiif decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">46740000</ipp-gen:ResultadoAntesImpuestosNiif>
+				<ipp-gen:ResultadoAntesImpuestosNiif decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">171490000</ipp-gen:ResultadoAntesImpuestosNiif>
+				<ipp-gen:ResultadoAntesImpuestosNiif decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">144722000</ipp-gen:ResultadoAntesImpuestosNiif>
+				<ifrs-gp:IncomeTaxExpenseIncome decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">3737000</ifrs-gp:IncomeTaxExpenseIncome>
+				<ifrs-gp:IncomeTaxExpenseIncome decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">3873000</ifrs-gp:IncomeTaxExpenseIncome>
+				<ifrs-gp:IncomeTaxExpenseIncome decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-19996000</ifrs-gp:IncomeTaxExpenseIncome>
+				<ifrs-gp:IncomeTaxExpenseIncome decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-8585000</ifrs-gp:IncomeTaxExpenseIncome>
+				<ipp-gen:ResultadoEjercicioProcedenteOperacionesContinuadasNiif decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">48140000</ipp-gen:ResultadoEjercicioProcedenteOperacionesContinuadasNiif>
+				<ipp-gen:ResultadoEjercicioProcedenteOperacionesContinuadasNiif decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">50613000</ipp-gen:ResultadoEjercicioProcedenteOperacionesContinuadasNiif>
+				<ipp-gen:ResultadoEjercicioProcedenteOperacionesContinuadasNiif decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">151494000</ipp-gen:ResultadoEjercicioProcedenteOperacionesContinuadasNiif>
+				<ipp-gen:ResultadoEjercicioProcedenteOperacionesContinuadasNiif decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">136137000</ipp-gen:ResultadoEjercicioProcedenteOperacionesContinuadasNiif>
+				<ipp-gen:ResultadoEjercicioNiif decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">48140000</ipp-gen:ResultadoEjercicioNiif>
+				<ipp-gen:ResultadoEjercicioNiif decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">50613000</ipp-gen:ResultadoEjercicioNiif>
+				<ipp-gen:ResultadoEjercicioNiif decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">151494000</ipp-gen:ResultadoEjercicioNiif>
+				<ipp-gen:ResultadoEjercicioNiif decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">136137000</ipp-gen:ResultadoEjercicioNiif>
+				<ifrs-gp:ProfitLossAttributableToEquityHoldersOfParent decimals="0" contextRef="S22009_A-58869389_dcoc" unitRef="euro">48140000</ifrs-gp:ProfitLossAttributableToEquityHoldersOfParent>
+				<ifrs-gp:ProfitLossAttributableToEquityHoldersOfParent decimals="0" contextRef="S22008_A-58869389_dpoc" unitRef="euro">50613000</ifrs-gp:ProfitLossAttributableToEquityHoldersOfParent>
+				<ifrs-gp:ProfitLossAttributableToEquityHoldersOfParent decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">151494000</ifrs-gp:ProfitLossAttributableToEquityHoldersOfParent>
+				<ifrs-gp:ProfitLossAttributableToEquityHoldersOfParent decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">136137000</ifrs-gp:ProfitLossAttributableToEquityHoldersOfParent>
+				<ifrs-gp:BasicEarningsLossPerShare decimals="2" contextRef="S22009_A-58869389_dcoc" unitRef="pure">0.29</ifrs-gp:BasicEarningsLossPerShare>
+				<ifrs-gp:BasicEarningsLossPerShare decimals="2" contextRef="S22008_A-58869389_dpoc" unitRef="pure">0.31</ifrs-gp:BasicEarningsLossPerShare>
+				<ifrs-gp:BasicEarningsLossPerShare decimals="2" contextRef="S22009_A-58869389_dcc" unitRef="pure">0.91</ifrs-gp:BasicEarningsLossPerShare>
+				<ifrs-gp:BasicEarningsLossPerShare decimals="2" contextRef="S22008_A-58869389_dpac" unitRef="pure">0.82</ifrs-gp:BasicEarningsLossPerShare>
+				<ifrs-gp:DilutedEarningsLossPerShare decimals="2" contextRef="S22009_A-58869389_dcoc" unitRef="pure">0.29</ifrs-gp:DilutedEarningsLossPerShare>
+				<ifrs-gp:DilutedEarningsLossPerShare decimals="2" contextRef="S22008_A-58869389_dpoc" unitRef="pure">0.31</ifrs-gp:DilutedEarningsLossPerShare>
+				<ifrs-gp:DilutedEarningsLossPerShare decimals="2" contextRef="S22009_A-58869389_dcc" unitRef="pure">0.91</ifrs-gp:DilutedEarningsLossPerShare>
+				<ifrs-gp:DilutedEarningsLossPerShare decimals="2" contextRef="S22008_A-58869389_dpac" unitRef="pure">0.82</ifrs-gp:DilutedEarningsLossPerShare>
+			</ipp-gen:CuentaPerdidasGananciasConsolidada>
+			<ipp-gen:EstadoIngresosGastosReconocidosConsolidado>
+				<ifrs-gp:ProfitLoss decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">151494000</ifrs-gp:ProfitLoss>
+				<ifrs-gp:ProfitLoss decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">136137000</ifrs-gp:ProfitLoss>
+				<ipp-gen:IngresosGastosImputadosDirectamentePatrimonioNetoNiif decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-920000</ipp-gen:IngresosGastosImputadosDirectamentePatrimonioNetoNiif>
+				<ipp-gen:IngresosGastosImputadosDirectamentePatrimonioNetoNiif decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-4207000</ipp-gen:IngresosGastosImputadosDirectamentePatrimonioNetoNiif>
+				<ipp-gen:ValoracionInstrumentosFinancierosPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-970000</ipp-gen:ValoracionInstrumentosFinancierosPatrimonioNeto>
+				<ipp-gen:ActivosFinancierosDisponiblesVentaPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-970000</ipp-gen:ActivosFinancierosDisponiblesVentaPatrimonioNeto>
+				<ipp-gen:CoberturasFlujosEfectivoPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-1801000</ipp-gen:CoberturasFlujosEfectivoPatrimonioNeto>
+				<ipp-gen:CoberturasFlujosEfectivoPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-6701000</ipp-gen:CoberturasFlujosEfectivoPatrimonioNeto>
+				<ipp-gen:DiferenciasConversionPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">397000</ipp-gen:DiferenciasConversionPatrimonioNeto>
+				<ipp-gen:DiferenciasConversionPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-2134000</ipp-gen:DiferenciasConversionPatrimonioNeto>
+				<ipp-gen:GananciasPerdidasActuarialesOtrosAjustesPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-80000</ipp-gen:GananciasPerdidasActuarialesOtrosAjustesPatrimonioNeto>
+				<ipp-gen:GananciasPerdidasActuarialesOtrosAjustesPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">4710000</ipp-gen:GananciasPerdidasActuarialesOtrosAjustesPatrimonioNeto>
+				<ipp-gen:EfectoImpositivoPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">564000</ipp-gen:EfectoImpositivoPatrimonioNeto>
+				<ipp-gen:EfectoImpositivoPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">888000</ipp-gen:EfectoImpositivoPatrimonioNeto>
+				<ipp-gen:TransferenciasCuentaPerdidasGananciasNiif decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-129000</ipp-gen:TransferenciasCuentaPerdidasGananciasNiif>
+				<ipp-gen:TransferenciasCuentaPerdidasGananciasNiif decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-109000</ipp-gen:TransferenciasCuentaPerdidasGananciasNiif>
+				<ipp-gen:ValoracionInstrumentosFinancierosPerdidasGanancias decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-184000</ipp-gen:ValoracionInstrumentosFinancierosPerdidasGanancias>
+				<ipp-gen:ActivosFinancierosDisponiblesVentaPerdidasGanancias decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-184000</ipp-gen:ActivosFinancierosDisponiblesVentaPerdidasGanancias>
+				<ipp-gen:CoberturasFlujosEfectivoPerdidasGanancias decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-156000</ipp-gen:CoberturasFlujosEfectivoPerdidasGanancias>
+				<ipp-gen:EfectoImpositivoPerdidasGanancias decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">55000</ipp-gen:EfectoImpositivoPerdidasGanancias>
+				<ipp-gen:EfectoImpositivoPerdidasGanancias decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">47000</ipp-gen:EfectoImpositivoPerdidasGanancias>
+				<ipp-gen:TotalIngresosGastosReconocidosNiif decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">150445000</ipp-gen:TotalIngresosGastosReconocidosNiif>
+				<ipp-gen:TotalIngresosGastosReconocidosNiif decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">131821000</ipp-gen:TotalIngresosGastosReconocidosNiif>
+				<es-be-fs:EntidadDominanteIngresosGastosTotalesEjercicio decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">150445000</es-be-fs:EntidadDominanteIngresosGastosTotalesEjercicio>
+				<es-be-fs:EntidadDominanteIngresosGastosTotalesEjercicio decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">131821000</es-be-fs:EntidadDominanteIngresosGastosTotalesEjercicio>
+			</ipp-gen:EstadoIngresosGastosReconocidosConsolidado>
+			<ipp-gen:EstadoTotalCambiosPatrimonioNetoConsolidado>
+				<ipp-com:SaldoInicial>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">19932000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">503896000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">136137000</es-be-fs:ResultadoEjercicioBalance>
+						<ipp-com:AjustesCambiosValorPasivoPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">-6971000</ipp-com:AjustesCambiosValorPasivoPatrimonioNeto>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">652994000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:SaldoInicial>
+				<ipp-com:SaldoInicial>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">19932000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">424211000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">131206000</es-be-fs:ResultadoEjercicioBalance>
+						<ipp-com:AjustesCambiosValorPasivoPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">-1694000</ipp-com:AjustesCambiosValorPasivoPatrimonioNeto>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">573655000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:SaldoInicial>
+				<ipp-com:SaldoInicialAjustado>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">19932000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">503896000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">136137000</es-be-fs:ResultadoEjercicioBalance>
+						<ipp-com:AjustesCambiosValorPasivoPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">-6971000</ipp-com:AjustesCambiosValorPasivoPatrimonioNeto>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">652994000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:SaldoInicialAjustado>
+				<ipp-com:IngresosGastosReconocidos>
+					<ipp-com:PatrimonioNeto>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">151494000</es-be-fs:ResultadoEjercicioBalance>
+						<ipp-com:AjustesCambiosValorPasivoPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">-1049000</ipp-com:AjustesCambiosValorPasivoPatrimonioNeto>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">150445000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:IngresosGastosReconocidos>
+				<ipp-com:OperacionesSociosPropietarios>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">-52482000</ipp-com:PrimaEmisionReservas>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">-52482000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:OperacionesSociosPropietarios>
+				<ipp-com:DistribucionDividendos>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">-52482000</ipp-com:PrimaEmisionReservas>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">-52482000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:DistribucionDividendos>
+				<ipp-com:OtrasVariacionesPatrimonioNeto>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">136137000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">-136137000</es-be-fs:ResultadoEjercicioBalance>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">0</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:OtrasVariacionesPatrimonioNeto>
+				<ipp-com:TraspasosPartidasPatrimonioNeto>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">136137000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">-136137000</es-be-fs:ResultadoEjercicioBalance>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">0</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:TraspasosPartidasPatrimonioNeto>
+				<ipp-com:SaldoFinal>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">19932000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">587551000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">151494000</es-be-fs:ResultadoEjercicioBalance>
+						<ipp-com:AjustesCambiosValorPasivoPatrimonioNeto decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">-8020000</ipp-com:AjustesCambiosValorPasivoPatrimonioNeto>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">750957000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:SaldoFinal>
+				<ipp-com:SaldoInicialAjustado>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">19932000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">424211000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">131206000</es-be-fs:ResultadoEjercicioBalance>
+						<ipp-com:AjustesCambiosValorPasivoPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">-1694000</ipp-com:AjustesCambiosValorPasivoPatrimonioNeto>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">573655000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:SaldoInicialAjustado>
+				<ipp-com:IngresosGastosReconocidos>
+					<ipp-com:PatrimonioNeto>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">136137000</es-be-fs:ResultadoEjercicioBalance>
+						<ipp-com:AjustesCambiosValorPasivoPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">-4316000</ipp-com:AjustesCambiosValorPasivoPatrimonioNeto>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">131821000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:IngresosGastosReconocidos>
+				<ipp-com:OperacionesSociosPropietarios>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">-52482000</ipp-com:PrimaEmisionReservas>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">-52482000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:OperacionesSociosPropietarios>
+				<ipp-com:DistribucionDividendos>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">-52482000</ipp-com:PrimaEmisionReservas>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">-52482000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:DistribucionDividendos>
+				<ipp-com:OtrasVariacionesPatrimonioNeto>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">132167000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">-131206000</es-be-fs:ResultadoEjercicioBalance>
+						<ipp-com:AjustesCambiosValorPasivoPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">-961000</ipp-com:AjustesCambiosValorPasivoPatrimonioNeto>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">0</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:OtrasVariacionesPatrimonioNeto>
+				<ipp-com:TraspasosPartidasPatrimonioNeto>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">131206000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">-131206000</es-be-fs:ResultadoEjercicioBalance>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">0</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:TraspasosPartidasPatrimonioNeto>
+				<ipp-com:OtrasVariaciones>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">961000</ipp-com:PrimaEmisionReservas>
+						<ipp-com:AjustesCambiosValorPasivoPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">-961000</ipp-com:AjustesCambiosValorPasivoPatrimonioNeto>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">0</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:OtrasVariaciones>
+				<ipp-com:SaldoFinal>
+					<ipp-com:PatrimonioNeto>
+						<ipp-com:CapitalPasivoPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">19932000</ipp-com:CapitalPasivoPatrimonioNeto>
+						<ipp-com:PrimaEmisionReservas decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">503896000</ipp-com:PrimaEmisionReservas>
+						<es-be-fs:ResultadoEjercicioBalance decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">136137000</es-be-fs:ResultadoEjercicioBalance>
+						<ipp-com:AjustesCambiosValorPasivoPatrimonioNeto decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">-6971000</ipp-com:AjustesCambiosValorPasivoPatrimonioNeto>
+						<ifrs-gp:EquityTotal decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">652994000</ifrs-gp:EquityTotal>
+					</ipp-com:PatrimonioNeto>
+				</ipp-com:SaldoFinal>
+			</ipp-gen:EstadoTotalCambiosPatrimonioNetoConsolidado>
+			<ipp-gen:EstadoFlujosEfectivoConsolidadoMetodoIndirecto>
+				<ipp-gen:FlujosEfectivoActividadesExplotacionIndirectoNiif decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">261638000</ipp-gen:FlujosEfectivoActividadesExplotacionIndirectoNiif>
+				<ipp-gen:FlujosEfectivoActividadesExplotacionIndirectoNiif decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">233070000</ipp-gen:FlujosEfectivoActividadesExplotacionIndirectoNiif>
+				<ifrs-gp:ProfitLossBeforeTax decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">171490000</ifrs-gp:ProfitLossBeforeTax>
+				<ifrs-gp:ProfitLossBeforeTax decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">144722000</ifrs-gp:ProfitLossBeforeTax>
+				<ipp-gen:AjustesResultadoFlujosEfectivoActividadesExplotacion decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">91516000</ipp-gen:AjustesResultadoFlujosEfectivoActividadesExplotacion>
+				<ipp-gen:AjustesResultadoFlujosEfectivoActividadesExplotacion decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">58238000</ipp-gen:AjustesResultadoFlujosEfectivoActividadesExplotacion>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">64824000</ifrs-gp:DepreciationAndAmortisation>
+				<ifrs-gp:DepreciationAndAmortisation decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">63318000</ifrs-gp:DepreciationAndAmortisation>
+				<ipp-com:OtrosAjustes decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">26692000</ipp-com:OtrosAjustes>
+				<ipp-com:OtrosAjustes decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-5080000</ipp-com:OtrosAjustes>
+				<ifrs-gp:IncreaseDecreaseInWorkingCapitalNet decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-18774000</ifrs-gp:IncreaseDecreaseInWorkingCapitalNet>
+				<ifrs-gp:IncreaseDecreaseInWorkingCapitalNet decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">16179000</ifrs-gp:IncreaseDecreaseInWorkingCapitalNet>
+				<ipp-gen:OtrosFlujosEfectivoActividadesExplotacionIndirectoNiif decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">17406000</ipp-gen:OtrosFlujosEfectivoActividadesExplotacionIndirectoNiif>
+				<ipp-gen:OtrosFlujosEfectivoActividadesExplotacionIndirectoNiif decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">13931000</ipp-gen:OtrosFlujosEfectivoActividadesExplotacionIndirectoNiif>
+				<ifrs-gp:PaymentsOfInterestClassifiedAsOperating decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">19764000</ifrs-gp:PaymentsOfInterestClassifiedAsOperating>
+				<ifrs-gp:PaymentsOfInterestClassifiedAsOperating decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">25105000</ifrs-gp:PaymentsOfInterestClassifiedAsOperating>
+				<ifrs-gp:PaymentsOfDividendsClassifiedAsOperating decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-1597000</ifrs-gp:PaymentsOfDividendsClassifiedAsOperating>
+				<ifrs-gp:ProceedsFromInterestReceivedClassifiedAsOperating decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-2943000</ifrs-gp:ProceedsFromInterestReceivedClassifiedAsOperating>
+				<ifrs-gp:ProceedsFromInterestReceivedClassifiedAsOperating decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-6752000</ifrs-gp:ProceedsFromInterestReceivedClassifiedAsOperating>
+				<ipp-com:CobrosPagosImpuestoSobreBeneficios decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">585000</ipp-com:CobrosPagosImpuestoSobreBeneficios>
+				<ipp-com:CobrosPagosImpuestoSobreBeneficios decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-2825000</ipp-com:CobrosPagosImpuestoSobreBeneficios>
+				<ipp-gen:FlujosEfectivoActividadesInversionIndirectoNiif decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-55225000</ipp-gen:FlujosEfectivoActividadesInversionIndirectoNiif>
+				<ipp-gen:FlujosEfectivoActividadesInversionIndirectoNiif decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-14273000</ipp-gen:FlujosEfectivoActividadesInversionIndirectoNiif>
+				<es-be-fs:InversionesFlujosEfectivoActividadesInversion decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-77602000</es-be-fs:InversionesFlujosEfectivoActividadesInversion>
+				<es-be-fs:InversionesFlujosEfectivoActividadesInversion decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-23973000</es-be-fs:InversionesFlujosEfectivoActividadesInversion>
+				<ipp-gen:InmovilizadoMaterialIntangibleInversionesInmobiliariasPagos decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-70562000</ipp-gen:InmovilizadoMaterialIntangibleInversionesInmobiliariasPagos>
+				<ipp-gen:InmovilizadoMaterialIntangibleInversionesInmobiliariasPagos decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-23684000</ipp-gen:InmovilizadoMaterialIntangibleInversionesInmobiliariasPagos>
+				<ipp-gen:ActivosFinancierosPagos decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-7040000</ipp-gen:ActivosFinancierosPagos>
+				<ipp-gen:ActivosFinancierosPagos decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-289000</ipp-gen:ActivosFinancierosPagos>
+				<es-be-fs:DesinversionesFlujosEfectivoActividadesInversion decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">19367000</es-be-fs:DesinversionesFlujosEfectivoActividadesInversion>
+				<es-be-fs:DesinversionesFlujosEfectivoActividadesInversion decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">2945000</es-be-fs:DesinversionesFlujosEfectivoActividadesInversion>
+				<ipp-gen:InmovilizadoMaterialIntangibleInversionesInmobiliariasCobros decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">19239000</ipp-gen:InmovilizadoMaterialIntangibleInversionesInmobiliariasCobros>
+				<ipp-gen:InmovilizadoMaterialIntangibleInversionesInmobiliariasCobros decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">1228000</ipp-gen:InmovilizadoMaterialIntangibleInversionesInmobiliariasCobros>
+				<ipp-gen:ActivosFinancierosCobros decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">128000</ipp-gen:ActivosFinancierosCobros>
+				<ipp-gen:ActivosFinancierosCobros decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">1717000</ipp-gen:ActivosFinancierosCobros>
+				<ipp-gen:OtrosFlujosEfectivoActividadesInversionTotalIndirecto decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">3010000</ipp-gen:OtrosFlujosEfectivoActividadesInversionTotalIndirecto>
+				<ipp-gen:OtrosFlujosEfectivoActividadesInversionTotalIndirecto decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">6755000</ipp-gen:OtrosFlujosEfectivoActividadesInversionTotalIndirecto>
+				<ifrs-gp:ProceedsFromInterestReceivedClassifiedAsInvesting decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">2943000</ifrs-gp:ProceedsFromInterestReceivedClassifiedAsInvesting>
+				<ifrs-gp:ProceedsFromInterestReceivedClassifiedAsInvesting decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">6752000</ifrs-gp:ProceedsFromInterestReceivedClassifiedAsInvesting>
+				<ifrs-gp:OtherCashFlowsFromUsedInInvestingActivities decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">67000</ifrs-gp:OtherCashFlowsFromUsedInInvestingActivities>
+				<ifrs-gp:OtherCashFlowsFromUsedInInvestingActivities decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">3000</ifrs-gp:OtherCashFlowsFromUsedInInvestingActivities>
+				<ipp-gen:FlujosEfectivoActividadesFinanciacionIndirectoNiif decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-132829000</ipp-gen:FlujosEfectivoActividadesFinanciacionIndirectoNiif>
+				<ipp-gen:FlujosEfectivoActividadesFinanciacionIndirectoNiif decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-222665000</ipp-gen:FlujosEfectivoActividadesFinanciacionIndirectoNiif>
+				<ipp-gen:CobrosPagosInstrumentosPatrimonioIndirectoNiif decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">397000</ipp-gen:CobrosPagosInstrumentosPatrimonioIndirectoNiif>
+				<ipp-gen:CobrosPagosInstrumentosPatrimonioIndirectoNiif decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-4316000</ipp-gen:CobrosPagosInstrumentosPatrimonioIndirectoNiif>
+				<ifrs-gp:RepurchaseOfEquityInstrumentsSubsequentlyCancelled decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">397000</ifrs-gp:RepurchaseOfEquityInstrumentsSubsequentlyCancelled>
+				<ifrs-gp:RepurchaseOfEquityInstrumentsSubsequentlyCancelled decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-4316000</ifrs-gp:RepurchaseOfEquityInstrumentsSubsequentlyCancelled>
+				<ipp-gen:CobrosPagosInstrumentosPasivoFinanciero decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-60939000</ipp-gen:CobrosPagosInstrumentosPasivoFinanciero>
+				<ipp-gen:CobrosPagosInstrumentosPasivoFinanciero decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-142359000</ipp-gen:CobrosPagosInstrumentosPasivoFinanciero>
+				<ipp-gen:DevolucionAmortizacion decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-60939000</ipp-gen:DevolucionAmortizacion>
+				<ipp-gen:DevolucionAmortizacion decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-142359000</ipp-gen:DevolucionAmortizacion>
+				<ifrs-gp:PaymentsOfDividendsClassifiedAsFinancing decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-52482000</ifrs-gp:PaymentsOfDividendsClassifiedAsFinancing>
+				<ifrs-gp:PaymentsOfDividendsClassifiedAsFinancing decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-52482000</ifrs-gp:PaymentsOfDividendsClassifiedAsFinancing>
+				<ipp-gen:OtrosFlujosEfectivoActividadesFinanciacionIndirecto decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-19805000</ipp-gen:OtrosFlujosEfectivoActividadesFinanciacionIndirecto>
+				<ipp-gen:OtrosFlujosEfectivoActividadesFinanciacionIndirecto decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-23508000</ipp-gen:OtrosFlujosEfectivoActividadesFinanciacionIndirecto>
+				<ifrs-gp:PaymentsOfInterestClassifiedAsFinancing decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-19764000</ifrs-gp:PaymentsOfInterestClassifiedAsFinancing>
+				<ifrs-gp:PaymentsOfInterestClassifiedAsFinancing decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-25105000</ifrs-gp:PaymentsOfInterestClassifiedAsFinancing>
+				<ifrs-gp:OtherCashFlowsFromUsedInFinancingActivities decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">-41000</ifrs-gp:OtherCashFlowsFromUsedInFinancingActivities>
+				<ifrs-gp:OtherCashFlowsFromUsedInFinancingActivities decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">1597000</ifrs-gp:OtherCashFlowsFromUsedInFinancingActivities>
+				<ipp-gen:AumentoDisminucionNetoEfectivoEquivalentesIndirectoNiif decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">73584000</ipp-gen:AumentoDisminucionNetoEfectivoEquivalentesIndirectoNiif>
+				<ipp-gen:AumentoDisminucionNetoEfectivoEquivalentesIndirectoNiif decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">-3868000</ipp-gen:AumentoDisminucionNetoEfectivoEquivalentesIndirectoNiif>
+				<ipp-com:EfectivoEquivalentesEfectivoComienzoEjercicio decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">186082000</ipp-com:EfectivoEquivalentesEfectivoComienzoEjercicio>
+				<ipp-com:EfectivoEquivalentesEfectivoComienzoEjercicio decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">189950000</ipp-com:EfectivoEquivalentesEfectivoComienzoEjercicio>
+				<ipp-gen:EfectivoEquivalentesEfectivoFinalEjercicioIndirectoNiif decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">259666000</ipp-gen:EfectivoEquivalentesEfectivoFinalEjercicioIndirectoNiif>
+				<ipp-gen:EfectivoEquivalentesEfectivoFinalEjercicioIndirectoNiif decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">186082000</ipp-gen:EfectivoEquivalentesEfectivoFinalEjercicioIndirectoNiif>
+				<ipp-com:CajaBancos decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">39385000</ipp-com:CajaBancos>
+				<ipp-com:CajaBancos decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">143796000</ipp-com:CajaBancos>
+				<ipp-com:OtrosActivosFinancieros decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">220281000</ipp-com:OtrosActivosFinancieros>
+				<ipp-com:OtrosActivosFinancieros decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">42286000</ipp-com:OtrosActivosFinancieros>
+				<ipp-com:TotalEfectivosEquivalentesFinalPeriodo decimals="0" contextRef="S22009_A-58869389_dcc" unitRef="euro">259666000</ipp-com:TotalEfectivosEquivalentesFinalPeriodo>
+				<ipp-com:TotalEfectivosEquivalentesFinalPeriodo decimals="0" contextRef="S22008_A-58869389_dpac" unitRef="euro">186082000</ipp-com:TotalEfectivosEquivalentesFinalPeriodo>
+			</ipp-gen:EstadoFlujosEfectivoConsolidadoMetodoIndirecto>
+			<ipp-com:CambiosComposicionGrupo>
+				<ipp-com:CuadroDisminucionParticipaciones>
+					<ipp-com:DisminucionParticipaciones>
+						<ipp-com:EntidadEmisora contextRef="S22009_A-58869389_ici">Irinol Farma, S.A.</ipp-com:EntidadEmisora>
+						<ipp-com:CategoriaT2>
+							<ipp-com:Xcode_Categoria_T2_Dependiente contextRef="S22009_A-58869389_ici">Dependiente</ipp-com:Xcode_Categoria_T2_Dependiente>
+						</ipp-com:CategoriaT2>
+						<ipp-com:FechaOperacion contextRef="S22009_A-58869389_ici">2009-12-23</ipp-com:FechaOperacion>
+						<ipp-com:PorcentajeDerechosVotoEnajenados decimals="2" contextRef="S22009_A-58869389_ici" unitRef="pure">100</ipp-com:PorcentajeDerechosVotoEnajenados>
+						<ipp-com:PorcentajeDerechosVotoAdquiridoPosterior decimals="2" contextRef="S22009_A-58869389_ici" unitRef="pure">0</ipp-com:PorcentajeDerechosVotoAdquiridoPosterior>
+						<ipp-com:BeneficioPerdidaGenerado decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">835000</ipp-com:BeneficioPerdidaGenerado>
+					</ipp-com:DisminucionParticipaciones>
+				</ipp-com:CuadroDisminucionParticipaciones>
+			</ipp-com:CambiosComposicionGrupo>
+			<ipp-com:DividendosPagados>
+				<ipp-com:AccionesOrdinarias>
+					<ipp-com:DividendosPagadosElemento>
+						<ipp-com:PorcentajeSobreNominal decimals="2" contextRef="S22009_A-58869389_dci" unitRef="pure">263.00</ipp-com:PorcentajeSobreNominal>
+						<ipp-com:PorcentajeSobreNominal decimals="2" contextRef="S22008_A-58869389_dpai" unitRef="pure">263.00</ipp-com:PorcentajeSobreNominal>
+						<ipp-com:ImportePorAccion decimals="2" contextRef="S22009_A-58869389_dci" unitRef="euro">0.32</ipp-com:ImportePorAccion>
+						<ipp-com:ImportePorAccion decimals="2" contextRef="S22008_A-58869389_dpai" unitRef="euro">0.32</ipp-com:ImportePorAccion>
+						<ipp-com:ImporteTotal decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">52482000</ipp-com:ImporteTotal>
+						<ipp-com:ImporteTotal decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">52482000</ipp-com:ImporteTotal>
+					</ipp-com:DividendosPagadosElemento>
+				</ipp-com:AccionesOrdinarias>
+				<ipp-com:TotalAcciones>
+					<ipp-com:DividendosPagadosElemento>
+						<ipp-com:ImporteTotal decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">52482000</ipp-com:ImporteTotal>
+						<ipp-com:ImporteTotal decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">52482000</ipp-com:ImporteTotal>
+					</ipp-com:DividendosPagadosElemento>
+				</ipp-com:TotalAcciones>
+				<ipp-com:DividendosCargoResultados>
+					<ipp-com:DividendosPagadosElemento>
+						<ipp-com:PorcentajeSobreNominal decimals="2" contextRef="S22009_A-58869389_dci" unitRef="pure">263.00</ipp-com:PorcentajeSobreNominal>
+						<ipp-com:PorcentajeSobreNominal decimals="2" contextRef="S22008_A-58869389_dpai" unitRef="pure">263.00</ipp-com:PorcentajeSobreNominal>
+						<ipp-com:ImportePorAccion decimals="2" contextRef="S22009_A-58869389_dci" unitRef="euro">0.32</ipp-com:ImportePorAccion>
+						<ipp-com:ImportePorAccion decimals="2" contextRef="S22008_A-58869389_dpai" unitRef="euro">0.32</ipp-com:ImportePorAccion>
+						<ipp-com:ImporteTotal decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">52482000</ipp-com:ImporteTotal>
+						<ipp-com:ImporteTotal decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">52482000</ipp-com:ImporteTotal>
+					</ipp-com:DividendosPagadosElemento>
+				</ipp-com:DividendosCargoResultados>
+			</ipp-com:DividendosPagados>
+			<ipp-gen:DesgloseInstrumentosFinancierosNaturalezaCategoria>
+				<ipp-gen:OtrosActivosFinancierosNoCorrientesActivosFinancierosDisponiblesVenta decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">5700000</ipp-gen:OtrosActivosFinancierosNoCorrientesActivosFinancierosDisponiblesVenta>
+				<ipp-gen:OtrosActivosFinancierosNoCorrientesActivosFinancierosDisponiblesVenta decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">5700000</ipp-gen:OtrosActivosFinancierosNoCorrientesActivosFinancierosDisponiblesVenta>
+				<ipp-gen:OtrosActivosFinancierosNoCorrientesCarteraInversionVencimiento decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">4005000</ipp-gen:OtrosActivosFinancierosNoCorrientesCarteraInversionVencimiento>
+				<ipp-gen:OtrosActivosFinancierosNoCorrientesCarteraInversionVencimiento decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">5111000</ipp-gen:OtrosActivosFinancierosNoCorrientesCarteraInversionVencimiento>
+				<ipp-gen:LargoPlazoNoCorrientesActivosFinancierosDisponiblesVenta decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">5700000</ipp-gen:LargoPlazoNoCorrientesActivosFinancierosDisponiblesVenta>
+				<ipp-gen:LargoPlazoNoCorrientesActivosFinancierosDisponiblesVenta decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">5700000</ipp-gen:LargoPlazoNoCorrientesActivosFinancierosDisponiblesVenta>
+				<ipp-gen:LargoPlazoNoCorrientesCarteraInversionVencimiento decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">4005000</ipp-gen:LargoPlazoNoCorrientesCarteraInversionVencimiento>
+				<ipp-gen:LargoPlazoNoCorrientesCarteraInversionVencimiento decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">5111000</ipp-gen:LargoPlazoNoCorrientesCarteraInversionVencimiento>
+				<ipp-gen:OtrosActivosFinancierosCorrientesCarteraInversionVencimiento decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">212451000</ipp-gen:OtrosActivosFinancierosCorrientesCarteraInversionVencimiento>
+				<ipp-gen:OtrosActivosFinancierosCorrientesCarteraInversionVencimiento decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">220281000</ipp-gen:OtrosActivosFinancierosCorrientesCarteraInversionVencimiento>
+				<ipp-gen:CortoPlazoCorrientesCarteraInversionVencimiento decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">212451000</ipp-gen:CortoPlazoCorrientesCarteraInversionVencimiento>
+				<ipp-gen:CortoPlazoCorrientesCarteraInversionVencimiento decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">220281000</ipp-gen:CortoPlazoCorrientesCarteraInversionVencimiento>
+				<ipp-gen:TotalActivosFinancierosDisponiblesVenta decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">5700000</ipp-gen:TotalActivosFinancierosDisponiblesVenta>
+				<ipp-gen:TotalActivosFinancierosDisponiblesVenta decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">5700000</ipp-gen:TotalActivosFinancierosDisponiblesVenta>
+				<ipp-gen:TotalCarteraInversionVencimiento decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">216456000</ipp-gen:TotalCarteraInversionVencimiento>
+				<ipp-gen:TotalCarteraInversionVencimiento decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">225392000</ipp-gen:TotalCarteraInversionVencimiento>
+				<ipp-gen:DeudasEntidadesCreditoNoCorrientesPasivosFinancierosCosteAmortizado decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">184000000</ipp-gen:DeudasEntidadesCreditoNoCorrientesPasivosFinancierosCosteAmortizado>
+				<ipp-gen:ObligacionesOtrosValoresNegociablesNoCorrientesPasivosFinancierosCosteAmortizado decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">185310000</ipp-gen:ObligacionesOtrosValoresNegociablesNoCorrientesPasivosFinancierosCosteAmortizado>
+				<ipp-gen:DerivadosPasivosNoCorrientesCarteraNegociacion decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">2124000</ipp-gen:DerivadosPasivosNoCorrientesCarteraNegociacion>
+				<ipp-gen:DerivadosPasivosNoCorrientesDerivadosCobertura decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">10454000</ipp-gen:DerivadosPasivosNoCorrientesDerivadosCobertura>
+				<ipp-gen:DerivadosPasivosNoCorrientesDerivadosCobertura decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">9640000</ipp-gen:DerivadosPasivosNoCorrientesDerivadosCobertura>
+				<ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesCarteraNegociacion decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">2124000</ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesCarteraNegociacion>
+				<ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesPasivosFinancierosCosteAmortizado decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">185310000</ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesPasivosFinancierosCosteAmortizado>
+				<ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesPasivosFinancierosCosteAmortizado decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">184000000</ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesPasivosFinancierosCosteAmortizado>
+				<ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesDerivadosCobertura decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">10454000</ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesDerivadosCobertura>
+				<ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesDerivadosCobertura decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">9640000</ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesDerivadosCobertura>
+				<ipp-gen:DeudasEntidadesCreditoCorrientesPasivosFinancierosCosteAmortizado decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">69921000</ipp-gen:DeudasEntidadesCreditoCorrientesPasivosFinancierosCosteAmortizado>
+				<ipp-gen:DeudasEntidadesCreditoCorrientesPasivosFinancierosCosteAmortizado decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">69922000</ipp-gen:DeudasEntidadesCreditoCorrientesPasivosFinancierosCosteAmortizado>
+				<ipp-gen:DeudasCortoPlazoPasivosFinancierosCorrientesPasivosFinancierosCosteAmortizado decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">69921000</ipp-gen:DeudasCortoPlazoPasivosFinancierosCorrientesPasivosFinancierosCosteAmortizado>
+				<ipp-gen:DeudasCortoPlazoPasivosFinancierosCorrientesPasivosFinancierosCosteAmortizado decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">69922000</ipp-gen:DeudasCortoPlazoPasivosFinancierosCorrientesPasivosFinancierosCosteAmortizado>
+				<ipp-gen:TotalPasivoCarteraNegociacion decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">2124000</ipp-gen:TotalPasivoCarteraNegociacion>
+				<ipp-gen:TotalPasivosFinancierosCosteAmortizado decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">255231000</ipp-gen:TotalPasivosFinancierosCosteAmortizado>
+				<ipp-gen:TotalPasivosFinancierosCosteAmortizado decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">253922000</ipp-gen:TotalPasivosFinancierosCosteAmortizado>
+				<ipp-gen:TotalPasivoDerivadosCobertura decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">10454000</ipp-gen:TotalPasivoDerivadosCobertura>
+				<ipp-gen:TotalPasivoDerivadosCobertura decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">9640000</ipp-gen:TotalPasivoDerivadosCobertura>
+				<ipp-gen:OtrosActivosFinancierosNoCorrientesCarteraInversionVencimiento decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">2931000</ipp-gen:OtrosActivosFinancierosNoCorrientesCarteraInversionVencimiento>
+				<ipp-gen:OtrosActivosFinancierosNoCorrientesCarteraInversionVencimiento decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">3899000</ipp-gen:OtrosActivosFinancierosNoCorrientesCarteraInversionVencimiento>
+				<ipp-gen:LargoPlazoNoCorrientesCarteraInversionVencimiento decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">2931000</ipp-gen:LargoPlazoNoCorrientesCarteraInversionVencimiento>
+				<ipp-gen:LargoPlazoNoCorrientesCarteraInversionVencimiento decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">3899000</ipp-gen:LargoPlazoNoCorrientesCarteraInversionVencimiento>
+				<ipp-gen:OtrosActivosFinancierosCorrientesCarteraInversionVencimiento decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">131539000</ipp-gen:OtrosActivosFinancierosCorrientesCarteraInversionVencimiento>
+				<ipp-gen:OtrosActivosFinancierosCorrientesCarteraInversionVencimiento decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">143796000</ipp-gen:OtrosActivosFinancierosCorrientesCarteraInversionVencimiento>
+				<ipp-gen:CortoPlazoCorrientesCarteraInversionVencimiento decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">131539000</ipp-gen:CortoPlazoCorrientesCarteraInversionVencimiento>
+				<ipp-gen:CortoPlazoCorrientesCarteraInversionVencimiento decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">143796000</ipp-gen:CortoPlazoCorrientesCarteraInversionVencimiento>
+				<ipp-gen:TotalCarteraInversionVencimiento decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">134470000</ipp-gen:TotalCarteraInversionVencimiento>
+				<ipp-gen:TotalCarteraInversionVencimiento decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">147695000</ipp-gen:TotalCarteraInversionVencimiento>
+				<ipp-gen:DeudasEntidadesCreditoNoCorrientesPasivosFinancierosCosteAmortizado decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">244000000</ipp-gen:DeudasEntidadesCreditoNoCorrientesPasivosFinancierosCosteAmortizado>
+				<ipp-gen:ObligacionesOtrosValoresNegociablesNoCorrientesPasivosFinancierosCosteAmortizado decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">244000000</ipp-gen:ObligacionesOtrosValoresNegociablesNoCorrientesPasivosFinancierosCosteAmortizado>
+				<ipp-gen:DerivadosPasivosNoCorrientesCarteraNegociacion decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">1377000</ipp-gen:DerivadosPasivosNoCorrientesCarteraNegociacion>
+				<ipp-gen:DerivadosPasivosNoCorrientesCarteraNegociacion decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">1377000</ipp-gen:DerivadosPasivosNoCorrientesCarteraNegociacion>
+				<ipp-gen:DerivadosPasivosNoCorrientesDerivadosCobertura decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">6838000</ipp-gen:DerivadosPasivosNoCorrientesDerivadosCobertura>
+				<ipp-gen:DerivadosPasivosNoCorrientesDerivadosCobertura decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">6838000</ipp-gen:DerivadosPasivosNoCorrientesDerivadosCobertura>
+				<ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesCarteraNegociacion decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">1377000</ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesCarteraNegociacion>
+				<ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesCarteraNegociacion decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">1377000</ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesCarteraNegociacion>
+				<ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesPasivosFinancierosCosteAmortizado decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">244000000</ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesPasivosFinancierosCosteAmortizado>
+				<ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesPasivosFinancierosCosteAmortizado decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">244000000</ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesPasivosFinancierosCosteAmortizado>
+				<ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesDerivadosCobertura decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">6838000</ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesDerivadosCobertura>
+				<ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesDerivadosCobertura decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">6838000</ipp-gen:DeudasLargoPlazoPasivosFinancierosNoCorrientesDerivadosCobertura>
+				<ipp-gen:DeudasEntidadesCreditoCorrientesPasivosFinancierosCosteAmortizado decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">68756000</ipp-gen:DeudasEntidadesCreditoCorrientesPasivosFinancierosCosteAmortizado>
+				<ipp-gen:DeudasEntidadesCreditoCorrientesPasivosFinancierosCosteAmortizado decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">68756000</ipp-gen:DeudasEntidadesCreditoCorrientesPasivosFinancierosCosteAmortizado>
+				<ipp-gen:DeudasCortoPlazoPasivosFinancierosCorrientesPasivosFinancierosCosteAmortizado decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">68756000</ipp-gen:DeudasCortoPlazoPasivosFinancierosCorrientesPasivosFinancierosCosteAmortizado>
+				<ipp-gen:DeudasCortoPlazoPasivosFinancierosCorrientesPasivosFinancierosCosteAmortizado decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">68756000</ipp-gen:DeudasCortoPlazoPasivosFinancierosCorrientesPasivosFinancierosCosteAmortizado>
+				<ipp-gen:TotalPasivoCarteraNegociacion decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">1377000</ipp-gen:TotalPasivoCarteraNegociacion>
+				<ipp-gen:TotalPasivoCarteraNegociacion decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">1377000</ipp-gen:TotalPasivoCarteraNegociacion>
+				<ipp-gen:TotalPasivosFinancierosCosteAmortizado decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">312756000</ipp-gen:TotalPasivosFinancierosCosteAmortizado>
+				<ipp-gen:TotalPasivosFinancierosCosteAmortizado decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">312756000</ipp-gen:TotalPasivosFinancierosCosteAmortizado>
+				<ipp-gen:TotalPasivoDerivadosCobertura decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">6838000</ipp-gen:TotalPasivoDerivadosCobertura>
+				<ipp-gen:TotalPasivoDerivadosCobertura decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">6838000</ipp-gen:TotalPasivoDerivadosCobertura>
+			</ipp-gen:DesgloseInstrumentosFinancierosNaturalezaCategoria>
+			<ipp-com:InformacionSegmentada>
+				<ipp-com:AreaGeografica>
+					<ipp-com:MercadoInterior decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">596754000</ipp-com:MercadoInterior>
+					<ipp-com:MercadoInterior decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">584848000</ipp-com:MercadoInterior>
+					<ipp-com:MercadoInterior decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">536010000</ipp-com:MercadoInterior>
+					<ipp-com:MercadoInterior decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">534045000</ipp-com:MercadoInterior>
+					<ipp-com:Exportacion decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">239472000</ipp-com:Exportacion>
+					<ipp-com:Exportacion decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">217691000</ipp-com:Exportacion>
+					<ipp-com:Exportacion decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">389476000</ipp-com:Exportacion>
+					<ipp-com:Exportacion decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">368782000</ipp-com:Exportacion>
+					<ipp-com:UnionEuropea decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">153041000</ipp-com:UnionEuropea>
+					<ipp-com:UnionEuropea decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">131155000</ipp-com:UnionEuropea>
+					<ipp-com:UnionEuropea decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">273916000</ipp-com:UnionEuropea>
+					<ipp-com:UnionEuropea decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">260425000</ipp-com:UnionEuropea>
+					<ipp-com:PaisesOCDE decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">67958000</ipp-com:PaisesOCDE>
+					<ipp-com:PaisesOCDE decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">75685000</ipp-com:PaisesOCDE>
+					<ipp-com:PaisesOCDE decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">66667000</ipp-com:PaisesOCDE>
+					<ipp-com:PaisesOCDE decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">61962000</ipp-com:PaisesOCDE>
+					<ipp-com:RestoPaises decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">18473000</ipp-com:RestoPaises>
+					<ipp-com:RestoPaises decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">10851000</ipp-com:RestoPaises>
+					<ipp-com:RestoPaises decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">48893000</ipp-com:RestoPaises>
+					<ipp-com:RestoPaises decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">46395000</ipp-com:RestoPaises>
+					<ipp-com:TotalAreaGeografica decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">836226000</ipp-com:TotalAreaGeografica>
+					<ipp-com:TotalAreaGeografica decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">802539000</ipp-com:TotalAreaGeografica>
+					<ipp-com:TotalAreaGeografica decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">925486000</ipp-com:TotalAreaGeografica>
+					<ipp-com:TotalAreaGeografica decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">902827000</ipp-com:TotalAreaGeografica>
+				</ipp-com:AreaGeografica>
+				<ipp-com:SegmentosIngresos>
+					<ipp-com:SegmentoElementoIngresos>
+						<ipp-com:Xcode_SI.2221 contextRef="S22009_A-58869389_icc">2221</ipp-com:Xcode_SI.2221>
+						<ipp-com:OtroTipoConceptoSegmento contextRef="S22009_A-58869389_icc">Red Propia</ipp-com:OtroTipoConceptoSegmento>
+						<ipp-com:SegmentoValorIngresosOrdinariosProcedentesClientesExternos decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">818789000</ipp-com:SegmentoValorIngresosOrdinariosProcedentesClientesExternos>
+						<ipp-com:SegmentoValorIngresosOrdinariosProcedentesClientesExternos decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">809163000</ipp-com:SegmentoValorIngresosOrdinariosProcedentesClientesExternos>
+						<ipp-com:SegmentoValorIngresosOrdinariosTotal decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">818789000</ipp-com:SegmentoValorIngresosOrdinariosTotal>
+						<ipp-com:SegmentoValorIngresosOrdinariosTotal decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">809163000</ipp-com:SegmentoValorIngresosOrdinariosTotal>
+					</ipp-com:SegmentoElementoIngresos>
+					<ipp-com:SegmentoElementoIngresos>
+						<ipp-com:Xcode_SI.2222 contextRef="S22009_A-58869389_icc">2222</ipp-com:Xcode_SI.2222>
+						<ipp-com:OtroTipoConceptoSegmento contextRef="S22009_A-58869389_icc">Licenciatarios (Partners)</ipp-com:OtroTipoConceptoSegmento>
+						<ipp-com:SegmentoValorIngresosOrdinariosProcedentesClientesExternos decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">71001000</ipp-com:SegmentoValorIngresosOrdinariosProcedentesClientesExternos>
+						<ipp-com:SegmentoValorIngresosOrdinariosProcedentesClientesExternos decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">60522000</ipp-com:SegmentoValorIngresosOrdinariosProcedentesClientesExternos>
+						<ipp-com:SegmentoValorIngresosOrdinariosTotal decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">71001000</ipp-com:SegmentoValorIngresosOrdinariosTotal>
+						<ipp-com:SegmentoValorIngresosOrdinariosTotal decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">60522000</ipp-com:SegmentoValorIngresosOrdinariosTotal>
+					</ipp-com:SegmentoElementoIngresos>
+					<ipp-com:SegmentoElementoIngresos>
+						<ipp-com:Xcode_SI.2223 contextRef="S22009_A-58869389_icc">2223</ipp-com:Xcode_SI.2223>
+						<ipp-com:OtroTipoConceptoSegmento contextRef="S22009_A-58869389_icc">Corporate</ipp-com:OtroTipoConceptoSegmento>
+						<ipp-com:SegmentoValorIngresosOrdinariosProcedentesClientesExternos decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">35696000</ipp-com:SegmentoValorIngresosOrdinariosProcedentesClientesExternos>
+						<ipp-com:SegmentoValorIngresosOrdinariosProcedentesClientesExternos decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">33142000</ipp-com:SegmentoValorIngresosOrdinariosProcedentesClientesExternos>
+						<ipp-com:SegmentoValorIngresosOrdinariosTotal decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">33142000</ipp-com:SegmentoValorIngresosOrdinariosTotal>
+						<ipp-com:SegmentoValorIngresosOrdinariosTotal decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">35696000</ipp-com:SegmentoValorIngresosOrdinariosTotal>
+					</ipp-com:SegmentoElementoIngresos>
+					<ipp-com:SegmentoElementoTotal>
+						<ipp-com:SegmentoValorIngresosOrdinariosProcedentesClientesExternos decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">925486000</ipp-com:SegmentoValorIngresosOrdinariosProcedentesClientesExternos>
+						<ipp-com:SegmentoValorIngresosOrdinariosProcedentesClientesExternos decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">902827000</ipp-com:SegmentoValorIngresosOrdinariosProcedentesClientesExternos>
+						<ipp-com:SegmentoValorIngresosOrdinariosTotal decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">925486000</ipp-com:SegmentoValorIngresosOrdinariosTotal>
+						<ipp-com:SegmentoValorIngresosOrdinariosTotal decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">902827000</ipp-com:SegmentoValorIngresosOrdinariosTotal>
+					</ipp-com:SegmentoElementoTotal>
+				</ipp-com:SegmentosIngresos>
+				<ipp-com:SegmentosResultados>
+					<ipp-com:SegmentoElemento>
+						<ipp-com:Xcode_SR.2250 contextRef="S22009_A-58869389_icc">2250</ipp-com:Xcode_SR.2250>
+						<ipp-com:OtroTipoConceptoSegmento contextRef="S22009_A-58869389_icc">Red Propia (España)</ipp-com:OtroTipoConceptoSegmento>
+						<ipp-com:SegmentoValor decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">219942000</ipp-com:SegmentoValor>
+						<ipp-com:SegmentoValor decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">225604000</ipp-com:SegmentoValor>
+					</ipp-com:SegmentoElemento>
+					<ipp-com:SegmentoElemento>
+						<ipp-com:Xcode_SR.2251 contextRef="S22009_A-58869389_icc">2251</ipp-com:Xcode_SR.2251>
+						<ipp-com:OtroTipoConceptoSegmento contextRef="S22009_A-58869389_icc">Red Propia (otras afiliadas)</ipp-com:OtroTipoConceptoSegmento>
+						<ipp-com:SegmentoValor decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">48245000</ipp-com:SegmentoValor>
+						<ipp-com:SegmentoValor decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">42939000</ipp-com:SegmentoValor>
+					</ipp-com:SegmentoElemento>
+					<ipp-com:SegmentoElemento>
+						<ipp-com:Xcode_SR.2252 contextRef="S22009_A-58869389_icc">2252</ipp-com:Xcode_SR.2252>
+						<ipp-com:OtroTipoConceptoSegmento contextRef="S22009_A-58869389_icc">Licenciatarios</ipp-com:OtroTipoConceptoSegmento>
+						<ipp-com:SegmentoValor decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">65675000</ipp-com:SegmentoValor>
+						<ipp-com:SegmentoValor decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">74054000</ipp-com:SegmentoValor>
+					</ipp-com:SegmentoElemento>
+					<ipp-com:TotalResultadoSegmentosInforma decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">333862000</ipp-com:TotalResultadoSegmentosInforma>
+					<ipp-com:TotalResultadoSegmentosInforma decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">342597000</ipp-com:TotalResultadoSegmentosInforma>
+					<ipp-com:ResultadosNoAsignados decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">-210349000</ipp-com:ResultadosNoAsignados>
+					<ipp-com:ResultadosNoAsignados decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">-230259000</ipp-com:ResultadosNoAsignados>
+					<ipp-com:EliminacionResultadosInternos decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">55604000</ipp-com:EliminacionResultadosInternos>
+					<ipp-com:EliminacionResultadosInternos decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">53396000</ipp-com:EliminacionResultadosInternos>
+					<ipp-com:OtrosResultados decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">-7627000</ipp-com:OtrosResultados>
+					<ipp-com:OtrosResultados decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">-29597000</ipp-com:OtrosResultados>
+					<ipp-com:ImpuestoSobreBeneficiosResultadoOperacionesInterrumpidas decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">8585000</ipp-com:ImpuestoSobreBeneficiosResultadoOperacionesInterrumpidas>
+					<ipp-com:ResultadoAntesImpuestos decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">171490000</ipp-com:ResultadoAntesImpuestos>
+					<ipp-com:ResultadoAntesImpuestos decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">144722000</ipp-com:ResultadoAntesImpuestos>
+				</ipp-com:SegmentosResultados>
+			</ipp-com:InformacionSegmentada>
+			<ipp-com:PlantillaMediaTupla>
+				<ipp-com:PlantillaMedia decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">780</ipp-com:PlantillaMedia>
+				<ipp-com:PlantillaMedia decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">817</ipp-com:PlantillaMedia>
+				<ipp-com:PlantillaMedia decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">3234</ipp-com:PlantillaMedia>
+				<ipp-com:PlantillaMedia decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">3387</ipp-com:PlantillaMedia>
+				<ipp-com:PlantillaMediaHombres decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">391</ipp-com:PlantillaMediaHombres>
+				<ipp-com:PlantillaMediaHombres decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">400</ipp-com:PlantillaMediaHombres>
+				<ipp-com:PlantillaMediaHombres decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">1625</ipp-com:PlantillaMediaHombres>
+				<ipp-com:PlantillaMediaHombres decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">1744</ipp-com:PlantillaMediaHombres>
+				<ipp-com:PlantillaMediaMujeres decimals="0" contextRef="S22009_A-58869389_ici" unitRef="euro">389</ipp-com:PlantillaMediaMujeres>
+				<ipp-com:PlantillaMediaMujeres decimals="0" contextRef="S22008_A-58869389_ipai" unitRef="euro">417</ipp-com:PlantillaMediaMujeres>
+				<ipp-com:PlantillaMediaMujeres decimals="0" contextRef="S22009_A-58869389_icc" unitRef="euro">1609</ipp-com:PlantillaMediaMujeres>
+				<ipp-com:PlantillaMediaMujeres decimals="0" contextRef="S22008_A-58869389_ipac" unitRef="euro">1643</ipp-com:PlantillaMediaMujeres>
+			</ipp-com:PlantillaMediaTupla>
+			<ipp-com:RemuneracionesRecibidasAdministradoresAltaDireccion>
+				<ipp-com:RetribucionFija decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">2464000</ipp-com:RetribucionFija>
+				<ipp-com:RetribucionFija decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">2389000</ipp-com:RetribucionFija>
+				<ipp-com:RetribucionVariable decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">466000</ipp-com:RetribucionVariable>
+				<ipp-com:RetribucionVariable decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">922000</ipp-com:RetribucionVariable>
+				<ipp-com:Dietas decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">615000</ipp-com:Dietas>
+				<ipp-com:Dietas decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">592000</ipp-com:Dietas>
+				<ipp-com:Otros decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">2152000</ipp-com:Otros>
+				<ipp-com:Otros decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">24000</ipp-com:Otros>
+				<ipp-com:Total decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">5697000</ipp-com:Total>
+				<ipp-com:Total decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">3927000</ipp-com:Total>
+				<ipp-com:Anticipos decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">250000</ipp-com:Anticipos>
+				<ipp-com:PrimasSegurosVida decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">65000</ipp-com:PrimasSegurosVida>
+				<ipp-com:PrimasSegurosVida decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">56000</ipp-com:PrimasSegurosVida>
+				<ipp-com:TotalRemuneracionesRecibidasAltaDireccion decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">1955000</ipp-com:TotalRemuneracionesRecibidasAltaDireccion>
+				<ipp-com:TotalRemuneracionesRecibidasAltaDireccion decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">1372000</ipp-com:TotalRemuneracionesRecibidasAltaDireccion>
+			</ipp-com:RemuneracionesRecibidasAdministradoresAltaDireccion>
+			<ipp-com:TransaccionesPartesVinculadas>
+				<ipp-com:ArrendamientosOtrasPartesVinculadas decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">2629000</ipp-com:ArrendamientosOtrasPartesVinculadas>
+				<ipp-com:ArrendamientosOtrasPartesVinculadas decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">2650000</ipp-com:ArrendamientosOtrasPartesVinculadas>
+				<ipp-com:ArrendamientosTotal decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">2629000</ipp-com:ArrendamientosTotal>
+				<ipp-com:ArrendamientosTotal decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">2650000</ipp-com:ArrendamientosTotal>
+				<ipp-com:CompraBienesOtrasPartesVinculadas decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">34000</ipp-com:CompraBienesOtrasPartesVinculadas>
+				<ipp-com:CompraBienesOtrasPartesVinculadas decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">12000</ipp-com:CompraBienesOtrasPartesVinculadas>
+				<ipp-com:CompraBienesTotal decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">34000</ipp-com:CompraBienesTotal>
+				<ipp-com:CompraBienesTotal decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">12000</ipp-com:CompraBienesTotal>
+				<ipp-com:GastosOtrasPartesVinculadas decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">2663000</ipp-com:GastosOtrasPartesVinculadas>
+				<ipp-com:GastosOtrasPartesVinculadas decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">2662000</ipp-com:GastosOtrasPartesVinculadas>
+				<ipp-com:GastosTotal decimals="0" contextRef="S22008_A-58869389_dpai" unitRef="euro">2663000</ipp-com:GastosTotal>
+				<ipp-com:GastosTotal decimals="0" contextRef="S22009_A-58869389_dci" unitRef="euro">2662000</ipp-com:GastosTotal>
+			</ipp-com:TransaccionesPartesVinculadas>
+		</ipp-gen:InformacionFinancieraSeleccionada>
+	</ipp-gen:InformeFinancieroGeneral>
+</xbrli:xbrl>

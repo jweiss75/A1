@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli_2:xbrl xmlns:xbrli_2="http://www.xbrl.org/2003/instance" xmlns:xbrll_2="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dgi="http://www.xbrl.org.es/gp/dgi-2005-03-10" xmlns:dgi-lc-es="http://www.xbrl.org.es/gp/dgi-lc-es-2005-03-10" xmlns:dgi-lc-int="http://www.xbrl.org.es/gp/dgi-lc-int-2005-03-10" xmlns:ipp="http://www.cnmv.es/ipp/2005" xmlns:ipp-com="http://www.cnmv.es/ipp/com/1-2005/2005-06-30" xmlns:ipp-mas-pat="http://www.cnmv.es/ipp/mas/pat/1-2005/2005-06-30" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:ipp-gen="http://www.cnmv.es/ipp/gen/1-2005/2005-06-30" xmlns:ipp-gen-ind="http://www.cnmv.es/ipp/gen/ind/1-2005/2005-06-30" xmlns:ipp-gen-con="http://www.cnmv.es/ipp/gen/con/1-2005/2005-06-30">
+<xbrll_2:schemaRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="ipp-gen-ind-2005-06-30.xsd"/>
+<xbrll_2:schemaRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="ipp-gen-con-2005-06-30.xsd"/>
+	<xbrli_2:context id="S22005_A48004360_dci">
+		<xbrli_2:entity>
+			<xbrli_2:identifier scheme="http://www.cnmv.es/xbrl/ipp/A48004360">FAES FARMA, S.A.</xbrli_2:identifier>
+			<xbrli_2:segment>
+				<ipp:version>5.1.1</ipp:version>
+			</xbrli_2:segment>
+		</xbrli_2:entity>
+		<xbrli_2:period>
+			<xbrli_2:startDate>2005-01-01</xbrli_2:startDate>
+			<xbrli_2:endDate>2005-12-31</xbrli_2:endDate>
+		</xbrli_2:period>
+		<xbrli_2:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado>Individual</ipp:Apartado>
+		</xbrli_2:scenario>
+	</xbrli_2:context>
+	<xbrli_2:context id="S22005_A48004360_ici">
+		<xbrli_2:entity>
+			<xbrli_2:identifier scheme="http://www.cnmv.es/xbrl/ipp/A48004360">FAES FARMA, S.A.</xbrli_2:identifier>
+			<xbrli_2:segment>
+				<ipp:version>5.1.1</ipp:version>
+			</xbrli_2:segment>
+		</xbrli_2:entity>
+		<xbrli_2:period>
+			<xbrli_2:instant>2005-12-31</xbrli_2:instant>
+		</xbrli_2:period>
+		<xbrli_2:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado>Individual</ipp:Apartado>
+		</xbrli_2:scenario>
+	</xbrli_2:context>
+	<xbrli_2:context id="S22004_A48004360_dpi">
+		<xbrli_2:entity>
+			<xbrli_2:identifier scheme="http://www.cnmv.es/xbrl/ipp/A48004360">FAES FARMA, S.A.</xbrli_2:identifier>
+			<xbrli_2:segment>
+				<ipp:version>5.1.1</ipp:version>
+			</xbrli_2:segment>
+		</xbrli_2:entity>
+		<xbrli_2:period>
+			<xbrli_2:startDate>2004-01-01</xbrli_2:startDate>
+			<xbrli_2:endDate>2004-12-31</xbrli_2:endDate>
+		</xbrli_2:period>
+		<xbrli_2:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado>Individual</ipp:Apartado>
+		</xbrli_2:scenario>
+	</xbrli_2:context>
+	<xbrli_2:context id="S22004_A48004360_ipi">
+		<xbrli_2:entity>
+			<xbrli_2:identifier scheme="http://www.cnmv.es/xbrl/ipp/A48004360">FAES FARMA, S.A.</xbrli_2:identifier>
+			<xbrli_2:segment>
+				<ipp:version>5.1.1</ipp:version>
+			</xbrli_2:segment>
+		</xbrli_2:entity>
+		<xbrli_2:period>
+			<xbrli_2:instant>2004-12-31</xbrli_2:instant>
+		</xbrli_2:period>
+		<xbrli_2:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado>Individual</ipp:Apartado>
+		</xbrli_2:scenario>
+	</xbrli_2:context>
+	<xbrli_2:context id="S22005_A48004360_dcc">
+		<xbrli_2:entity>
+			<xbrli_2:identifier scheme="http://www.cnmv.es/xbrl/ipp/A48004360">FAES FARMA, S.A.</xbrli_2:identifier>
+			<xbrli_2:segment>
+				<ipp:version>5.1.1</ipp:version>
+			</xbrli_2:segment>
+		</xbrli_2:entity>
+		<xbrli_2:period>
+			<xbrli_2:startDate>2005-01-01</xbrli_2:startDate>
+			<xbrli_2:endDate>2005-12-31</xbrli_2:endDate>
+		</xbrli_2:period>
+		<xbrli_2:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado>Consolidado</ipp:Apartado>
+		</xbrli_2:scenario>
+	</xbrli_2:context>
+	<xbrli_2:context id="S22005_A48004360_icc">
+		<xbrli_2:entity>
+			<xbrli_2:identifier scheme="http://www.cnmv.es/xbrl/ipp/A48004360">FAES FARMA, S.A.</xbrli_2:identifier>
+			<xbrli_2:segment>
+				<ipp:version>5.1.1</ipp:version>
+			</xbrli_2:segment>
+		</xbrli_2:entity>
+		<xbrli_2:period>
+			<xbrli_2:instant>2005-12-31</xbrli_2:instant>
+		</xbrli_2:period>
+		<xbrli_2:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado>Consolidado</ipp:Apartado>
+		</xbrli_2:scenario>
+	</xbrli_2:context>
+	<xbrli_2:context id="S22004_A48004360_dpc">
+		<xbrli_2:entity>
+			<xbrli_2:identifier scheme="http://www.cnmv.es/xbrl/ipp/A48004360">FAES FARMA, S.A.</xbrli_2:identifier>
+			<xbrli_2:segment>
+				<ipp:version>5.1.1</ipp:version>
+			</xbrli_2:segment>
+		</xbrli_2:entity>
+		<xbrli_2:period>
+			<xbrli_2:startDate>2004-01-01</xbrli_2:startDate>
+			<xbrli_2:endDate>2004-12-31</xbrli_2:endDate>
+		</xbrli_2:period>
+		<xbrli_2:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado>Consolidado</ipp:Apartado>
+		</xbrli_2:scenario>
+	</xbrli_2:context>
+	<xbrli_2:context id="S22004_A48004360_ipc">
+		<xbrli_2:entity>
+			<xbrli_2:identifier scheme="http://www.cnmv.es/xbrl/ipp/A48004360">FAES FARMA, S.A.</xbrli_2:identifier>
+			<xbrli_2:segment>
+				<ipp:version>5.1.1</ipp:version>
+			</xbrli_2:segment>
+		</xbrli_2:entity>
+		<xbrli_2:period>
+			<xbrli_2:instant>2004-12-31</xbrli_2:instant>
+		</xbrli_2:period>
+		<xbrli_2:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado>Consolidado</ipp:Apartado>
+		</xbrli_2:scenario>
+	</xbrli_2:context>
+	<xbrli_2:context id="S22005_A48004360_dcccc">
+		<xbrli_2:entity>
+			<xbrli_2:identifier scheme="http://www.cnmv.es/xbrl/ipp/A48004360">FAES FARMA, S.A.</xbrli_2:identifier>
+			<xbrli_2:segment>
+				<ipp:version>5.1.1</ipp:version>
+			</xbrli_2:segment>
+		</xbrli_2:entity>
+		<xbrli_2:period>
+			<xbrli_2:startDate>2005-01-01</xbrli_2:startDate>
+			<xbrli_2:endDate>2005-12-31</xbrli_2:endDate>
+		</xbrli_2:period>
+		<xbrli_2:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado/>
+		</xbrli_2:scenario>
+	</xbrli_2:context>
+	<xbrli_2:context id="S22005_A48004360_icccc">
+		<xbrli_2:entity>
+			<xbrli_2:identifier scheme="http://www.cnmv.es/xbrl/ipp/A48004360">FAES FARMA, S.A.</xbrli_2:identifier>
+			<xbrli_2:segment>
+				<ipp:version>5.1.1</ipp:version>
+			</xbrli_2:segment>
+		</xbrli_2:entity>
+		<xbrli_2:period>
+			<xbrli_2:instant>2005-12-31</xbrli_2:instant>
+		</xbrli_2:period>
+		<xbrli_2:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado/>
+		</xbrli_2:scenario>
+	</xbrli_2:context>
+	<xbrli_2:context id="S22004_A48004360_dpccc">
+		<xbrli_2:entity>
+			<xbrli_2:identifier scheme="http://www.cnmv.es/xbrl/ipp/A48004360">FAES FARMA, S.A.</xbrli_2:identifier>
+			<xbrli_2:segment>
+				<ipp:version>5.1.1</ipp:version>
+			</xbrli_2:segment>
+		</xbrli_2:entity>
+		<xbrli_2:period>
+			<xbrli_2:startDate>2004-01-01</xbrli_2:startDate>
+			<xbrli_2:endDate>2004-12-31</xbrli_2:endDate>
+		</xbrli_2:period>
+		<xbrli_2:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado/>
+		</xbrli_2:scenario>
+	</xbrli_2:context>
+	<xbrli_2:context id="S22004_A48004360_ipccc">
+		<xbrli_2:entity>
+			<xbrli_2:identifier scheme="http://www.cnmv.es/xbrl/ipp/A48004360">FAES FARMA, S.A.</xbrli_2:identifier>
+			<xbrli_2:segment>
+				<ipp:version>5.1.1</ipp:version>
+			</xbrli_2:segment>
+		</xbrli_2:entity>
+		<xbrli_2:period>
+			<xbrli_2:instant>2004-12-31</xbrli_2:instant>
+		</xbrli_2:period>
+		<xbrli_2:scenario>
+			<ipp:Modelo>GE</ipp:Modelo>
+			<ipp:Apartado/>
+		</xbrli_2:scenario>
+	</xbrli_2:context>
+	<xbrli_2:unit id="euro">
+		<xbrli_2:measure>iso4217:EUR</xbrli_2:measure>
+	</xbrli_2:unit>
+	<xbrli_2:unit id="pure">
+		<xbrli_2:measure>xbrli_2:pure</xbrli_2:measure>
+	</xbrli_2:unit>
+	<dgi:LegalName>
+		<dgi:LegalNameType>
+		<dgi-lc-es:Xcode_NMT.DS contextRef="S22005_A48004360_ici">DS</dgi-lc-es:Xcode_NMT.DS></dgi:LegalNameType>
+		<dgi:LegalNameValue contextRef="S22005_A48004360_ici">FAES FARMA, S.A.</dgi:LegalNameValue></dgi:LegalName>
+	<dgi:EntityAddress>
+		<dgi:AddressType>
+			<dgi:AddressTypeList>
+				<dgi-lc-es:Xcode_ADL.01 contextRef="S22005_A48004360_ici">01</dgi-lc-es:Xcode_ADL.01></dgi:AddressTypeList></dgi:AddressType>
+		<dgi:Address>
+			<dgi:AddressFormat>
+				<dgi-lc-int:Xcode_UN3477.05 contextRef="S22005_A48004360_ici">05</dgi-lc-int:Xcode_UN3477.05></dgi:AddressFormat>
+			<dgi:AddressLine contextRef="S22005_A48004360_ici">RODRIGUEZ ARIAS, 20 - BILBAO</dgi:AddressLine></dgi:Address></dgi:EntityAddress>
+	<dgi:Identifier>
+		<dgi:IdentifierCode><dgi-lc-es:Xcode_IDC.CIF contextRef="S22005_A48004360_ici"/></dgi:IdentifierCode>
+		<dgi:IdentifierValue contextRef="S22005_A48004360_ici">A48004360</dgi:IdentifierValue></dgi:Identifier>
+	<dgi:ContactPerson>
+		<dgi:PersonName>
+			<dgi:FormattedName contextRef="S22005_A48004360_ici">D. JOSE MARIA SEIJAS VAZQUEZ - Director General Adjunto
+Ostenta la representación de la Sociedad en virtud de escritura de apoderamiento número 947 otorgada el 22 de Junio de 2.005 ante D. José María Arriola Arana, Notario de Bilbao</dgi:FormattedName></dgi:PersonName></dgi:ContactPerson>
+	<ipp-com:VariacionSociedadesGrupoConsolidado contextRef="S22005_A48004360_dci">No ha habido variación en las Sociedades que forman el Grupo Consolidado.</ipp-com:VariacionSociedadesGrupoConsolidado>
+	<ipp-com:BasesPresentacionNormasValoracion contextRef="S22005_A48004360_dci">ACTUALIZACION DATOS DEFINITIVOS TRAS AUDITORIAS
+
+Se remite esta versión con los datos definitivos una vez formuladas las Cuentas Anuales 2005 y recibido el informe de Auditoría (sin salvedades).
+
+ Las principales partidas que se modifican sobre el avance anterior son: 
+
+Cuentas Individuales: los cambios corresponden a reclasificaciones entre partidas de Balance (saldos bancarios y descuento a clientes) y la contabilización del precio de compra aplazado por la adquisición a Ipsen de la división de Medicina General.
+
+Cuentas Consolidadas:Además de las partidas indicadas en el párrafo anterior, se informa de varias reclasificaciones entre partidas de Pasivos no corrientes.
+En la cuenta de Pérdidas y Ganancias:
+*Cifra Negocio: varía por el registro de las provisiones por devoluciones.
+*Otros ingresos: aumentan por los ingresos anticipados por préstamos a la investigación.
+*Ebit, Ebitda y Beneficio Consolidado: mejoran según lo indicado en los dos puntos anteriores.
+
+MODIFICACIONES A LA PRIMERA VERSION
+GE3. Se añade al segundo párrafo de las Bases de Presentación. En consecuencia los ejercicios 2.004 y 2.005 no son comparables.
+GE10. Se reclasifican las partidas de Otras reservas, Ganancias acumuladas y Otros instrumentos de Patrimonio neto sin variar la suma total de Patrimonio.
+GE12. Se reclasifica la partida de Otros instrumentos de Patrimonio neto a Reservas.
+GE14. Se incluyen los tres últimos párrafos al apartado IX. Evolución de los negocios, aclarando el Resultado Extraordinario, el impuesto sobre sociedades y la variación en activo inmaterial
+
+TEXTO ORIGINAL (incluye la nota GE3)
+Conforme a lo establecido en el Reglamento Europeo 1606/2002 publicado el 11 de septiembre de 2002 en el Diario Oficial de las Comunidades Europeas, las sociedades que emitan títulos con cotización en cualesquiera de los mercados de valores de la Unión Europea deberán formular sus cuentas anuales consolidadas de acuerdo con las Normas Internacionales de Información Financiera (NIIF) a partir del ejercicio económico que se inició con posterioridad al 1 de enero de 2005.
+
+Las cuentas anuales consolidadas del Grupo Faes se presentan de acuerdo con los criterios contables establecidos en las Normas Internacionales de Información Financiera (NIIF) aprobadas por el Parlamento Europeo hasta la fecha; del mismo modo la información financiera comparativa correspondiente al mismo periodo del ejercicio anterior ha sido preparada consistentemente bajo los mismos criterios, excepto por la no aplicación de la NIC 32 y 39 en el ejercicio 2004 de acuerdo con lo permitido en la norma de primera aplicación de las NIIF. En consecuencia, los ejercicios 2.004 y 2.005 no son comparables.
+
+Dichas cuentas se han preparado a partir de las contabilidades individuales de la sociedad Faes Farma S.A. y de las sociedades del Grupo, que incluyen los ajustes y reclasificaciones necesarios para adecuarlas a los criterios establecidos en las NIIF. Los efectos correspondientes a la aplicación de las NIIF a la fecha de transición (31 de diciembre de 2003) se han llevado en su totalidad contra reservas a dicha fecha. En relación a la información financiera presentada en este documento, cabe señalar lo siguiente:
+
+&gt;Las normas emitidas y adoptadas por la Unión Europea pueden estar sujetas a los borradores de interpretación emitidos por el IFRIC y otros organismos reguladores, que podrían tener impacto en la exactitud de los ajustes y reclasificaciones identificados hasta la fecha en la información financiera presentada en este documento.
+
+&gt;Esta información ha sido preparada internamente por el Grupo Faes y no se ha sometido a auditoría, por lo que podrían producirse modificaciones en el patrimonio y cuenta de resultados derivadas, de estimaciones y circunstancias similares.
+
+Primera aplicación de las NIIF:
+
+La NIIF 1 desarrolla los principios contables que deberán ser aplicados por las empresas que formulen por primera vez sus estados financieros individuales y consolidados de acuerdo con la normativa internacional. Esta norma permite la aplicación de determinadas excepciones a la aplicación retrospectiva de las normas, las principales aplicadas por el Grupo Faes se detallan a continuación.
+
+a) Utilización del valor razonable o de la revalorización como coste presunto de determinados elementos de inmovilizado material.
+
+b) No aplicación de la NIC 32 y 39 de manera anticipada. Se ha incluido el primer impacto a 1 de enero de 2005 (coberturas de tipo de interés y cambio, y valoración a valor de mercado de activos y pasivos financieros).
+
+Tratamientos alternativos:
+
+El grupo ha decidido seguir los siguientes tratamientos alternativos:
+
+a)Estados financieros:
+   ØDesglose de gastos basado en su naturaleza
+   ØEstado de  flujos de efectivo por el método indirecto
+   ØEstado financiero de cambios en el patrimonio completo
+
+b)Inmovilizado material e inmaterial
+   ØValoración posterior a coste
+   ØMétodo de amortización lineal
+   ØNo se capitalizan gastos financieros
+
+c)Propiedad inmobiliaria
+   ØValoración a valor de mercado
+
+d)Subvenciones
+   ØReconocidas como partidas de ingresos diferidos
+   ØRegistradas como “Otros ingresos” en la cuenta de resultados
+
+e)No aplicación anticipada de la NIIF 5
+
+Principales diferencias entre PGC y NIIF aplicables al Grupo Faes:
+
+&gt;Debido a que no existe información contemporánea suficiente que permita evidenciar el cumplimiento de todos los requisitos incluidos en la NIC 38.57, no han sido capitalizados los gastos de investigación y desarrollo incurridos hasta la fecha. En consecuencia, los gastos capitalizados hasta la fecha de transición habiéndose llevado a resultados aquellos incurridos con posterioridad así como la reversión de la amortización correspondiente a los gastos activados.   
+
+&gt;El Grupo ha optado por aplicar el valor razonable en la valoración de los inmuebles de inversión. En el balance de transición el Grupo ha reconocido el efecto de dicha valoración contra reservas, reclasificando asimismo el inmueble del que se trata como una partida separada dentro de propiedad, planta y equipo del balance de situación.
+
+&gt;Se han reclasificado los impuestos diferidos, las deducciones activadas y los créditos fiscales a un epígrafe separado dentro de los activos o pasivos no corrientes. Asimismo los efectos en los impuestos diferidos de los ajustes hechos en la adaptación a las NIIF se han reconocido contra reservas de transición y contra resultados con posterioridad.
+
+&gt;Como consecuencia de la aplicación de las NIC 32 y 39 con efectos 1 de enero de 2005, se han puesto de manifiesto las siguientes diferencias de principios respecto de las cuentas anuales del Grupo:
+   
+-El Grupo ha mantenido la clasificación y la valoración de las inversiones financieras aplicada bajo principios locales hasta 1 de enero de 2005. A partir de este momento las inversiones financieras  permanentes y temporales que posee el Grupo han pasado a valorarse por su valor razonable, en el caso de que este pueda ser determinado con fiabilidad, quedando valoradas a coste aquellas inversiones sobre las que no pueda ser obtenido dicho valor razonable.
+
+-Asimismo el Grupo ha mantenido la valoración de los pasivos financieros aplicada bajo principios locales hasta 1 de enero de 2005. A partir de este momento los pasivos financieros, siendo estos básicamente los créditos a tipo de interés nulo o inferior al tipo de mercado que han sido otorgados al Grupo, han pasado a valorarse por su valor razonable, en el caso de que este pueda ser determinado con fiabilidad.
+
+-El Grupo ha mantenido la valoración de las operaciones en las que ha utilizado derivados financieros para la cobertura de riesgos relacionados con las mismas de acuerdo con los principios de contabilidad generalmente aceptados en España hasta 31 de diciembre de 2004. A partir de dicho momento el Grupo ha decidido no aplicar contabilidad de cobertura para los derivados financieros en vigor a 1 de enero de 2005 por las dificultades que supone documentar y verificar su efectividad. Como consecuencia, estos derivados se han valorado a su valor razonable con contrapartida en reservas a dicha fecha.
+
+-El Grupo ha mantenido la clasificación de las acciones propias y el reconocimiento del resultado de la venta durante el año 2004 de acuerdo con los principios de contabilidad generalmente aceptados en España hasta 31 de diciembre de 2004. A fecha 1 de enero de 2005, el Grupo ya no disponía de acciones propias.</ipp-com:BasesPresentacionNormasValoracion>
+	<ipp-com:EvolucionNegocios>
+		<ipp-com:EvolucionNegociosDescripcion contextRef="S22005_A48004360_dci">&gt; Después de impuestos, el Beneficio Consolidado aumenta un 12,7% pese a las fuertes plusvalías financieras no recurrentes de 2.004.
+
+&gt; El importe neto de la Cifra de Negocios de Faes Farma creció en 2.005 un 2,1%, a pesar de la importante reducción de precios impuesta por los Gobiernos de España y Portugal.
+
+&gt; Por esa razón y por nuestra aportación (Tasa anual) por volumen de ventas al Sistema Nacional de Salud, cobra especial relieve el aumento del 20,8% en el Resultado Bruto de Explotación.
+
+&gt; Destacamos el esfuerzo de contención de gastos desarrollado en el ejercicio como la clave de los mejores beneficios operativos netos, un 31,7% superiores al año anterior.
+
+&gt; Las perspectivas optimistas para 2.006 vienen marcadas por la plena incorporación a nuestra facturación de la división de Medicina General adquirida a Ipsen Pharma en el tramo final del ejercicio pasado, así como por las negociaciones de licencia sobre Bilastina con socios de Estados Unidos, Europa y Asia, actualmente en marcha.
+
+&gt; Faes Farma presenta en su cuenta de resultados individual un Resultado Extraordinario negativo de ejercicios anteriores de 15.424 miles de euros, de los cuales 15.176 miles de euros corresponden al ajuste de los gastos de I+D activados pendientes de amortización que, siguiendo criterios uniformes con el Consolidado, han sido anulados.
+
+&gt; El impuesto sobre Sociedades contabilizado en la cuenta de resultados de Faes Farma individual presenta un importe positivo de 11.375 miles de euros derivado de las deducciones pendientes de aplicación a largo plazo que la Sociedad ha registrado en 2.005.
+
+&gt; La partida de Otros Activos Intangibles del Balance Consolidado crece en 2.005 de 69.925 a 90.989 miles de euros motivado por la adquisición de las marcas y registros Pankreoflat, Futuran, Lixacol y todas las especialidades de la división de Medicina General a Ipsen Pharma.</ipp-com:EvolucionNegociosDescripcion>
+	</ipp-com:EvolucionNegocios>
+	<ipp-com:InformacionAdicionalRepartoDividendos contextRef="S22005_A48004360_dci">28/02/05. Dividendo a cuenta del ejercicio 2.004. Importe bruto de 0,07 euros por acción
+23/06/05. Dividendo complementario del ejercicio 2.004. Importe bruto de 0,03 euros por acción
+30/09/05. Dividendo a cuenta del ejercicio 2.005. Importe bruto de 0,07 euros por acción
+22/12/05. Dividendo a cuenta del ejercicio 2.005. Importe bruto de 0,07 euros por acción</ipp-com:InformacionAdicionalRepartoDividendos>
+	<ipp-com:AccionesOrdinariasPorcentajeSobreNominal contextRef="S22005_A48004360_dci" unitRef="pure" decimals="1">120</ipp-com:AccionesOrdinariasPorcentajeSobreNominal>
+	<ipp-com:AccionesOrdinariasImportePorAccion contextRef="S22005_A48004360_dci" decimals="2" unitRef="euro">0.24</ipp-com:AccionesOrdinariasImportePorAccion>
+	<ipp-com:AccionesOrdinariasImporteTotal contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">12737000</ipp-com:AccionesOrdinariasImporteTotal>
+	<ipp-com:ExistenAdquisicionesTransmisionesParticipacionesCapitalSociedadesCotizadasBolsaObligadasComunicar contextRef="S22005_A48004360_dci">false</ipp-com:ExistenAdquisicionesTransmisionesParticipacionesCapitalSociedadesCotizadasBolsaObligadasComunicar>
+	<ipp-com:ExistenAutocarteraDeterminantesObligacionComunicar contextRef="S22005_A48004360_dci">false</ipp-com:ExistenAutocarteraDeterminantesObligacionComunicar>
+	<ipp-com:ExistenOtrosAumentosDisminucionesSignificativosInmovilizado contextRef="S22005_A48004360_dci">false</ipp-com:ExistenOtrosAumentosDisminucionesSignificativosInmovilizado>
+	<ipp-com:ExistenAumentosReduccionesCapitalSocialNominalAcciones contextRef="S22005_A48004360_dci">true</ipp-com:ExistenAumentosReduccionesCapitalSocialNominalAcciones>
+	<ipp-com:ExistenEmisionesReembolsosCancelacionesEmprestitos contextRef="S22005_A48004360_dci">false</ipp-com:ExistenEmisionesReembolsosCancelacionesEmprestitos>
+	<ipp-com:ExistenCambiosAdministradoresConsejoAdministracion contextRef="S22005_A48004360_dci">true</ipp-com:ExistenCambiosAdministradoresConsejoAdministracion>
+	<ipp-com:ExistenModificacionesEstatutosSociales contextRef="S22005_A48004360_dci">true</ipp-com:ExistenModificacionesEstatutosSociales>
+	<ipp-com:ExistenTransformacionesFusionesEscisiones contextRef="S22005_A48004360_dci">false</ipp-com:ExistenTransformacionesFusionesEscisiones>
+	<ipp-com:ExistenCambiosRegularizacionInstitucionalSectorIncidenciaSignificativaSituacionEconomicaFinancieraSociedadGrupo contextRef="S22005_A48004360_dci">false</ipp-com:ExistenCambiosRegularizacionInstitucionalSectorIncidenciaSignificativaSituacionEconomicaFinancieraSociedadGrupo>
+	<ipp-com:ExistenPleitosLitigiosContenciososAfectanSituacionPatrimonialSociedadGrupo contextRef="S22005_A48004360_dci">false</ipp-com:ExistenPleitosLitigiosContenciososAfectanSituacionPatrimonialSociedadGrupo>
+	<ipp-com:ExistenSItuacionesConcursalesSuspensionesPagos contextRef="S22005_A48004360_dci">false</ipp-com:ExistenSItuacionesConcursalesSuspensionesPagos>
+	<ipp-com:ExistenAcuerdosEspecialesLimitacionEscesionRenunciaTotalParcialDerechosPoliticosEconomicosAccionesSociedad contextRef="S22005_A48004360_dci">false</ipp-com:ExistenAcuerdosEspecialesLimitacionEscesionRenunciaTotalParcialDerechosPoliticosEconomicosAccionesSociedad>
+	<ipp-com:ExistenAcuerdosEstrategicosGruposNacionalesInternacionales contextRef="S22005_A48004360_dci">false</ipp-com:ExistenAcuerdosEstrategicosGruposNacionalesInternacionales>
+	<ipp-com:ExistenOtrosHechosSignificativos contextRef="S22005_A48004360_dci">true</ipp-com:ExistenOtrosHechosSignificativos>
+	<ipp-com:AnexoExplicativoHechosSignificativos>
+		<ipp-com:AnexoExplicativoDescripcion contextRef="S22005_A48004360_ici">&gt;06/12/05. Se remite información sobre el efecto del proyecto de Ley del Medicamento
+&gt;15/11/05. Se informa del pago del segundo dividendo a cuenta 2005
+&gt;15/11/05. Se remiten resultados del tercer trimestre 2005
+&gt;18/10/05 y 19/10/05. Se informa de la adquisición a Ipsen Pharma de su división de Medicina General
+&gt;22/09/05. Se comunica el reparto del primer dividendo a cuenta 2005
+&gt;01/08/05. Se notifica la dimisión del Consejero Delegado
+&gt;29/07/05. La Sociedad remite información sobre resultados del primer semestre 2005
+&gt;27/07/05: En el acuerdo con la italiana Dompé Internacional, S.A. para la comercialización de OvaRex, Faes Farma ha adquirido también la prioridad sobre los derechos de comercialización en España y Portugal de otros tres anticuerpos monoclonales para el tratamiento de diferentes cánceres.
+&gt;21/07/05:La sociedad remite información sobre su actividad internacional. 
+&gt;22/06/05:La Sociedad remite los acuerdos adoptados en la Junta General de Accionistas celebrada el día 22 de junio de 2005. 
+&gt;06/06/05:La Sociedad comunica la ampliación del dossier de seguridad de Bilastina para cumplir con la normativa de la FDA norteamericana. 
+&gt;18/05/05:La sociedad remite el Informe Anual de Gobierno Corporativo del ejercicio 2004 
+&gt;18/05/05:La Sociedad comunica que el Consejo de Administración ha acordado convocar Junta General de Accionistas de la Sociedad para celebrar los días 21 y 22 de Junio de 2005, en primera y segunda convocatoria, respectivamente.
+&gt;12/05/05:La sociedad remite información sobre los resultados del primer trimestre de 2005 
+&gt;22/04/05:Adquisición del producto Lixacol
+&gt;29/03/05:La Sociedad comunica que ha iniciado contactos con varias compañías para el desarrollo de su nuevo antidepresivo.
+&gt;17/03/05:Ampliación de capital social.
+&gt;22/02/05:Avance de Resultados de Sociedades Emisoras  
+&gt;15/02/05:Acuerdo pago dividendo 28 Febrero 2005.
+&gt;19/01/05:La Sociedad comunica que ha adquirido la especialidad farmacéutica Pankreoflat de Solvay Pharma para su comercialización en España y Portugal.
+&gt;04/01/05:Faes Farma, Grupo Solvay Pharma y Madaus, S.A. han llegado a un acuerdo por el que Faes Farma comercializará a partir de enero el producto Futuran, actualmente comercializado por Madaus, cuyo principio activo es el Eprosartan, producto original de Solvay.</ipp-com:AnexoExplicativoDescripcion>
+	</ipp-com:AnexoExplicativoHechosSignificativos>
+	<ipp-com:OperacionesRealizadasAdministradoresDirectivosSociedad>
+		<ipp-com:CuadroOperacionesPartesVinculadas>
+			<ipp-com:CodigoDescripcionOperacion><ipp-com:CodigoOperacion><ipp-com:Xcode_OPV.026 contextRef="S22005_A48004360_ici"/></ipp-com:CodigoOperacion></ipp-com:CodigoDescripcionOperacion>
+			<ipp-com:TipoOperacion><ipp-com:Xcode_TIO.A contextRef="S22005_A48004360_ici"/></ipp-com:TipoOperacion>
+			<dgi:StatusType><dgi-lc-es:Xcode_NST.AC contextRef="S22005_A48004360_ici"/></dgi:StatusType>
+			<ipp-com:ImporteOperacion contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">3440000</ipp-com:ImporteOperacion>
+			<ipp-com:ResultadoOperacionVinculada contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">3440000</ipp-com:ResultadoOperacionVinculada>
+			<ipp-com:PlazoOperacion><ipp-com:OtroCodigoDescripcion contextRef="S22005_A48004360_dci">CP</ipp-com:OtroCodigoDescripcion></ipp-com:PlazoOperacion>
+		</ipp-com:CuadroOperacionesPartesVinculadas>
+		<ipp-com:OperacionesRealizadasAdministradoresDirectivosSociedadOtrosAspectos contextRef="S22005_A48004360_dci"></ipp-com:OperacionesRealizadasAdministradoresDirectivosSociedadOtrosAspectos>
+	</ipp-com:OperacionesRealizadasAdministradoresDirectivosSociedad>
+	<ipp-gen:ProvisionesParaRiesgosGastos contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">406000</ipp-gen:ProvisionesParaRiesgosGastos>
+	<ipp-mas-pat:InmovilizacionesInmateriales contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">71702000</ipp-mas-pat:InmovilizacionesInmateriales>
+	<ipp-gen:OtroInmovilizadoInmaterial contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">71702000</ipp-gen:OtroInmovilizadoInmaterial>
+	<ipp-mas-pat:InmovilizacionesMateriales contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">21541000</ipp-mas-pat:InmovilizacionesMateriales>
+	<ipp-mas-pat:InmovilizacionesFinancieras contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">29427000</ipp-mas-pat:InmovilizacionesFinancieras>
+	<ipp-gen:Inmovilizado contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">122670000</ipp-gen:Inmovilizado>
+	<ipp-mas-pat:Existencias contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">15201000</ipp-mas-pat:Existencias>
+	<ipp-mas-pat:Deudores contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">28565000</ipp-mas-pat:Deudores>
+	<ipp-mas-pat:InversionesFinancierasTemporales contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">1000</ipp-mas-pat:InversionesFinancierasTemporales>
+	<ipp-mas-pat:Tesoreria contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">1869000</ipp-mas-pat:Tesoreria>
+	<ipp-mas-pat:ActivoCirculante contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">45636000</ipp-mas-pat:ActivoCirculante>
+	<ipp-mas-pat:TotalActivo contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">168306000</ipp-mas-pat:TotalActivo>
+	<ipp-mas-pat:CapitalSuscrito contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">11130000</ipp-mas-pat:CapitalSuscrito>
+	<ipp-mas-pat:Reservas contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">79511000</ipp-mas-pat:Reservas>
+	<ipp-mas-pat:ResultadoPeriodo contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">19653000</ipp-mas-pat:ResultadoPeriodo>
+	<ipp-gen:DividendosCuentaEntregadosEjercicio contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">-7791000</ipp-gen:DividendosCuentaEntregadosEjercicio>
+	<ipp-mas-pat:FondosPropios contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">102503000</ipp-mas-pat:FondosPropios>
+	<ipp-mas-pat:OtrasDeudasLargo contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">6615000</ipp-mas-pat:OtrasDeudasLargo>
+	<ipp-mas-pat:AcreedoresLargoPlazo contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">6615000</ipp-mas-pat:AcreedoresLargoPlazo>
+	<ipp-mas-pat:DeudasEntidadesCreditoCortoPlazo contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">32411000</ipp-mas-pat:DeudasEntidadesCreditoCortoPlazo>
+	<ipp-mas-pat:DeudasEmpresasGrupoAsociadasCortoPlazo contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">194000</ipp-mas-pat:DeudasEmpresasGrupoAsociadasCortoPlazo>
+	<ipp-mas-pat:AcreedoresComerciales contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">9710000</ipp-mas-pat:AcreedoresComerciales>
+	<ipp-mas-pat:OtrasDeudasCorto contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">14929000</ipp-mas-pat:OtrasDeudasCorto>
+	<ipp-mas-pat:AcreedoresCortoPlazo contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">57244000</ipp-mas-pat:AcreedoresCortoPlazo>
+	<ipp-mas-pat:ProvisionesParaRiesgosGastosCortoPlazo contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">1538000</ipp-mas-pat:ProvisionesParaRiesgosGastosCortoPlazo>
+	<ipp-mas-pat:TotalPasivo contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">168306000</ipp-mas-pat:TotalPasivo>
+	<ipp-mas-pat:Tesoreria contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">60000</ipp-mas-pat:Tesoreria>
+	<ipp-gen:ProvisionesParaRiesgosGastos contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">406000</ipp-gen:ProvisionesParaRiesgosGastos>
+	<ipp-mas-pat:InmovilizacionesInmateriales contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">66098000</ipp-mas-pat:InmovilizacionesInmateriales>
+	<ipp-gen:OtroInmovilizadoInmaterial contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">66098000</ipp-gen:OtroInmovilizadoInmaterial>
+	<ipp-mas-pat:InmovilizacionesMateriales contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">19338000</ipp-mas-pat:InmovilizacionesMateriales>
+	<ipp-mas-pat:InmovilizacionesFinancieras contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">21936000</ipp-mas-pat:InmovilizacionesFinancieras>
+	<ipp-gen:Inmovilizado contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">107372000</ipp-gen:Inmovilizado>
+	<ipp-mas-pat:Existencias contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">15928000</ipp-mas-pat:Existencias>
+	<ipp-mas-pat:Deudores contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">21944000</ipp-mas-pat:Deudores>
+	<ipp-mas-pat:InversionesFinancierasTemporales contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">816000</ipp-mas-pat:InversionesFinancierasTemporales>
+	<ipp-mas-pat:AjustesPeriodificacionActivo contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">55000</ipp-mas-pat:AjustesPeriodificacionActivo>
+	<ipp-mas-pat:ActivoCirculante contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">38803000</ipp-mas-pat:ActivoCirculante>
+	<ipp-mas-pat:TotalActivo contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">146175000</ipp-mas-pat:TotalActivo>
+	<ipp-mas-pat:CapitalSuscrito contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">9893000</ipp-mas-pat:CapitalSuscrito>
+	<ipp-mas-pat:Reservas contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">66330000</ipp-mas-pat:Reservas>
+	<ipp-mas-pat:ResultadoPeriodo contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">26290000</ipp-mas-pat:ResultadoPeriodo>
+	<ipp-gen:DividendosCuentaEntregadosEjercicio contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">-6925000</ipp-gen:DividendosCuentaEntregadosEjercicio>
+	<ipp-mas-pat:FondosPropios contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">95588000</ipp-mas-pat:FondosPropios>
+	<ipp-mas-pat:OtrasDeudasLargo contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">6295000</ipp-mas-pat:OtrasDeudasLargo>
+	<ipp-mas-pat:AcreedoresLargoPlazo contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">6295000</ipp-mas-pat:AcreedoresLargoPlazo>
+	<ipp-mas-pat:DeudasEntidadesCreditoCortoPlazo contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">18782000</ipp-mas-pat:DeudasEntidadesCreditoCortoPlazo>
+	<ipp-mas-pat:DeudasEmpresasGrupoAsociadasCortoPlazo contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">283000</ipp-mas-pat:DeudasEmpresasGrupoAsociadasCortoPlazo>
+	<ipp-mas-pat:AcreedoresComerciales contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">12549000</ipp-mas-pat:AcreedoresComerciales>
+	<ipp-mas-pat:OtrasDeudasCorto contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">10567000</ipp-mas-pat:OtrasDeudasCorto>
+	<ipp-mas-pat:AcreedoresCortoPlazo contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">42181000</ipp-mas-pat:AcreedoresCortoPlazo>
+	<ipp-mas-pat:ProvisionesParaRiesgosGastosCortoPlazo contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">1705000</ipp-mas-pat:ProvisionesParaRiesgosGastosCortoPlazo>
+	<ipp-mas-pat:TotalPasivo contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">146175000</ipp-mas-pat:TotalPasivo>
+	<ipp-mas-pat:ImporteNetoCifraNegocio contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">118178000</ipp-mas-pat:ImporteNetoCifraNegocio>
+	<ipp-mas-pat:OtrosIngresos contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">2127000</ipp-mas-pat:OtrosIngresos>
+	<ipp-mas-pat:VariacionExistenciasProductosTerminadosEnCurso contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">-1631000</ipp-mas-pat:VariacionExistenciasProductosTerminadosEnCurso>
+	<ipp-gen:ValorTotalProduccion contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">118674000</ipp-gen:ValorTotalProduccion>
+	<ipp-gen:ComprasNetas contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">-43088000</ipp-gen:ComprasNetas>
+	<ipp-gen:VariacionExistenciasMercaderiasMateriasPrimasOtrasMateriasConsumibles contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">-1034000</ipp-gen:VariacionExistenciasMercaderiasMateriasPrimasOtrasMateriasConsumibles>
+	<ipp-gen:GastosExternosExplotacion contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">-29472000</ipp-gen:GastosExternosExplotacion>
+	<ipp-gen:ValorAniadidoAjustado contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">45080000</ipp-gen:ValorAniadidoAjustado>
+	<ipp-mas-pat:GastosPersonal contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">-23579000</ipp-mas-pat:GastosPersonal>
+	<ipp-gen:ResultadoBrutoExplotacion contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">21501000</ipp-gen:ResultadoBrutoExplotacion>
+	<ipp-gen:DotacionAmortizacionesInmovilizado contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">-9415000</ipp-gen:DotacionAmortizacionesInmovilizado>
+	<ipp-gen:VariacionProvisionesCirculante contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">-1120000</ipp-gen:VariacionProvisionesCirculante>
+	<ipp-gen:ResultadoNetoExplotacion contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">10966000</ipp-gen:ResultadoNetoExplotacion>
+	<ipp-mas-pat:IngresosFinancieros contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">14785000</ipp-mas-pat:IngresosFinancieros>
+	<ipp-mas-pat:GastosFinancieros contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">-901000</ipp-mas-pat:GastosFinancieros>
+	<ipp-gen:ResultadoActividadesOrdinarias contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">24850000</ipp-gen:ResultadoActividadesOrdinarias>
+	<ipp-gen:ResultadosProcedentesInmovilizadoInmaterialMaterialCarteraControl contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">84000</ipp-gen:ResultadosProcedentesInmovilizadoInmaterialMaterialCarteraControl>
+	<ipp-gen:VariacionProvisionesInmovilizadoInmaterialMaterialCarteraControl contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">-1232000</ipp-gen:VariacionProvisionesInmovilizadoInmaterialMaterialCarteraControl>
+	<ipp-gen:ResultadosEjerciciosAnteriores contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">-15424000</ipp-gen:ResultadosEjerciciosAnteriores>
+	<ipp-mas-pat:ResultadoAntesImpuestos contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">8278000</ipp-mas-pat:ResultadoAntesImpuestos>
+	<ipp-mas-pat:ImpuestoSobreSociedadesOtros contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">11375000</ipp-mas-pat:ImpuestoSobreSociedadesOtros>
+	<ipp-mas-pat:ResultadoEjercicio contextRef="S22005_A48004360_dci" decimals="-3" unitRef="euro">19653000</ipp-mas-pat:ResultadoEjercicio>
+	<ipp-mas-pat:ImporteNetoCifraNegocio contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">118034000</ipp-mas-pat:ImporteNetoCifraNegocio>
+	<ipp-mas-pat:OtrosIngresos contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">1881000</ipp-mas-pat:OtrosIngresos>
+	<ipp-mas-pat:VariacionExistenciasProductosTerminadosEnCurso contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">2683000</ipp-mas-pat:VariacionExistenciasProductosTerminadosEnCurso>
+	<ipp-gen:ValorTotalProduccion contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">122598000</ipp-gen:ValorTotalProduccion>
+	<ipp-gen:ComprasNetas contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">-47293000</ipp-gen:ComprasNetas>
+	<ipp-gen:VariacionExistenciasMercaderiasMateriasPrimasOtrasMateriasConsumibles contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">-698000</ipp-gen:VariacionExistenciasMercaderiasMateriasPrimasOtrasMateriasConsumibles>
+	<ipp-gen:GastosExternosExplotacion contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">-24941000</ipp-gen:GastosExternosExplotacion>
+	<ipp-gen:ValorAniadidoAjustado contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">49666000</ipp-gen:ValorAniadidoAjustado>
+	<ipp-mas-pat:GastosPersonal contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">-23070000</ipp-mas-pat:GastosPersonal>
+	<ipp-gen:ResultadoBrutoExplotacion contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">26596000</ipp-gen:ResultadoBrutoExplotacion>
+	<ipp-gen:DotacionAmortizacionesInmovilizado contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">-11560000</ipp-gen:DotacionAmortizacionesInmovilizado>
+	<ipp-gen:VariacionProvisionesCirculante contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">-833000</ipp-gen:VariacionProvisionesCirculante>
+	<ipp-gen:ResultadoNetoExplotacion contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">14203000</ipp-gen:ResultadoNetoExplotacion>
+	<ipp-mas-pat:IngresosFinancieros contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">11473000</ipp-mas-pat:IngresosFinancieros>
+	<ipp-mas-pat:GastosFinancieros contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">-761000</ipp-mas-pat:GastosFinancieros>
+	<ipp-gen:DotacionAmortizacionProvisionesFinancieras contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">57000</ipp-gen:DotacionAmortizacionProvisionesFinancieras>
+	<ipp-gen:ResultadoActividadesOrdinarias contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">24972000</ipp-gen:ResultadoActividadesOrdinarias>
+	<ipp-gen:ResultadosProcedentesInmovilizadoInmaterialMaterialCarteraControl contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">25000</ipp-gen:ResultadosProcedentesInmovilizadoInmaterialMaterialCarteraControl>
+	<ipp-gen:VariacionProvisionesInmovilizadoInmaterialMaterialCarteraControl contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">162000</ipp-gen:VariacionProvisionesInmovilizadoInmaterialMaterialCarteraControl>
+	<ipp-gen:ResultadosEjerciciosAnteriores contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">36000</ipp-gen:ResultadosEjerciciosAnteriores>
+	<ipp-gen:OtrosResultadosExtraordinarios contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">-6000</ipp-gen:OtrosResultadosExtraordinarios>
+	<ipp-mas-pat:ResultadoAntesImpuestos contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">25189000</ipp-mas-pat:ResultadoAntesImpuestos>
+	<ipp-mas-pat:ImpuestoSobreSociedadesOtros contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">1101000</ipp-mas-pat:ImpuestoSobreSociedadesOtros>
+	<ipp-mas-pat:ResultadoEjercicio contextRef="S22004_A48004360_dpi" decimals="-3" unitRef="euro">26290000</ipp-mas-pat:ResultadoEjercicio>
+	<ipp-mas-pat:InmovilizadoMaterialNIIF contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">26828000</ipp-mas-pat:InmovilizadoMaterialNIIF>
+	<ipp-mas-pat:InversionesInmobiliarias contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">1500000</ipp-mas-pat:InversionesInmobiliarias>
+	<ipp-mas-pat:OtrosActivosIntangiblesNIIF contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">90989000</ipp-mas-pat:OtrosActivosIntangiblesNIIF>
+	<ipp-mas-pat:ActivosFinancierosNoCorrientesNIIF contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">683000</ipp-mas-pat:ActivosFinancierosNoCorrientesNIIF>
+	<ipp-mas-pat:OtrosActivosNoCorrientesNIIF contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">23409000</ipp-mas-pat:OtrosActivosNoCorrientesNIIF>
+	<ipp-mas-pat:ActivosNoCorrientes contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">143409000</ipp-mas-pat:ActivosNoCorrientes>
+	<ipp-mas-pat:ExistenciasNIIF contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">23898000</ipp-mas-pat:ExistenciasNIIF>
+	<ipp-mas-pat:DeudoresComercialesOtrasCuentasCobrarNIIF contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">28978000</ipp-mas-pat:DeudoresComercialesOtrasCuentasCobrarNIIF>
+	<ipp-mas-pat:OtrosActivosFinancierosCorrientesNIIF contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">13994000</ipp-mas-pat:OtrosActivosFinancierosCorrientesNIIF>
+	<ipp-mas-pat:EfectivoOtrosMediosLiquidosEquivalentesNIIF contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">5763000</ipp-mas-pat:EfectivoOtrosMediosLiquidosEquivalentesNIIF>
+	<ipp-mas-pat:SubtotalActivosCorrientes contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">72633000</ipp-mas-pat:SubtotalActivosCorrientes>
+	<ipp-mas-pat:ActivosCorrientes contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">72633000</ipp-mas-pat:ActivosCorrientes>
+	<ipp-mas-pat:TotalActivoNIIF contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">216042000</ipp-mas-pat:TotalActivoNIIF>
+	<ipp-mas-pat:CapitalNIIF contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">11130000</ipp-mas-pat:CapitalNIIF>
+	<ipp-gen-con:OtrasReservas contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">724000</ipp-gen-con:OtrasReservas>
+	<ipp-mas-pat:GananciasAcumuladas contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">127550000</ipp-mas-pat:GananciasAcumuladas>
+	<ipp-mas-pat:MenosDividendosCuenta contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">-7791000</ipp-mas-pat:MenosDividendosCuenta>
+	<ipp-mas-pat:PatrimonioAtribuidoTenedoresInstrumentosPatrimonioNetoDominante contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">131613000</ipp-mas-pat:PatrimonioAtribuidoTenedoresInstrumentosPatrimonioNetoDominante>
+	<ipp-mas-pat:InteresesMinoritarios contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">10000</ipp-mas-pat:InteresesMinoritarios>
+	<ipp-mas-pat:PatrimonioNeto contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">131623000</ipp-mas-pat:PatrimonioNeto>
+	<ipp-mas-pat:OtrosPasivosFinancierosLargoPlazo contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">5506000</ipp-mas-pat:OtrosPasivosFinancierosLargoPlazo>
+	<ipp-mas-pat:PasivosImpuestosDiferidos contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">1517000</ipp-mas-pat:PasivosImpuestosDiferidos>
+	<ipp-mas-pat:ProvisionesLargoPlazo contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">6098000</ipp-mas-pat:ProvisionesLargoPlazo>
+	<ipp-mas-pat:PasivosNoCorrientes contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">13121000</ipp-mas-pat:PasivosNoCorrientes>
+	<ipp-mas-pat:AcreedoresComercialesOtrasCuentasPagarNIIF contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">30630000</ipp-mas-pat:AcreedoresComercialesOtrasCuentasPagarNIIF>
+	<ipp-mas-pat:DeudasEntidadesCreditoCortoPlazoNIIF contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">38060000</ipp-mas-pat:DeudasEntidadesCreditoCortoPlazoNIIF>
+	<ipp-mas-pat:ProvisionesCortoPlazo contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">1916000</ipp-mas-pat:ProvisionesCortoPlazo>
+	<ipp-mas-pat:PasivosImpuestosSobreGananciasCorrientes contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">692000</ipp-mas-pat:PasivosImpuestosSobreGananciasCorrientes>
+	<ipp-mas-pat:SubtotalPasivosCorrientes contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">71298000</ipp-mas-pat:SubtotalPasivosCorrientes>
+	<ipp-mas-pat:PasivosCorrientes contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">71298000</ipp-mas-pat:PasivosCorrientes>
+	<ipp-mas-pat:TotalPasivoNIIF contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">216042000</ipp-mas-pat:TotalPasivoNIIF>
+	<ipp-mas-pat:InmovilizadoMaterialNIIF contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">24871000</ipp-mas-pat:InmovilizadoMaterialNIIF>
+	<ipp-mas-pat:InversionesInmobiliarias contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">1500000</ipp-mas-pat:InversionesInmobiliarias>
+	<ipp-mas-pat:OtrosActivosIntangiblesNIIF contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">69925000</ipp-mas-pat:OtrosActivosIntangiblesNIIF>
+	<ipp-mas-pat:ActivosFinancierosNoCorrientesNIIF contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">258000</ipp-mas-pat:ActivosFinancierosNoCorrientesNIIF>
+	<ipp-mas-pat:OtrosActivosNoCorrientesNIIF contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">17379000</ipp-mas-pat:OtrosActivosNoCorrientesNIIF>
+	<ipp-mas-pat:ActivosNoCorrientes contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">113933000</ipp-mas-pat:ActivosNoCorrientes>
+	<ipp-mas-pat:ExistenciasNIIF contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">23512000</ipp-mas-pat:ExistenciasNIIF>
+	<ipp-mas-pat:DeudoresComercialesOtrasCuentasCobrarNIIF contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">27109000</ipp-mas-pat:DeudoresComercialesOtrasCuentasCobrarNIIF>
+	<ipp-mas-pat:OtrosActivosFinancierosCorrientesNIIF contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">14249000</ipp-mas-pat:OtrosActivosFinancierosCorrientesNIIF>
+	<ipp-mas-pat:EfectivoOtrosMediosLiquidosEquivalentesNIIF contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">12003000</ipp-mas-pat:EfectivoOtrosMediosLiquidosEquivalentesNIIF>
+	<ipp-mas-pat:SubtotalActivosCorrientes contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">76873000</ipp-mas-pat:SubtotalActivosCorrientes>
+	<ipp-mas-pat:ActivosCorrientes contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">76873000</ipp-mas-pat:ActivosCorrientes>
+	<ipp-mas-pat:TotalActivoNIIF contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">190806000</ipp-mas-pat:TotalActivoNIIF>
+	<ipp-mas-pat:CapitalNIIF contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">9893000</ipp-mas-pat:CapitalNIIF>
+	<ipp-gen-con:OtrasReservas contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">1824000</ipp-gen-con:OtrasReservas>
+	<ipp-mas-pat:GananciasAcumuladas contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">115220000</ipp-mas-pat:GananciasAcumuladas>
+	<ipp-mas-pat:MenosDividendosCuenta contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">-6883000</ipp-mas-pat:MenosDividendosCuenta>
+	<ipp-mas-pat:PatrimonioAtribuidoTenedoresInstrumentosPatrimonioNetoDominante contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">120054000</ipp-mas-pat:PatrimonioAtribuidoTenedoresInstrumentosPatrimonioNetoDominante>
+	<ipp-mas-pat:InteresesMinoritarios contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">40000</ipp-mas-pat:InteresesMinoritarios>
+	<ipp-mas-pat:PatrimonioNeto contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">120094000</ipp-mas-pat:PatrimonioNeto>
+	<ipp-mas-pat:OtrosPasivosFinancierosLargoPlazo contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">4271000</ipp-mas-pat:OtrosPasivosFinancierosLargoPlazo>
+	<ipp-mas-pat:PasivosImpuestosDiferidos contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">537000</ipp-mas-pat:PasivosImpuestosDiferidos>
+	<ipp-mas-pat:ProvisionesLargoPlazo contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">6164000</ipp-mas-pat:ProvisionesLargoPlazo>
+	<ipp-mas-pat:PasivosNoCorrientes contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">10972000</ipp-mas-pat:PasivosNoCorrientes>
+	<ipp-mas-pat:AcreedoresComercialesOtrasCuentasPagarNIIF contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">30100000</ipp-mas-pat:AcreedoresComercialesOtrasCuentasPagarNIIF>
+	<ipp-mas-pat:DeudasEntidadesCreditoCortoPlazoNIIF contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">23179000</ipp-mas-pat:DeudasEntidadesCreditoCortoPlazoNIIF>
+	<ipp-mas-pat:ProvisionesCortoPlazo contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">2993000</ipp-mas-pat:ProvisionesCortoPlazo>
+	<ipp-mas-pat:PasivosImpuestosSobreGananciasCorrientes contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">3468000</ipp-mas-pat:PasivosImpuestosSobreGananciasCorrientes>
+	<ipp-mas-pat:SubtotalPasivosCorrientes contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">59740000</ipp-mas-pat:SubtotalPasivosCorrientes>
+	<ipp-mas-pat:PasivosCorrientes contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">59740000</ipp-mas-pat:PasivosCorrientes>
+	<ipp-mas-pat:TotalPasivoNIIF contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">190806000</ipp-mas-pat:TotalPasivoNIIF>
+	<ipp-mas-pat:ImporteNetoCifraNegocioNIIF contextRef="S22005_A48004360_dcc" decimals="-3" unitRef="euro">166449000</ipp-mas-pat:ImporteNetoCifraNegocioNIIF>
+	<ipp-mas-pat:OtrosIngresosNIIF contextRef="S22005_A48004360_dcc" decimals="-3" unitRef="euro">2260000</ipp-mas-pat:OtrosIngresosNIIF>
+	<ipp-mas-pat:VariacionExistenciasProductosTerminadosOEnCursoNIIF contextRef="S22005_A48004360_dcc" decimals="-3" unitRef="euro">-1771000</ipp-mas-pat:VariacionExistenciasProductosTerminadosOEnCursoNIIF>
+	<ipp-mas-pat:Aprovisionamientos contextRef="S22005_A48004360_dcc" decimals="-3" unitRef="euro">-53724000</ipp-mas-pat:Aprovisionamientos>
+	<ipp-mas-pat:GastoPersonalNIIF contextRef="S22005_A48004360_dcc" decimals="-3" unitRef="euro">-39279000</ipp-mas-pat:GastoPersonalNIIF>
+	<ipp-mas-pat:DotacionAmortizacion contextRef="S22005_A48004360_dcc" decimals="-3" unitRef="euro">-14234000</ipp-mas-pat:DotacionAmortizacion>
+	<ipp-mas-pat:OtrosGastos contextRef="S22005_A48004360_dcc" decimals="-3" unitRef="euro">-39816000</ipp-mas-pat:OtrosGastos>
+	<ipp-mas-pat:BeneficioPerdidaExplotacion contextRef="S22005_A48004360_dcc" decimals="-3" unitRef="euro">19885000</ipp-mas-pat:BeneficioPerdidaExplotacion>
+	<ipp-mas-pat:IngresosFinancierosNIIF contextRef="S22005_A48004360_dcc" decimals="-3" unitRef="euro">2621000</ipp-mas-pat:IngresosFinancierosNIIF>
+	<ipp-mas-pat:GastosFinancierosNIIF contextRef="S22005_A48004360_dcc" decimals="-3" unitRef="euro">-2226000</ipp-mas-pat:GastosFinancierosNIIF>
+	<ipp-mas-pat:ResultadoVariacionesValorInstrumentosFinancierosValorRazonableNeto contextRef="S22005_A48004360_dcc" decimals="-3" unitRef="euro">53000</ipp-mas-pat:ResultadoVariacionesValorInstrumentosFinancierosValorRazonableNeto>
+	<ipp-mas-pat:ResultadoVariacionesValorActivosNoFinancierosValorRazonableNeto contextRef="S22005_A48004360_dcc" decimals="-3" unitRef="euro">176000</ipp-mas-pat:ResultadoVariacionesValorActivosNoFinancierosValorRazonableNeto>
+	<ipp-mas-pat:ResultadoEnajenacionActivosNoCorrientesValoracionActivosNoCorrientesClasificadosComoMantenidosParaVentaNoIncluidosDentroActividadesInterrumpidasNeto contextRef="S22005_A48004360_dcc" decimals="-3" unitRef="euro">-376000</ipp-mas-pat:ResultadoEnajenacionActivosNoCorrientesValoracionActivosNoCorrientesClasificadosComoMantenidosParaVentaNoIncluidosDentroActividadesInterrumpidasNeto>
+	<ipp-mas-pat:BeneficioPerdidaAntesImpuestosActividadesContinuadas contextRef="S22005_A48004360_dcc" decimals="-3" unitRef="euro">20133000</ipp-mas-pat:BeneficioPerdidaAntesImpuestosActividadesContinuadas>
+	<ipp-mas-pat:GastoImpuestoSobreGanancias contextRef="S22005_A48004360_dcc" decimals="-3" unitRef="euro">3140000</ipp-mas-pat:GastoImpuestoSobreGanancias>
+	<ipp-mas-pat:BeneficioPerdidaEjercicioActividadesContinuadas contextRef="S22005_A48004360_dcc" decimals="-3" unitRef="euro">23273000</ipp-mas-pat:BeneficioPerdidaEjercicioActividadesContinuadas>
+	<ipp-mas-pat:ResultadoDespuesImpuestosActividadesInterrumpidasNeto contextRef="S22005_A48004360_dcc" decimals="-3" unitRef="euro">0</ipp-mas-pat:ResultadoDespuesImpuestosActividadesInterrumpidasNeto>
+	<ipp-mas-pat:BeneficioPerdidaEjercicio contextRef="S22005_A48004360_dcc" decimals="-3" unitRef="euro">23273000</ipp-mas-pat:BeneficioPerdidaEjercicio>
+	<ipp-mas-pat:InteresesMinoritariosResultado contextRef="S22005_A48004360_dcc" decimals="-3" unitRef="euro">0</ipp-mas-pat:InteresesMinoritariosResultado>
+	<ipp-mas-pat:BeneficioPerdidaAtribuibleTenedoresInstrumentosPatrimonioNetoDominante contextRef="S22005_A48004360_dcc" decimals="-3" unitRef="euro">23273000</ipp-mas-pat:BeneficioPerdidaAtribuibleTenedoresInstrumentosPatrimonioNetoDominante>
+	<ipp-mas-pat:ImporteNetoCifraNegocioNIIF contextRef="S22004_A48004360_dpc" decimals="-3" unitRef="euro">163009000</ipp-mas-pat:ImporteNetoCifraNegocioNIIF>
+	<ipp-mas-pat:OtrosIngresosNIIF contextRef="S22004_A48004360_dpc" decimals="-3" unitRef="euro">2064000</ipp-mas-pat:OtrosIngresosNIIF>
+	<ipp-mas-pat:VariacionExistenciasProductosTerminadosOEnCursoNIIF contextRef="S22004_A48004360_dpc" decimals="-3" unitRef="euro">3942000</ipp-mas-pat:VariacionExistenciasProductosTerminadosOEnCursoNIIF>
+	<ipp-mas-pat:Aprovisionamientos contextRef="S22004_A48004360_dpc" decimals="-3" unitRef="euro">-59216000</ipp-mas-pat:Aprovisionamientos>
+	<ipp-mas-pat:GastoPersonalNIIF contextRef="S22004_A48004360_dpc" decimals="-3" unitRef="euro">-39120000</ipp-mas-pat:GastoPersonalNIIF>
+	<ipp-mas-pat:DotacionAmortizacion contextRef="S22004_A48004360_dpc" decimals="-3" unitRef="euro">-13170000</ipp-mas-pat:DotacionAmortizacion>
+	<ipp-mas-pat:OtrosGastos contextRef="S22004_A48004360_dpc" decimals="-3" unitRef="euro">-42426000</ipp-mas-pat:OtrosGastos>
+	<ipp-mas-pat:BeneficioPerdidaExplotacion contextRef="S22004_A48004360_dpc" decimals="-3" unitRef="euro">15083000</ipp-mas-pat:BeneficioPerdidaExplotacion>
+	<ipp-mas-pat:IngresosFinancierosNIIF contextRef="S22004_A48004360_dpc" decimals="-3" unitRef="euro">4842000</ipp-mas-pat:IngresosFinancierosNIIF>
+	<ipp-mas-pat:GastosFinancierosNIIF contextRef="S22004_A48004360_dpc" decimals="-3" unitRef="euro">-2301000</ipp-mas-pat:GastosFinancierosNIIF>
+	<ipp-mas-pat:ResultadoVariacionesValorInstrumentosFinancierosValorRazonableNeto contextRef="S22004_A48004360_dpc" decimals="-3" unitRef="euro">323000</ipp-mas-pat:ResultadoVariacionesValorInstrumentosFinancierosValorRazonableNeto>
+	<ipp-mas-pat:ResultadoEnajenacionActivosNoCorrientesValoracionActivosNoCorrientesClasificadosComoMantenidosParaVentaNoIncluidosDentroActividadesInterrumpidasNeto contextRef="S22004_A48004360_dpc" decimals="-3" unitRef="euro">4272000</ipp-mas-pat:ResultadoEnajenacionActivosNoCorrientesValoracionActivosNoCorrientesClasificadosComoMantenidosParaVentaNoIncluidosDentroActividadesInterrumpidasNeto>
+	<ipp-mas-pat:BeneficioPerdidaAntesImpuestosActividadesContinuadas contextRef="S22004_A48004360_dpc" decimals="-3" unitRef="euro">22219000</ipp-mas-pat:BeneficioPerdidaAntesImpuestosActividadesContinuadas>
+	<ipp-mas-pat:GastoImpuestoSobreGanancias contextRef="S22004_A48004360_dpc" decimals="-3" unitRef="euro">-1572000</ipp-mas-pat:GastoImpuestoSobreGanancias>
+	<ipp-mas-pat:BeneficioPerdidaEjercicioActividadesContinuadas contextRef="S22004_A48004360_dpc" decimals="-3" unitRef="euro">20647000</ipp-mas-pat:BeneficioPerdidaEjercicioActividadesContinuadas>
+	<ipp-mas-pat:ResultadoDespuesImpuestosActividadesInterrumpidasNeto contextRef="S22004_A48004360_dpc" decimals="-3" unitRef="euro">0</ipp-mas-pat:ResultadoDespuesImpuestosActividadesInterrumpidasNeto>
+	<ipp-mas-pat:BeneficioPerdidaEjercicio contextRef="S22004_A48004360_dpc" decimals="-3" unitRef="euro">20647000</ipp-mas-pat:BeneficioPerdidaEjercicio>
+	<ipp-mas-pat:InteresesMinoritariosResultado contextRef="S22004_A48004360_dpc" decimals="-3" unitRef="euro">0</ipp-mas-pat:InteresesMinoritariosResultado>
+	<ipp-mas-pat:BeneficioPerdidaAtribuibleTenedoresInstrumentosPatrimonioNetoDominante contextRef="S22004_A48004360_dpc" decimals="-3" unitRef="euro">20647000</ipp-mas-pat:BeneficioPerdidaAtribuibleTenedoresInstrumentosPatrimonioNetoDominante>
+	<ipp-mas-pat:InmovilizacionesMateriales contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">25028000</ipp-mas-pat:InmovilizacionesMateriales>
+	<ipp-mas-pat:InmovilizadoMaterialNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">24871000</ipp-mas-pat:InmovilizadoMaterialNIIF>
+	<ipp-mas-pat:InversionesInmobiliarias contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">1500000</ipp-mas-pat:InversionesInmobiliarias>
+	<ipp-mas-pat:OtrosActivosIntangibles contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">85101000</ipp-mas-pat:OtrosActivosIntangibles>
+	<ipp-mas-pat:OtrosActivosIntangiblesNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">69925000</ipp-mas-pat:OtrosActivosIntangiblesNIIF>
+	<ipp-mas-pat:ActivosFinancierosNoCorrientes contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">12285000</ipp-mas-pat:ActivosFinancierosNoCorrientes>
+	<ipp-mas-pat:ActivosFinancierosNoCorrientesNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">258000</ipp-mas-pat:ActivosFinancierosNoCorrientesNIIF>
+	<ipp-mas-pat:OtrosActivosNoCorrientesNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">17379000</ipp-mas-pat:OtrosActivosNoCorrientesNIIF>
+	<ipp-mas-pat:ActivoLargoPlazoNoCorriente contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">122414000</ipp-mas-pat:ActivoLargoPlazoNoCorriente>
+	<ipp-mas-pat:ActivoLargoPlazoNoCorrienteNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">113933000</ipp-mas-pat:ActivoLargoPlazoNoCorrienteNIIF>
+	<ipp-mas-pat:Existencias contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">23512000</ipp-mas-pat:Existencias>
+	<ipp-mas-pat:ExistenciasNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">23512000</ipp-mas-pat:ExistenciasNIIF>
+	<ipp-mas-pat:DeudoresComercialesOtrasCuentasCobrar contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">26918000</ipp-mas-pat:DeudoresComercialesOtrasCuentasCobrar>
+	<ipp-mas-pat:DeudoresComercialesOtrasCuentasCobrarNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">26918000</ipp-mas-pat:DeudoresComercialesOtrasCuentasCobrarNIIF>
+	<ipp-mas-pat:OtrosActivosFinancierosCorrientes contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">14249000</ipp-mas-pat:OtrosActivosFinancierosCorrientes>
+	<ipp-mas-pat:OtrosActivosFinancierosCorrientesNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">14249000</ipp-mas-pat:OtrosActivosFinancierosCorrientesNIIF>
+	<ipp-mas-pat:OtrosActivosCorrientesNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">191000</ipp-mas-pat:OtrosActivosCorrientesNIIF>
+	<ipp-mas-pat:OtrosActivosCorrientes contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">191000</ipp-mas-pat:OtrosActivosCorrientes>
+	<ipp-mas-pat:EfectivoOtrosMediosLiquidosEquivalentes contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">12003000</ipp-mas-pat:EfectivoOtrosMediosLiquidosEquivalentes>
+	<ipp-mas-pat:EfectivoOtrosMediosLiquidosEquivalentesNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">12003000</ipp-mas-pat:EfectivoOtrosMediosLiquidosEquivalentesNIIF>
+	<ipp-mas-pat:SubtotalActivo contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">76873000</ipp-mas-pat:SubtotalActivo>
+	<ipp-mas-pat:SubtotalActivoNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">76873000</ipp-mas-pat:SubtotalActivoNIIF>
+	<ipp-mas-pat:ActivoCirculanteCorriente contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">76873000</ipp-mas-pat:ActivoCirculanteCorriente>
+	<ipp-mas-pat:ActivoCirculanteCorrienteNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">76873000</ipp-mas-pat:ActivoCirculanteCorrienteNIIF>
+	<ipp-mas-pat:TotalActivo contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">199287000</ipp-mas-pat:TotalActivo>
+	<ipp-mas-pat:TotalActivoNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">190806000</ipp-mas-pat:TotalActivoNIIF>
+	<ipp-mas-pat:CapitalSuscrito contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">9893000</ipp-mas-pat:CapitalSuscrito>
+	<ipp-mas-pat:CapitalNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">9893000</ipp-mas-pat:CapitalNIIF>
+	<ipp-mas-pat:Reservas contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">103557000</ipp-mas-pat:Reservas>
+	<ipp-mas-pat:ReservasNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">117044000</ipp-mas-pat:ReservasNIIF>
+	<ipp-mas-pat:DeLasQueAjusteContraReservasTransicionNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">-10266000</ipp-mas-pat:DeLasQueAjusteContraReservasTransicionNIIF>
+	<ipp-mas-pat:ResultadoEjercicioNacional contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">23793000</ipp-mas-pat:ResultadoEjercicioNacional>
+	<ipp-mas-pat:MenosDividendosCuenta contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">-6883000</ipp-mas-pat:MenosDividendosCuenta>
+	<ipp-mas-pat:MenosDividendosCuentaNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">-6883000</ipp-mas-pat:MenosDividendosCuentaNIIF>
+	<ipp-mas-pat:PatrimonioNetoNormativaNacionalPatrimonioAtribuidoTenedoresInstrumentosPatrimonioNetoDominante contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">130360000</ipp-mas-pat:PatrimonioNetoNormativaNacionalPatrimonioAtribuidoTenedoresInstrumentosPatrimonioNetoDominante>
+	<ipp-mas-pat:PatrimonioNetoNormativaNacionalPatrimonioAtribuidoTenedoresInstrumentosPatrimonioNetoDominanteNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">120054000</ipp-mas-pat:PatrimonioNetoNormativaNacionalPatrimonioAtribuidoTenedoresInstrumentosPatrimonioNetoDominanteNIIF>
+	<ipp-mas-pat:InteresesMinoritarios contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">40000</ipp-mas-pat:InteresesMinoritarios>
+	<ipp-mas-pat:InteresesMinoritariosNIIF contextRef="S22005_A48004360_dcccc" decimals="-3" unitRef="euro">40000</ipp-mas-pat:InteresesMinoritariosNIIF>
+	<ipp-mas-pat:TotalPatrimonioNetoSegunNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">120094000</ipp-mas-pat:TotalPatrimonioNetoSegunNIIF>
+	<ipp-mas-pat:ProvisionesLargoPlazo contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">6164000</ipp-mas-pat:ProvisionesLargoPlazo>
+	<ipp-mas-pat:ProvisionesLargoPlazoNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">6164000</ipp-mas-pat:ProvisionesLargoPlazoNIIF>
+	<ipp-mas-pat:OtrosPasivosNoCorrientes contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">6705000</ipp-mas-pat:OtrosPasivosNoCorrientes>
+	<ipp-mas-pat:OtrosPasivosNoCorrientesNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">4808000</ipp-mas-pat:OtrosPasivosNoCorrientesNIIF>
+	<ipp-mas-pat:PasivoLargoPlazoNoCorriente contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">12869000</ipp-mas-pat:PasivoLargoPlazoNoCorriente>
+	<ipp-mas-pat:PasivoLargoPlazoNoCorrienteNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">10972000</ipp-mas-pat:PasivoLargoPlazoNoCorrienteNIIF>
+	<ipp-mas-pat:DeudasEntidadesCreditoCortoPlazo contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">23179000</ipp-mas-pat:DeudasEntidadesCreditoCortoPlazo>
+	<ipp-mas-pat:DeudasEntidadesCreditoCortoPlazoNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">23179000</ipp-mas-pat:DeudasEntidadesCreditoCortoPlazoNIIF>
+	<ipp-mas-pat:AcreedoresComercialesOtrasCuentasPagar contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">14554000</ipp-mas-pat:AcreedoresComercialesOtrasCuentasPagar>
+	<ipp-mas-pat:AcreedoresComercialesOtrasCuentasPagarNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">30100000</ipp-mas-pat:AcreedoresComercialesOtrasCuentasPagarNIIF>
+	<ipp-mas-pat:ProvisionesCortoPlazo contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">918000</ipp-mas-pat:ProvisionesCortoPlazo>
+	<ipp-mas-pat:ProvisionesCortoPlazoNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">2993000</ipp-mas-pat:ProvisionesCortoPlazoNIIF>
+	<ipp-mas-pat:OtrosPasivosCorrientes contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">17367000</ipp-mas-pat:OtrosPasivosCorrientes>
+	<ipp-mas-pat:OtrosPasivosCorrientesNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">3468000</ipp-mas-pat:OtrosPasivosCorrientesNIIF>
+	<ipp-mas-pat:SubtotalPasivo contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">56018000</ipp-mas-pat:SubtotalPasivo>
+	<ipp-mas-pat:SubtotalPasivoNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">59740000</ipp-mas-pat:SubtotalPasivoNIIF>
+	<ipp-mas-pat:PasivoCortoPlazoCorriente contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">56018000</ipp-mas-pat:PasivoCortoPlazoCorriente>
+	<ipp-mas-pat:PasivoCortoPlazoCorrienteNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">59740000</ipp-mas-pat:PasivoCortoPlazoCorrienteNIIF>
+	<ipp-mas-pat:TotalPasivo contextRef="S22004_A48004360_ipccc" decimals="-3" unitRef="euro">199287000</ipp-mas-pat:TotalPasivo>
+	<ipp-mas-pat:TotalPasivoNIIF contextRef="S22005_A48004360_icccc" decimals="-3" unitRef="euro">190806000</ipp-mas-pat:TotalPasivoNIIF>
+	<ipp-com:DistribucionActividadImporteNetoCifraNegocioMercadoInterior contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">101463000</ipp-com:DistribucionActividadImporteNetoCifraNegocioMercadoInterior>
+	<ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionUE contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">12500000</ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionUE>
+	<ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionOCDE contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">2599000</ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionOCDE>
+	<ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionRestoPaises contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">1616000</ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionRestoPaises>
+	<ipp-com:DistribucionActividadINCNDescripcionActividad1 contextRef="S22005_A48004360_ici">Espec. Farmacéuticas</ipp-com:DistribucionActividadINCNDescripcionActividad1>
+	<ipp-com:DistribucionActividadINCNValorCifra1 contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">104880000</ipp-com:DistribucionActividadINCNValorCifra1>
+	<ipp-com:DistribucionActividadINCNDescripcionActividad2 contextRef="S22005_A48004360_ici">Productos Químicos</ipp-com:DistribucionActividadINCNDescripcionActividad2>
+	<ipp-com:DistribucionActividadINCNValorCifra2 contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">5852000</ipp-com:DistribucionActividadINCNValorCifra2>
+	<ipp-com:DistribucionActividadINCNDescripcionActividad3 contextRef="S22005_A48004360_ici">Mercaderías</ipp-com:DistribucionActividadINCNDescripcionActividad3>
+	<ipp-com:DistribucionActividadINCNValorCifra3 contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">2132000</ipp-com:DistribucionActividadINCNValorCifra3>
+	<ipp-com:DistribucionActividadINCNDescripcionActividad4 contextRef="S22005_A48004360_ici">Prestación servicios</ipp-com:DistribucionActividadINCNDescripcionActividad4>
+	<ipp-com:DistribucionActividadINCNValorCifra4 contextRef="S22005_A48004360_ici" decimals="-3" unitRef="euro">5314000</ipp-com:DistribucionActividadINCNValorCifra4>
+	<ipp-com:DistribucionActividadImporteNetoCifraNegocioMercadoInterior contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">105504000</ipp-com:DistribucionActividadImporteNetoCifraNegocioMercadoInterior>
+	<ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionUE contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">9203000</ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionUE>
+	<ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionOCDE contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">1660000</ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionOCDE>
+	<ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionRestoPaises contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">1667000</ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionRestoPaises>
+	<ipp-com:DistribucionActividadINCNDescripcionActividad1 contextRef="S22004_A48004360_ipi">Espec. Farmacéuticas</ipp-com:DistribucionActividadINCNDescripcionActividad1>
+	<ipp-com:DistribucionActividadINCNValorCifra1 contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">104291000</ipp-com:DistribucionActividadINCNValorCifra1>
+	<ipp-com:DistribucionActividadINCNDescripcionActividad2 contextRef="S22004_A48004360_ipi">Productos Químicos</ipp-com:DistribucionActividadINCNDescripcionActividad2>
+	<ipp-com:DistribucionActividadINCNValorCifra2 contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">5490000</ipp-com:DistribucionActividadINCNValorCifra2>
+	<ipp-com:DistribucionActividadINCNDescripcionActividad3 contextRef="S22004_A48004360_ipi">Mercaderías</ipp-com:DistribucionActividadINCNDescripcionActividad3>
+	<ipp-com:DistribucionActividadINCNValorCifra3 contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">1594000</ipp-com:DistribucionActividadINCNValorCifra3>
+	<ipp-com:DistribucionActividadINCNDescripcionActividad4 contextRef="S22004_A48004360_ipi">Prestación servicios</ipp-com:DistribucionActividadINCNDescripcionActividad4>
+	<ipp-com:DistribucionActividadINCNValorCifra4 contextRef="S22004_A48004360_ipi" decimals="-3" unitRef="euro">6659000</ipp-com:DistribucionActividadINCNValorCifra4>
+	<ipp-com:DistribucionActividadImporteNetoCifraNegocioMercadoInterior contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">157039000</ipp-com:DistribucionActividadImporteNetoCifraNegocioMercadoInterior>
+	<ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionUE contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">4484000</ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionUE>
+	<ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionOCDE contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">2914000</ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionOCDE>
+	<ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionRestoPaises contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">2012000</ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionRestoPaises>
+	<ipp-com:DistribucionActividadINCNDescripcionActividad1 contextRef="S22005_A48004360_icc">Espec. Farmacéuticas</ipp-com:DistribucionActividadINCNDescripcionActividad1>
+	<ipp-com:DistribucionActividadINCNValorCifra1 contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">159419000</ipp-com:DistribucionActividadINCNValorCifra1>
+	<ipp-com:DistribucionActividadINCNDescripcionActividad2 contextRef="S22005_A48004360_icc">Productos Químicos</ipp-com:DistribucionActividadINCNDescripcionActividad2>
+	<ipp-com:DistribucionActividadINCNValorCifra2 contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">4191000</ipp-com:DistribucionActividadINCNValorCifra2>
+	<ipp-com:DistribucionActividadINCNDescripcionActividad3 contextRef="S22005_A48004360_icc">Mercaderías</ipp-com:DistribucionActividadINCNDescripcionActividad3>
+	<ipp-com:DistribucionActividadINCNValorCifra3 contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">36000</ipp-com:DistribucionActividadINCNValorCifra3>
+	<ipp-com:DistribucionActividadINCNDescripcionActividad4 contextRef="S22005_A48004360_icc">Prestación servicios</ipp-com:DistribucionActividadINCNDescripcionActividad4>
+	<ipp-com:DistribucionActividadINCNValorCifra4 contextRef="S22005_A48004360_icc" decimals="-3" unitRef="euro">2803000</ipp-com:DistribucionActividadINCNValorCifra4>
+	<ipp-com:DistribucionActividadImporteNetoCifraNegocioMercadoInterior contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">154313000</ipp-com:DistribucionActividadImporteNetoCifraNegocioMercadoInterior>
+	<ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionUE contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">4637000</ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionUE>
+	<ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionOCDE contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">1660000</ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionOCDE>
+	<ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionRestoPaises contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">2399000</ipp-com:DistribucionActividadImporteNetoCifraNegocioExportacionRestoPaises>
+	<ipp-com:DistribucionActividadINCNDescripcionActividad1 contextRef="S22004_A48004360_ipc">Espec. Farmacéuticas</ipp-com:DistribucionActividadINCNDescripcionActividad1>
+	<ipp-com:DistribucionActividadINCNValorCifra1 contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">156246000</ipp-com:DistribucionActividadINCNValorCifra1>
+	<ipp-com:DistribucionActividadINCNDescripcionActividad2 contextRef="S22004_A48004360_ipc">Productos Químicos</ipp-com:DistribucionActividadINCNDescripcionActividad2>
+	<ipp-com:DistribucionActividadINCNValorCifra2 contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">3871000</ipp-com:DistribucionActividadINCNValorCifra2>
+	<ipp-com:DistribucionActividadINCNDescripcionActividad3 contextRef="S22004_A48004360_ipc">Mercaderías</ipp-com:DistribucionActividadINCNDescripcionActividad3>
+	<ipp-com:DistribucionActividadINCNValorCifra3 contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">0</ipp-com:DistribucionActividadINCNValorCifra3>
+	<ipp-com:DistribucionActividadINCNDescripcionActividad4 contextRef="S22004_A48004360_ipc">Prestación servicios</ipp-com:DistribucionActividadINCNDescripcionActividad4>
+	<ipp-com:DistribucionActividadINCNValorCifra4 contextRef="S22004_A48004360_ipc" decimals="-3" unitRef="euro">2892000</ipp-com:DistribucionActividadINCNValorCifra4>
+	<ipp-com:TotalPersonasEmpleadas contextRef="S22005_A48004360_dci" unitRef="pure" decimals="0">405</ipp-com:TotalPersonasEmpleadas>
+	<ipp-com:TotalPersonasEmpleadas contextRef="S22004_A48004360_dpi" unitRef="pure" decimals="0">398</ipp-com:TotalPersonasEmpleadas>
+	<ipp-com:TotalPersonasEmpleadas contextRef="S22005_A48004360_dcc" unitRef="pure" decimals="0">747</ipp-com:TotalPersonasEmpleadas>
+	<ipp-com:TotalPersonasEmpleadas contextRef="S22004_A48004360_dpc" unitRef="pure" decimals="0">747</ipp-com:TotalPersonasEmpleadas>
+</xbrli_2:xbrl>
